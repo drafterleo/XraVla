@@ -1,0 +1,70 @@
+/* Customize arrows. */
+
+*::down-arrow, *::menu-indicator {
+    image: url(:/images/iconDownArrowSmall.png);
+    width: 15px;
+    height: 15px;
+}
+
+*::down-arrow:disabled, *::down-arrow:off {
+   image: url(:/images/down_arrow_disabled.png);
+}
+
+*::up-arrow {
+    image: url(:/images/iconUpArrowUp.png);
+    width: 15px;
+    height: 15px;
+}
+
+*::up-arrow:disabled, *::up-arrow:off {
+   image: url(:/images/up_arrow_disabled.png);
+}
+
+QSpinBox { 
+    padding-right: 15px;
+    color: white;"
+    background-color: transparent;
+    font-family: "Verdana";
+    font-size: 12pt;"
+    border: 2px solid #466A7E;
+}
+
+QSpinBox:focus { 
+    padding-right: 15px;
+    color: white;"
+    background-color: transparent;
+    font-family: "Verdana";
+    font-size: 12pt;"
+    border: 2px solid #538BC4;
+}
+
+QSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+
+    width: 16px; /* 16 + 2*1px border-width = 15px padding + 3px parent border */
+    border-width: 1px;
+}
+
+QSpinBox::up-button:hover {
+}
+
+QSpinBox::up-button:pressed {
+}
+
+QSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+
+    width: 16px;
+    border-width: 1px;
+    border-top-width: 0;
+}
+
+QSpinBox::down-button:hover {
+}
+
+QSpinBox::down-button:pressed {
+}
+
+  

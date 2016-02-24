@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/iconTest.png</file>
+        <file>images/iconVocabulary.png</file>
+        <file>images/iconMinus.png</file>
+        <file>images/iconPlus.png</file>
+        <file>styles/ScrollBar.style</file>
+        <file>images/iconDown.png</file>
+        <file>images/iconUp.png</file>
+        <file>images/iconForward.png</file>
+        <file>images/iconOpen.png</file>
+        <file>images/iconSave.png</file>
+        <file>images/iconStop.png</file>
+        <file>images/iconOpenPlus.png</file>
+        <file>images/iconRandomize.png</file>
+        <file>images/iconRetry.png</file>
+        <file>images/cbox_checked.png</file>
+        <file>images/cbox_empty.png</file>
+        <file>styles/CheckBox.style</file>
+    </qresource>
+</RCC>

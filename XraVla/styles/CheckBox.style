@@ -1,0 +1,36 @@
+ QCheckBox {
+     color: white; 
+ }
+
+ QCheckBox::indicator {
+     width: 20px;
+     height: 20px;
+ }
+
+QCheckBox::indicator {
+    background: url(:/images/cbox_empty.png);
+}
+
+QCheckBox::indicator:hover {
+    background: url(:/images/cbox_empty.png);
+}
+
+QCheckBox::indicator:checked {
+    background: url(:/images/cbox_checked.png);
+}
+
+QCheckBox::indicator:pressed {
+    background: url(:/images/cbox_empty.png);
+}
+
+QCheckBox::indicator:pressed:checked {
+    background: url(:/images/cbox_checked.png);
+}
+ 
+QCheckBox::indicator:hover:checked {
+
+    background: url(:/images/cbox_checked.png);
+}
+
+
+  
