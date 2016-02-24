@@ -32,7 +32,6 @@ public:
             CRectangleFigure *rfig = new CRectangleFigure(QRectF(10, 10, 80, 80));
             figEdit->addFigure(rfig);
 
-
         cmxEdit = new CColorMatrixEdit(this);
             cmxEdit->setGeometry(310, 310, 300, 300);
             cmxEdit->setMatrix(CColorMatrix(4, 4));

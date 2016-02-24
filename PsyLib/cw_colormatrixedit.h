@@ -16,11 +16,11 @@ public:
     void fillRandom(void);
     inline void setColor(int col, int row, const QColor & color) {matrix.setColor(col, row, color);}
 
-    virtual void clear() {}
+    virtual void clear();
     virtual void clearHIstory(void) {}
     virtual CAbstractPixra *pixra(void) {}
     virtual bool assignPixra(CAbstractPixra *pixra) {return false;}
-    virtual void randomize() {}
+    virtual void randomize() {fillRandom();}
 
 protected:
     QPoint cellAt(QPoint point);

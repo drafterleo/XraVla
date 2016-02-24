@@ -28,7 +28,7 @@ void CColorMatrixEdit::paintEvent(QPaintEvent *event)
     int w = width() / matrix.colCount();
     int h = height() / matrix.rowCount();
 
-    painter.setPen(QPen(Qt::black, 2));
+    painter.setPen(QPen(Qt::black, 3));
     for (int col = 0; col < matrix.colCount(); ++ col) {
         for (int row = 0; row < matrix.rowCount(); ++row) {
             painter.setBrush(matrix.getColor(col, row));
@@ -41,7 +41,7 @@ void CColorMatrixEdit::paintEvent(QPaintEvent *event)
 
     if (activeCell.x() >= 0 && activeCell.y() >= 0) {
         painter.setPen(QPen(Qt::red, 2));
-        painter.drawRect(activeCell.x() * w + 2, activeCell.y() * h + 2, w - 4, h - 4);
+        painter.drawRect(activeCell.x() * w + 3, activeCell.y() * h + 3, w - 4, h - 4);
     }
 
     painter.end();
@@ -53,6 +53,15 @@ void CColorMatrixEdit::fillRandom(void)
     for (int col = 0; col < matrix.colCount(); ++ col)
         for (int row = 0; row < matrix.rowCount(); ++row) {
             matrix.setColor(col, row, QColor(qrand()%150 + 100, qrand()%150 + 100, qrand()%150 + 100));
+        }
+    this->update();
+}
+
+void CColorMatrixEdit::clear()
+{
+    for (int col = 0; col < matrix.colCount(); ++ col)
+        for (int row = 0; row < matrix.rowCount(); ++row) {
+            matrix.setColor(col, row, Qt::white);
         }
     this->update();
 }

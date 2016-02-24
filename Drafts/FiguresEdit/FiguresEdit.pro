@@ -14,7 +14,8 @@ SOURCES += \
     ../../PsyLib/cw_runepatternedit.cpp \
     ../../PsyLib/cw_figurespixra.cpp \
     ../../PsyLib/c_figuresfactory.cpp \
-    ../../PsyLib/cw_abstractpixra.cpp
+    ../../PsyLib/cw_abstractpixra.cpp \
+    ../../PsyLib/cw_colormatrixpixra.cpp
 
 HEADERS += \
     ../../PsyLib/cw_figuresedit.h \
@@ -27,7 +28,8 @@ HEADERS += \
     ../../PsyLib/cw_runepatternedit.h \
     ../../PsyLib/cw_figurespixra.h \
     ../../PsyLib/c_figuresfactory.h \
-    ../../PsyLib/cw_abstractpixra.h
+    ../../PsyLib/cw_abstractpixra.h \
+    ../../PsyLib/cw_colormatrixpixra.h
 
 
 

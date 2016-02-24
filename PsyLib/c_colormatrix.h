@@ -3,6 +3,7 @@
 
 #include <QColor>
 #include <QVector>
+#include <QSize>
 
 class CColorMatrix
 {
@@ -11,6 +12,7 @@ public:
     CColorMatrix();
 
     void setSize(int w, int h);
+    QSize size() {return QSize(cols, rows);}
     inline int colCount() const {return cols;}
     inline int rowCount() const {return rows;}
 
