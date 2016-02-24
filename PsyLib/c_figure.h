@@ -12,6 +12,7 @@ class CAbstractFigure
 {
 public:
     CAbstractFigure();
+    virtual ~CAbstractFigure() {}
 
     virtual void moveAnchor(int idx, const QPointF & pos);
     virtual void translate(int dx, int dy);

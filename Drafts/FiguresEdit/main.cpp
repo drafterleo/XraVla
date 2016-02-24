@@ -8,7 +8,9 @@
 
 #include "cw_figuresedit.h"
 #include "cw_colormatrixedit.h"
+#include "cw_colormatrixpixra.h"
 #include "cw_runepatternedit.h"
+
 
 class CWorkArea: public QWidget
 {
@@ -34,9 +36,13 @@ public:
 
         cmxEdit = new CColorMatrixEdit(this);
             cmxEdit->setGeometry(310, 310, 300, 300);
-            cmxEdit->setMatrix(CColorMatrix(4, 4));
+            cmxEdit->setColorMatrix(CColorMatrix(3, 3));
             cmxEdit->fillRandom();
             //cmxEdit->setColor(1, 1, Qt::blue);
+
+        cmxPixra = new CColorMatrixPixra(this);
+        cmxPixra->setGeometry(10, 350, 60, 60);
+        cmxPixra->assign(cmxEdit->pixra());
 
         rpEdit = new CRunePatternEdit(this);
             rpEdit->setGeometry(310, 0, 300, 300);
@@ -67,12 +73,15 @@ private slots:
     {
         rpEdit->genSolidLink(5, 1);
         cmxEdit->fillRandom();
+        cmxPixra->assign(cmxEdit->pixra());
     }
 
 private:
-    CFiguresEdit     *figEdit;
-    CColorMatrixEdit *cmxEdit;
-    CRunePatternEdit *rpEdit;
+    CFiguresEdit      *figEdit;
+    CColorMatrixEdit  *cmxEdit;
+    CColorMatrixPixra *cmxPixra;
+    CRunePatternEdit  *rpEdit;
+
 };
 
 int main(int argc, char *argv[])

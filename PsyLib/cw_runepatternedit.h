@@ -19,8 +19,8 @@ public:
 
    virtual void clear() {}
    virtual void clearHIstory(void) {}
-   virtual CAbstractPixra *pixra(void) {return false;}
-   virtual bool assignPixra(CAbstractPixra *pixra) {}
+   virtual CAbstractPixra *pixra(void) {return 0;}
+   virtual bool assignPixra(CAbstractPixra *pixra) {return false;}
    virtual void randomize() {}
 
 protected:

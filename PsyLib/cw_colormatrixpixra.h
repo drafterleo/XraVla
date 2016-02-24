@@ -10,7 +10,7 @@
 class CColorMatrixPixra : public CAbstractPixra
 {
 public:
-    CColorMatrixPixra();
+    CColorMatrixPixra(QWidget *parent = 0);
 
     virtual void clear();
     virtual void assign(CAbstractPixra *pixra);
@@ -23,12 +23,18 @@ public:
     virtual void setBackColor(const QColor & color) {}
 
     inline CColorMatrix colorMatrix() {return matrix;}
+    void setMatrix(const CColorMatrix & cmx);
 
 protected:
+    void updateDrawArea();
+
+    virtual void resizeEvent(QResizeEvent *event);
     virtual void paintEvent(QPaintEvent *event);
 
 private:
     CColorMatrix matrix;
+    QRect drawArea;
+    int margin;
 };
 
 #endif // CCOLORMATRIXPIXRA_H

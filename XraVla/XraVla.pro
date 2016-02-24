@@ -28,7 +28,10 @@ HEADERS += \
     cw_teststats.h \
     cw_protopixrapopup.h \
     cw_styledscrollbar.h \
-    cw_styledcheckbox.h
+    cw_styledcheckbox.h \
+    ../PsyLib/cw_colormatrixedit.h \
+    ../PsyLib/cw_colormatrixpixra.h \
+    ../PsyLib/c_colormatrix.h
 
 SOURCES += \
     main.cpp \
@@ -56,7 +59,10 @@ SOURCES += \
     cw_protopixrapopup.cpp \
     ../PsyLib/c_pixrafactory.cpp \
     cw_styledscrollbar.cpp \
-    cw_styledcheckbox.cpp
+    cw_styledcheckbox.cpp \
+    ../PsyLib/cw_colormatrixedit.cpp \
+    ../PsyLib/cw_colormatrixpixra.cpp \
+    ../PsyLib/c_colormatrix.cpp
 
 RESOURCES += \
     XraVla.qrc

@@ -1,4 +1,5 @@
 #include "cw_colormatrixedit.h"
+#include "math.h"
 #include <QtDebug>
 #include <QPainter>
 #include <QMouseEvent>
@@ -10,6 +11,49 @@ CColorMatrixEdit::CColorMatrixEdit(QWidget *parent)
     matrix.setSize(1, 1);
     activeCell = QPoint(-1, -1);
     setMouseTracking(true);
+    margin = 2;
+    m_pixra = new CColorMatrixPixra;
+}
+
+CColorMatrixEdit::~CColorMatrixEdit()
+{
+    delete m_pixra;
+}
+
+void CColorMatrixEdit::setColorMatrix(const CColorMatrix & cm)
+{
+    matrix = cm;
+    updateDrawArea();
+}
+
+void CColorMatrixEdit::updateDrawArea()
+{
+    drawArea = this->rect().adjusted(0, 0, -6, -6);
+    if (drawArea.width() > drawArea.height()) {
+        drawArea.setWidth(drawArea.height());
+    } else {
+        drawArea.setHeight(drawArea.width());
+    }
+    int dx = this->rect().width() - drawArea.width();
+    int dy = this->rect().height() - drawArea.height();
+
+    int ddx = 0;
+    int ddy = 0;
+    if (!matrix.isEmpty()) {
+        if (drawArea.width() % matrix.colCount())
+            ddx = 1;
+        if (drawArea.height() % matrix.rowCount())
+            ddy = 1;
+    }
+    drawArea.translate(dx/2 + ddx, dy/2 + ddy);
+
+    update();
+}
+
+void CColorMatrixEdit::resizeEvent(QResizeEvent *event)
+{
+    Q_UNUSED(event)
+    updateDrawArea();
 }
 
 void CColorMatrixEdit::paintEvent(QPaintEvent *event)
@@ -18,30 +62,31 @@ void CColorMatrixEdit::paintEvent(QPaintEvent *event)
 
     QPainter painter(this);
 
-    if (matrix.isEmpty()) {
-        painter.setPen(Qt::NoPen);
-        painter.setBrush(Qt::black);
-        painter.drawRect(this->rect());
-        return;
-    }
+    painter.setPen(Qt::NoPen);
+    painter.setBrush(QColor("#272822"));
+    painter.drawRect(this->rect());
 
-    int w = width() / matrix.colCount();
-    int h = height() / matrix.rowCount();
+    int w = drawArea.width() / matrix.colCount();
+    int h = drawArea.height() / matrix.rowCount();
+    int dx = drawArea.left();
+    int dy = drawArea.top();
 
-    painter.setPen(QPen(Qt::black, 3));
+    painter.setPen(QPen(Qt::black, 2));
     for (int col = 0; col < matrix.colCount(); ++ col) {
         for (int row = 0; row < matrix.rowCount(); ++row) {
             painter.setBrush(matrix.getColor(col, row));
-            painter.drawRect(col * w, row * h, w, h);
+            QRect cellRect = QRect(col * w + dx, row * h + dy, w, h).adjusted(margin, margin, -margin, -margin);
+            painter.drawRect(cellRect);
         }
     }
 
     painter.setBrush(Qt::NoBrush);
+    painter.setPen(QPen(Qt::black, 2));
     painter.drawRect(this->rect().adjusted(1, 1, -1, -1));
 
     if (activeCell.x() >= 0 && activeCell.y() >= 0) {
         painter.setPen(QPen(Qt::red, 2));
-        painter.drawRect(activeCell.x() * w + 3, activeCell.y() * h + 3, w - 4, h - 4);
+        painter.drawRect(activeCell.x() * w + dx, activeCell.y() * h + dy, w, h);
     }
 
     painter.end();
@@ -66,15 +111,35 @@ void CColorMatrixEdit::clear()
     this->update();
 }
 
+bool CColorMatrixEdit::assignPixra(CAbstractPixra *pixra)
+{
+    CColorMatrixPixra *cmPixra = dynamic_cast <CColorMatrixPixra *>(pixra);
+    if (cmPixra) {
+        matrix = cmPixra->colorMatrix();
+        updateDrawArea();
+        return true;
+    }
+    return false;
+}
+
+CAbstractPixra* CColorMatrixEdit::pixra(void)
+{
+    m_pixra->setMatrix(this->matrix);
+    return m_pixra;
+}
+
 QPoint CColorMatrixEdit::cellAt(QPoint point)
 {
-    QPoint result = QPoint(-1, -1);
-    if (point.x() >= 0 && point.x() < this->width() &&
-        point.y() >= 0 && point.y() < this->height())
+    if (drawArea.contains(point))
     {
-        int w = width() / matrix.colCount();
-        int h = height() / matrix.rowCount();
-        return QPoint(point.x() / w, point.y() / h);
+        int w = drawArea.width() / matrix.colCount();
+        int h = drawArea.height() / matrix.rowCount();
+        QPoint result = QPoint((point.x() - drawArea.left()) / w, (point.y() - drawArea.top()) / h);
+        if (result.x() >= matrix.colCount())
+            result.setX(-1);
+        if (result.y() >= matrix.rowCount())
+            result.setY(-1);
+        return result;
     }
 
     return QPoint(-1, -1);
@@ -103,6 +168,7 @@ void CColorMatrixEdit::mouseMoveEvent(QMouseEvent *event)
 
 void CColorMatrixEdit::leaveEvent(QEvent *event)
 {
+    Q_UNUSED(event)
     activeCell = QPoint(-1, -1);
     this->update();
 }

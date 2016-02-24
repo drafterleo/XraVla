@@ -438,6 +438,7 @@ void CFiguresEdit::mouseMoveEvent(QMouseEvent *event)
 
 void CFiguresEdit::mouseReleaseEvent(QMouseEvent *event)
 {
+    Q_UNUSED(event)
     catchedAnchor = -1;
     catchedFigure = -1;
     isMousePressed = false;
@@ -585,11 +586,13 @@ void CFiguresEdit::scaleFigure(int figIdx, qreal sx, qreal sy)
 
 void CFiguresEdit::focusInEvent(QFocusEvent *event)
 {
+    Q_UNUSED(event)
     update();
 }
 
 void CFiguresEdit::focusOutEvent(QFocusEvent *event)
 {
+    Q_UNUSED(event)
     catchedAnchor = -1;
     catchedFigure = -1;
     selectedFigure = -1;

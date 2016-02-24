@@ -3,6 +3,10 @@
 
 #include "cw_abstractpixra.h"
 #include "cw_figurespixra.h"
+#include "cw_colormatrixpixra.h"
+#include "cw_figuresedit.h"
+#include "cw_colormatrixedit.h"
+
 #include <QMap>
 
 class CAbstractPixraCreator
@@ -25,19 +29,20 @@ protected:
     typedef QMap<QString, CAbstractPixraCreator *> TFactoryMap;
     TFactoryMap factoryMap;
 
-    void registerFigureClasses()
+    void registerPixraClasses()
     {
-        addFigureClass <CFiguresPixra>("CFiguresPixra");
+        addPixraClass <CFiguresPixra>("CFiguresPixra");
+        addPixraClass <CColorMatrixPixra>("CColorMatrixPixra");
     }
 
 public:
     CPixraFactory()
     {
-        registerFigureClasses();
+        registerPixraClasses();
     }
 
     template <class C>
-    void addFigureClass(const QString & className)
+    void addPixraClass(const QString & className)
     {
         factoryMap[className] = new CPixraCreator<C>();
     }
