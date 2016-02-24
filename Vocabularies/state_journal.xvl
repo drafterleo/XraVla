@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xravlaste>
+<xravlaste version="1.0">
+    <item>
+        <word>25.12.2012 [16:30]</word>
+        <spec>чешется левая нога</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.248571" y="0.128571"/>
+                <anchor x="0.742857" y="0.685714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.111429" y="0.365714"/>
+                <anchor x="0.9" y="0.594286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.3" y="0.414286"/>
+                <anchor x="0.485714" y="0.831429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>25.12.2012 [17:25]</word>
+        <spec>чай с лимоном</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.32" y="0.111429"/>
+                <anchor x="0.802857" y="0.871429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.408571" y="0.46"/>
+                <anchor x="0.731429" y="0.811429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.531429" y="0.188571"/>
+                <anchor x="0.734286" y="0.271429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>28.12.2012 [11:49]</word>
+        <spec>определяюсь, планирую</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.105714" y="0.24"/>
+                <anchor x="0.885714" y="0.5"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.232857" y="0.33"/>
+                <anchor x="0.668571" y="0.94"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.517143" y="0.0342857"/>
+                <anchor x="0.788571" y="0.597143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>28.12.2012 [14:36]</word>
+        <spec>долго читал по-английски</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.445714" y="0.134286"/>
+                <anchor x="0.74" y="0.708571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.231429" y="0.197143"/>
+                <anchor x="0.561429" y="0.527143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.108571" y="0.334286"/>
+                <anchor x="0.914286" y="0.608571"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>28.12.2012 [16:45]</word>
+        <spec>американский сериал</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.388571" y="0.228571"/>
+                <anchor x="0.785714" y="0.685714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.177143" y="0.285714"/>
+                <anchor x="0.507143" y="0.615714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.0714286" y="0.14"/>
+                <anchor x="0.68" y="0.791429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>29.12.2012 [12:58]</word>
+        <spec>кодинг</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.165714" y="0.36"/>
+                <anchor x="0.7" y="0.797143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.404286" y="0.138571"/>
+                <anchor x="0.802857" y="0.465714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.254286" y="0.262857"/>
+                <anchor x="0.585714" y="0.66"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>30.12.2012 [22:37]</word>
+        <spec>запарился</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.568571" y="0.134286"/>
+                <anchor x="0.0914286" y="0.685714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.265714" y="0.8"/>
+                <anchor x="0.945714" y="0.202857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.945714" y="0.554286"/>
+                <anchor x="0.474286" y="0.0685714"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>01.01.2013 [5:40]</word>
+        <spec>после Нового Года</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.228571" y="0.314286"/>
+                <anchor x="0.57" y="0.81"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.171429" y="0.371429"/>
+                <anchor x="0.728572" y="0.525715"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.685714" y="0.725714"/>
+                <anchor x="0.851429" y="0.891429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>01.01.2013 [19:00]</word>
+        <spec>завис на youtube</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.32" y="0.08"/>
+                <anchor x="0.814286" y="0.451429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.205714" y="0.125714"/>
+                <anchor x="0.694286" y="0.391429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.394286" y="0.18"/>
+                <anchor x="0.582857" y="0.337143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>02.01.2013 [13:50]</word>
+        <spec>лень...</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.262857" y="0.18"/>
+                <anchor x="0.731429" y="0.78"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.474286" y="0.334286"/>
+                <anchor x="0.648571" y="0.62"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.345714" y="0.277143"/>
+                <anchor x="0.574286" y="0.677143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>03.01.2013 [14:13]</word>
+        <spec>прострация</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.0685714" y="0.442857"/>
+                <anchor x="0.145714" y="0.377143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.248571" y="0.105714"/>
+                <anchor x="0.534286" y="0.374286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.2" y="0.6"/>
+                <anchor x="0.945714" y="0.851429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>05.01.2013 [2:55]</word>
+        <spec>good night</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.481429" y="0.364286"/>
+                <anchor x="0.725714" y="0.6"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.0628571" y="0.288571"/>
+                <anchor x="0.648571" y="0.471429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.751429" y="0.728571"/>
+                <anchor x="0.925714" y="0.911429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>05.01.2013 [16:57]</word>
+        <spec>ложбаню</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.662857" y="0.102857"/>
+                <anchor x="0.762857" y="0.637143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.842857" y="0.408571"/>
+                <anchor x="0.125714" y="0.565714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.891429" y="0.177143"/>
+                <anchor x="0.302857" y="0.708571"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>06.01.2013 [16:14]</word>
+        <spec>страхи, предвкушенья</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.357143" y="0.322857"/>
+                <anchor x="0.494286" y="0.885714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.562857" y="0.38"/>
+                <anchor x="0.408571" y="0.0628571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.891429" y="0.76"/>
+                <anchor x="0.265714" y="0.165714"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>06.01.2013 [16:31]</word>
+        <spec>омонимия</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.1" y="0.1"/>
+                <anchor x="0.362857" y="0.902857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.25" y="0.23"/>
+                <anchor x="0.457143" y="0.814286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.162857" y="0.171429"/>
+                <anchor x="0.602857" y="0.342857"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>07.01.2013 [15:28]</word>
+        <spec>семиотический &quot;треугольник&quot;</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.134286" y="0.314286"/>
+                <anchor x="0.788571" y="0.794286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.325714" y="0.168571"/>
+                <anchor x="0.868571" y="0.5"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.502857" y="0.0685714"/>
+                <anchor x="0.6" y="0.674286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>07.01.2013 [20:53]</word>
+        <spec>предпростуда</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.357143" y="0.0314286"/>
+                <anchor x="0.105714" y="0.442857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.551429" y="0.334286"/>
+                <anchor x="0.0314286" y="0.0971429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.237143" y="0.571429"/>
+                <anchor x="0.422857" y="0.174286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>08.01.2013 [22:26]</word>
+        <spec>тиамин</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.928571" y="0.191429"/>
+                <anchor x="0.282857" y="0.428571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.662857" y="0.837143"/>
+                <anchor x="0.854286" y="0.497143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.414286" y="0.765714"/>
+                <anchor x="0.734286" y="0.657143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>09.01.2013 [12:22]</word>
+        <spec>вработка</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.765714" y="0.922857"/>
+                <anchor x="0.528571" y="0.188571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.682857" y="0.774286"/>
+                <anchor x="0.868571" y="0.194286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.945714" y="0.274286"/>
+                <anchor x="0.197143" y="0.431429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>09.01.2013 [17:01]</word>
+        <spec>апельсиновый сок</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.622857" y="0.331429"/>
+                <anchor x="0.337143" y="0.64"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.7" y="0.7"/>
+                <anchor x="0.274286" y="0.171429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.385714" y="0.24"/>
+                <anchor x="0.574286" y="0.511428"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>10.01.2013 [18:43]</word>
+        <spec>debugging</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.885714" y="0.662857"/>
+                <anchor x="0.331429" y="0.12"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.68" y="0.04"/>
+                <anchor x="0.937143" y="0.248571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.94" y="0.788571"/>
+                <anchor x="0.771429" y="0.182857"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>10.01.2013 [20:25]</word>
+        <spec>конец рабочего дня</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.865714" y="0.762857"/>
+                <anchor x="0.254286" y="0.628571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.302857" y="0.514286"/>
+                <anchor x="0.165714" y="0.891429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.288571" y="0.788571"/>
+                <anchor x="0.902857" y="0.977143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>12.01.2013 [15:49]</word>
+        <spec>поджазовые раздумья</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.311429" y="0.414286"/>
+                <anchor x="0.917143" y="0.771429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.145715" y="0.517142"/>
+                <anchor x="0.582857" y="0.148571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.671429" y="0.211429"/>
+                <anchor x="0.06" y="0.288571"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>12.01.2013 [17:12]</word>
+        <spec>долбаные соседи</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.608571" y="0.337143"/>
+                <anchor x="0.794286" y="0.588571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.514286" y="0.548571"/>
+                <anchor x="0.245714" y="0.0771429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.937143" y="0.417143"/>
+                <anchor x="0.08" y="0.482857"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>12.01.2013 [23:37]</word>
+        <spec>терзают смутные сомненья</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.931429" y="0.828571"/>
+                <anchor x="0.157143" y="0.271429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.182857" y="0.548571"/>
+                <anchor x="0.837143" y="0.462857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.225714" y="0.934286"/>
+                <anchor x="0.557143" y="0.231429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>13.01.2013 [15:55]</word>
+        <spec>кемарю под blues</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.94" y="0.7"/>
+                <anchor x="0.728571" y="0.454286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.108571" y="0.794286"/>
+                <anchor x="0.648571" y="0.608571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.228571" y="0.531429"/>
+                <anchor x="0.831429" y="0.251429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>14.01.2013 [16:08]</word>
+        <spec>залип</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.462857" y="0.128571"/>
+                <anchor x="0.78" y="0.445714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.52" y="0.271429"/>
+                <anchor x="0.722857" y="0.18"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.462857" y="0.331429"/>
+                <anchor x="0.848571" y="0.0714286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>15.01.2013 [12:15]</word>
+        <spec>недосып</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.394286" y="0.154286"/>
+                <anchor x="0.191429" y="0.534286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.414286" y="0.522857"/>
+                <anchor x="0.905714" y="0.331429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.582857" y="0.914286"/>
+                <anchor x="0.08" y="0.68"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>15.01.2013 [12:43]</word>
+        <spec>предвкушение рутины</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.274286" y="0.462857"/>
+                <anchor x="0.88" y="0.877143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.611429" y="0.397143"/>
+                <anchor x="0.342857" y="0.574286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.0514286" y="0.142857"/>
+                <anchor x="0.725714" y="0.231429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>15.01.2013 [16:29]</word>
+        <spec>&quot;вата&quot; в голове</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.262857" y="0.214286"/>
+                <anchor x="0.768571" y="0.405714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.08" y="0.3"/>
+                <anchor x="0.691429" y="0.774286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.308571" y="0.348571"/>
+                <anchor x="0.728571" y="0.265714"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>15.01.2013 [17:32]</word>
+        <spec>разGOн</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.345714" y="0.931429"/>
+                <anchor x="0.597143" y="0.565714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.648571" y="0.165714"/>
+                <anchor x="0.508571" y="0.86"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.274286" y="0.657143"/>
+                <anchor x="0.711429" y="0.0942857"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>17.01.2013 [13:24]</word>
+        <spec>раздёрг</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.317143" y="0.191429"/>
+                <anchor x="0.902857" y="0.602857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.577143" y="0.674286"/>
+                <anchor x="0.0628571" y="0.462857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.631429" y="0.877143"/>
+                <anchor x="0.837143" y="0.274286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>20.01.2013 [00:06]</word>
+        <spec>ночная широта</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.942857" y="0.8"/>
+                <anchor x="0.08" y="0.217143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.18" y="0.128571"/>
+                <anchor x="0.662857" y="0.411429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.78" y="0.894286"/>
+                <anchor x="0.337143" y="0.34"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>20.01.2013 [15:24]</word>
+        <spec>легкомыслие</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.248571" y="0.148571"/>
+                <anchor x="0.131429" y="0.608571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.205714" y="0.845714"/>
+                <anchor x="0.602857" y="0.914286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.582857" y="0.16"/>
+                <anchor x="0.902857" y="0.78"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>20.01.2013 [23:13]</word>
+        <spec>тягомотье</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.442857" y="0.934286"/>
+                <anchor x="0.191429" y="0.0828571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.771429" y="0.268571"/>
+                <anchor x="0.271429" y="0.174286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.234286" y="0.894286"/>
+                <anchor x="0.48" y="0.394286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>22.01.2013 [15:46]</word>
+        <spec>стремлюсь</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.322857" y="0.868571"/>
+                <anchor x="0.805714" y="0.651429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.774286" y="0.0942857"/>
+                <anchor x="0.551429" y="0.231429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.0857143" y="0.868571"/>
+                <anchor x="0.534286" y="0.465714"/>
+            </figure>
+        </pixra>
+    </item>
+</xravlaste>

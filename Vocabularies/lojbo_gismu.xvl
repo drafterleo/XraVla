@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xravlaste>
+<xravlaste version="1.0">
+    <item>
+        <word>jbera (jer)</word>
+        <spec>x1 заимствует x2 (объект) у x3 
+на  x4</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.714286" y="0.362857"/>
+                <anchor x="0.297143" y="0.714286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.54" y="0.188571"/>
+                <anchor x="0.22" y="0.857143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.631429" y="0.862857"/>
+                <anchor x="0.86" y="0.194286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ctino (ti'o)</word>
+        <spec>x1 тень, отбрасываемая x2  
+в лучах света/энергии x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.228571" y="0.46"/>
+                <anchor x="0.06" y="0.894286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.594286" y="0.934286"/>
+                <anchor x="0.108571" y="0.765714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.494286" y="0.568571"/>
+                <anchor x="0.165714" y="0.837143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>marbi (mra)</word>
+        <spec>x1 убежище для x2 
+от угрозы x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.92" y="0.52"/>
+                <anchor x="0.54" y="0.0914286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.871429" y="0.245714"/>
+                <anchor x="0.591429" y="0.382857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.674286" y="0.651429"/>
+                <anchor x="0.148571" y="0.785714"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>zasni (zas)</word>
+        <spec>x1 временный по свойству x2  
+по критерию x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.102857" y="0.482857"/>
+                <anchor x="0.905714" y="0.348571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.34" y="0.885714"/>
+                <anchor x="0.228571" y="0.157143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.434286" y="0.742857"/>
+                <anchor x="0.768571" y="0.585714"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>javni (jva)</word>
+        <spec>x1 правило, предписывающее x2 
+в системе/сообществе x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.0971429" y="0.222857"/>
+                <anchor x="0.942857" y="0.651429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.262857" y="0.434286"/>
+                <anchor x="0.88" y="0.497143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.36" y="0.754286"/>
+                <anchor x="0.554286" y="0.36"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>xendo (xed xe'o)</word>
+        <spec>x1 проявляет доброту к x2
+действием/поведением x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.428571" y="0.928571"/>
+                <anchor x="0.842857" y="0.282857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.668571" y="0.642857"/>
+                <anchor x="0.305714" y="0.5"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.54" y="0.36"/>
+                <anchor x="0.191429" y="0.857143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>terpa (tep te'a)</word>
+        <spec>x1 боится x2 (чего/кого)</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.505714" y="0.122857"/>
+                <anchor x="0.914286" y="0.928571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.437143" y="0.74"/>
+                <anchor x="0.282857" y="0.834286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.388571" y="0.911429"/>
+                <anchor x="0.22" y="0.671429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>virnu (vri)</word>
+        <spec>x1 проявляет храбрость 
+в деятельности x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.585714" y="0.122857"/>
+                <anchor x="0.431429" y="0.797143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.191429" y="0.922857"/>
+                <anchor x="0.822857" y="0.408571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.0971429" y="0.0714286"/>
+                <anchor x="0.917143" y="0.305714"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>cuxna (cux cu'a)</word>
+        <spec>x1 выбирает  x2 
+из множества альтернатив x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.191429" y="0.857143"/>
+                <anchor x="0.7" y="0.391429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.457143" y="0.142857"/>
+                <anchor x="0.257143" y="0.514286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.525714" y="0.257143"/>
+                <anchor x="0.625714" y="0.46"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lijda (jda)</word>
+        <spec>x1 — религия верующих x2, 
+разделяющих верования x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.497143" y="0.745714"/>
+                <anchor x="0.92" y="0.182857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.802857" y="0.565714"/>
+                <anchor x="0.62" y="0.0485714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.862857" y="0.451429"/>
+                <anchor x="0.554286" y="0.314286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lunsa (lus)</word>
+        <spec>x1 конденсат/роса на x2 
+при температуре x3 и давлении x4</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.14" y="0.165714"/>
+                <anchor x="0.431429" y="0.668571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.377143" y="0.311429"/>
+                <anchor x="0.465714" y="0.211429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.38" y="0.448571"/>
+                <anchor x="0.465714" y="0.348571"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>bumru (bum)</word>
+        <spec>x1 — туман жидкости x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.1" y="0.351429"/>
+                <anchor x="0.934286" y="0.0514286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.288571" y="0.237143"/>
+                <anchor x="0.768571" y="0.617143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.84" y="0.651429"/>
+                <anchor x="0.217143" y="0.122857"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>cenba (cne)</word>
+        <spec>x1 варьирует в свойстве x2 
+в степени x3 в условиях x4</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.428571" y="0.277143"/>
+                <anchor x="0.845714" y="0.685714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.528571" y="0.911429"/>
+                <anchor x="0.0742857" y="0.542857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.308571" y="0.38"/>
+                <anchor x="0.671429" y="0.06"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>cinla</word>
+        <spec>x1 тонкий в измерении x2 
+по стандарту x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.0942857" y="0.348571"/>
+                <anchor x="0.3" y="0.914286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.445714" y="0.917143"/>
+                <anchor x="0.397143" y="0.1"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.531429" y="0.391429"/>
+                <anchor x="0.948571" y="0.18"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>vanbi (vab)</word>
+        <spec>x1 окружение/контекст/условие 
+для x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.282857" y="0.705714"/>
+                <anchor x="0.562857" y="0.471429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.705714" y="0.614286"/>
+                <anchor x="0.474286" y="0.245714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.14" y="0.137143"/>
+                <anchor x="0.851429" y="0.808571"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>bandu (bad)</word>
+        <spec>x1 защищает/обороняет x2
+от угрозы/опасности x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.168571" y="0.271429"/>
+                <anchor x="0.525714" y="0.86"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.46" y="0.597143"/>
+                <anchor x="0.242857" y="0.76"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.828571" y="0.46"/>
+                <anchor x="0.354286" y="0.12"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ruble (rub ble)</word>
+        <spec>x1 слаб в аспекте x2 
+по стандарту x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.305714" y="0.834286"/>
+                <anchor x="0.462857" y="0.46"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.337142" y="0.691429"/>
+                <anchor x="0.514286" y="0.608571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.265714" y="0.768571"/>
+                <anchor x="0.371429" y="0.548571"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>vlipa (vli)</word>
+        <spec>x1 в силах осуществить x2 
+в условиях x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.351429" y="0.242857"/>
+                <anchor x="0.825714" y="0.76"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.648571" y="0.12"/>
+                <anchor x="0.24" y="0.834286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.72" y="0.3"/>
+                <anchor x="0.92" y="0.7"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>tunba (tub)</word>
+        <spec>x1 брат или сестра x2 (чей) 
+по виду родства x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.525714" y="0.571429"/>
+                <anchor x="0.291429" y="0.808571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.931429" y="0.731429"/>
+                <anchor x="0.0485714" y="0.882857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.442857" y="0.808571"/>
+                <anchor x="0.605714" y="0.268571"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>spisa (spi)</word>
+        <spec>x1 кусок/порция x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.348571" y="0.837143"/>
+                <anchor x="0.862857" y="0.208571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.134286" y="0.657143"/>
+                <anchor x="0.545714" y="0.351429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.18" y="0.605714"/>
+                <anchor x="0.305714" y="0.391429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>cirko (cri)</word>
+        <spec>x1 теряет/утрачивает x2 
+в/возле x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.542857" y="0.12"/>
+                <anchor x="0.782857" y="0.414286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.725714" y="0.3"/>
+                <anchor x="0.834286" y="0.157143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.362857" y="0.768571"/>
+                <anchor x="0.137143" y="0.237143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>jinru (jir)</word>
+        <spec>x1 погружен/купается 
+в жидкости x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.894286" y="0.497143"/>
+                <anchor x="0.108571" y="0.911429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.731429" y="0.831429"/>
+                <anchor x="0.302857" y="0.64"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.04" y="0.454286"/>
+                <anchor x="0.951429" y="0.551429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>xislu (xil xi'u)</word>
+        <spec>x1 — колесо транспорта x2,
+из материала x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.734286" y="0.608571"/>
+                <anchor x="0.44" y="0.328571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.78" y="0.145714"/>
+                <anchor x="0.114286" y="0.434286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.0657143" y="0.691429"/>
+                <anchor x="0.851429" y="0.568571"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>cupra (pra)</word>
+        <spec>x1 производит x2 
+процессом x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.58" y="0.0542857"/>
+                <anchor x="0.791429" y="0.634286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.862857" y="0.525714"/>
+                <anchor x="0.4" y="0.157143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.202857" y="0.234286"/>
+                <anchor x="0.34" y="0.417143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>farvi (fav)</word>
+        <spec>x1 развивается в &quot;сторону&quot; x2 
+из исходного состояния x3 
+через стадии x4</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.88" y="0.654286"/>
+                <anchor x="0.162857" y="0.414286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.102857" y="0.831429"/>
+                <anchor x="0.945714" y="0.565714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.731429" y="0.217143"/>
+                <anchor x="0.317143" y="0.494286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>cizra (ciz)</word>
+        <spec>x1 странный/необычный для x2 
+по свойству x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.474286" y="0.0971429"/>
+                <anchor x="0.645714" y="0.391429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.148571" y="0.271429"/>
+                <anchor x="0.688571" y="0.765714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.948571" y="0.188571"/>
+                <anchor x="0.285714" y="0.485714"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>jitro (tro)</word>
+        <spec>x1 контролирует/управляет x2 
+в деятельности/событии x3</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.831429" y="0.16"/>
+                <anchor x="0.171429" y="0.845714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.737143" y="0.26"/>
+                <anchor x="0.0828571" y="0.728571"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.531429" y="0.634286"/>
+                <anchor x="0.405714" y="0.334286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>tugni (tug tu'i)</word>
+        <spec>x1 согласен/соглашается с x2 
+в том, что x3 верно 
+в отношении предмета x4</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.588571" y="0.608571"/>
+                <anchor x="0.0685714" y="0.182857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.768571" y="0.105714"/>
+                <anchor x="0.254286" y="0.694286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.948571" y="0.337143"/>
+                <anchor x="0.394286" y="0.514286"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>betfu (bef be'u)</word>
+        <spec>x1 живот/брюхо x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.551429" y="0.868571"/>
+                <anchor x="0.411429" y="0.377143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.288571" y="0.731429"/>
+                <anchor x="0.674286" y="0.54"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.24" y="0.811429"/>
+                <anchor x="0.725714" y="0.2"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>makcu (ma'u)</word>
+        <spec>x1 зрелый/созревший/взрослый 
+по признаку x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.845714" y="0.311429"/>
+                <anchor x="0.12" y="0.52"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.68" y="0.957143"/>
+                <anchor x="0.277143" y="0.434286"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.605714" y="0.16"/>
+                <anchor x="0.354286" y="0.851429"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>cabna (cab)</word>
+        <spec>x1 настоящее/одновременное
+для x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.657143" y="0.611429"/>
+                <anchor x="0.308571" y="0.362857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.391429" y="0.608571"/>
+                <anchor x="0.574286" y="0.362857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.802857" y="0.114286"/>
+                <anchor x="0.182857" y="0.857143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>purci (pur pru)</word>
+        <spec>x1 прошлое/перед/раньше x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.96" y="0.0914286"/>
+                <anchor x="0.571429" y="0.817143"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.142857" y="0.754286"/>
+                <anchor x="0.354286" y="0.391429"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.0828571" y="0.391429"/>
+                <anchor x="0.488571" y="0.757143"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>balvi</word>
+        <spec>x1 будущее/после/позже x2</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CRectangleFigure">
+                <anchor x="0.48" y="0.14"/>
+                <anchor x="0.0914286" y="0.865714"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.545714" y="0.217143"/>
+                <anchor x="0.951429" y="0.582857"/>
+            </figure>
+            <figure type="CRectangleFigure">
+                <anchor x="0.671429" y="0.58"/>
+                <anchor x="0.882857" y="0.217143"/>
+            </figure>
+        </pixra>
+    </item>
+</xravlaste>
