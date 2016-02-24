@@ -149,10 +149,10 @@ void CVocabularyPage::resizeEvent(QResizeEvent *event)
     int xwlX = width() - xwlWidth - 2;
     int xwlY = 37;
 
-    int feWidth = 350;
-    int feHeight = 350;
-    int feX = (width() - feWidth - xwlWidth)/2;
-    int feY = (height() - feHeight + 95)/2;
+    int feWidth = 400;
+    int feHeight = 400;
+    int feX = (width() - feWidth - xwlWidth - 4)/2;
+    int feY = (height() - feHeight + 50)/2;
 
     int weX = feX;
     int weY = feY - 95;
