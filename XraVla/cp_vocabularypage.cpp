@@ -157,10 +157,19 @@ void CVocabularyPage::locateWidgets()
     int xwlX = width() - xwlWidth - 2;
     int xwlY = 37;
 
-    int feWidth = 400;
-    int feHeight = 400;
-    int feX = (width() - feWidth - xwlWidth - 4)/2;
-    int feY = (height() - feHeight + 50)/2;
+//    int feWidth = 400;
+//    int feHeight = 400;
+//    int feX = (width() - feWidth - xwlWidth - 4)/2;
+//    int feY = (height() - feHeight + 50)/2;
+
+    int feWidth = width() - xwlWidth - 12;
+    int feHeight = height() - 170;
+    if (feWidth > feHeight)
+        feWidth = feHeight;
+    else
+        feHeight = feWidth;
+    int feX = (width() - feWidth - xwlWidth - 6)/2;
+    int feY = (height() - feHeight + 40)/2;
 
     int weX = feX;
     int weY = feY - 95;

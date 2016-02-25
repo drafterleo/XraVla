@@ -11,11 +11,13 @@ CColorMatrixEdit::CColorMatrixEdit(QWidget *parent)
     matrix.setSize(1, 1);
     activeCell = QPoint(-1, -1);
     currentCell = QPoint(0, 0);
-    setMouseTracking(true);
     margin = 2;
     m_pixra = new CColorMatrixPixra;
     colorWheel = new ColorWheel(this);
     connect(colorWheel, SIGNAL(colorChanged(QColor)), SLOT(wheelColorChanged(QColor)));
+
+    setMouseTracking(true);
+    setFocusPolicy(Qt::ClickFocus);
 }
 
 CColorMatrixEdit::~CColorMatrixEdit()
@@ -81,9 +83,12 @@ void CColorMatrixEdit::paintEvent(QPaintEvent *)
     QPainter painter(this);
     painter.setRenderHint(QPainter::Antialiasing);
 
-    painter.setPen(Qt::NoPen);
-    painter.setBrush(QColor("#272822"));
-    painter.drawRect(this->rect());
+    if (hasFocus())
+        painter.setPen(QPen(QBrush(QColor(0x538BC4)), 2));
+    else
+        painter.setPen(QPen(QBrush(QColor(0x466A7E)), 2));
+    painter.setBrush(QColor(0x272822));
+    painter.drawRect(this->rect().adjusted(1, 1, -1, -1));
 
     int w = matrixArea.width() / matrix.colCount();
     int h = matrixArea.height() / matrix.rowCount();
@@ -99,10 +104,6 @@ void CColorMatrixEdit::paintEvent(QPaintEvent *)
         }
     }
 
-    painter.setBrush(Qt::NoBrush);
-    painter.setPen(QPen(Qt::black, 2));
-    painter.drawRect(this->rect().adjusted(1, 1, -1, -1));
-
 //    if (activeCell.x() >= 0 && activeCell.y() >= 0) {
 //        painter.setPen(QPen(Qt::red, 2));
 //        painter.drawRect(activeCell.x() * w + dx, activeCell.y() * h + dy, w, h);
@@ -114,7 +115,7 @@ void CColorMatrixEdit::paintEvent(QPaintEvent *)
         if (currColor.value() > 127) {
             cursorColor = Qt::black;
         }
-        cursorColor.setAlpha(100);
+        cursorColor.setAlpha(90);
 
         int csz = 20;
         int cszX = currentCell.x() * w + dx + (w - csz)/2;
@@ -156,7 +157,7 @@ bool CColorMatrixEdit::assignPixra(CAbstractPixra *pixra)
 {
     CColorMatrixPixra *cmPixra = dynamic_cast <CColorMatrixPixra *>(pixra);
     if (cmPixra) {
-        matrix = cmPixra->colorMatrix();
+        matrix = cmPixra->getMatrix();
         updateMatrixArea();
         updateColorWheel();
         emit modified();

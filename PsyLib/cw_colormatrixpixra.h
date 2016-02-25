@@ -19,11 +19,11 @@ public:
     virtual void readXML(const QDomElement & element) {}
     virtual void writeXML(QXmlStreamWriter & xml) {}
 
-    virtual void setColor(const QColor & color) {}
-    virtual void setFrameColor(const QColor & color) {}
-    virtual void setBackColor(const QColor & color) {}
+    virtual void setColor(const QColor &) {}
+    virtual void setFrameColor(const QColor & color);
+    virtual void setBackColor(const QColor & color);
 
-    inline CColorMatrix colorMatrix() {return matrix;}
+    inline CColorMatrix getMatrix() {return matrix;}
     void setMatrix(const CColorMatrix & cmx);
 
 protected:
@@ -36,6 +36,9 @@ private:
     CColorMatrix matrix;
     QRect drawArea;
     int margin;
+
+    QColor m_backColor;
+    QColor m_frameColor;
 };
 
 #endif // CCOLORMATRIXPIXRA_H

@@ -277,10 +277,8 @@ void CFiguresEdit::addSelectCluster(int idx)
     }
 }
 
-void CFiguresEdit::paintEvent(QPaintEvent *event)
+void CFiguresEdit::paintEvent(QPaintEvent *)
 {
-    Q_UNUSED(event);
-
     QPainter painter(this);
 
     if (hasFocus())

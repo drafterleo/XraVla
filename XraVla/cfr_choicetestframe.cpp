@@ -182,15 +182,15 @@ void CChoiceTestFrame::paintEvent(QPaintEvent *event)
                 pixra->setFrameColor(QColor(0x466A7E));
                 if (i == m_clickIdx && i == m_rightIdx) {
                     pixra->setColor(Qt::white);
-                    pixra->setBackColor(QColor(0x55A92E));
+                    pixra->setFrameColor(QColor(0x55A92E));
                 } else
                 if (i == m_clickIdx && i != m_rightIdx) {
                     pixra->setColor(Qt::white);
-                    pixra->setBackColor(QColor(0xD92731));
+                    pixra->setFrameColor(QColor(0xD92731));
                 } else
                 if (i == m_rightIdx) {
                     pixra->setColor(Qt::white);
-                    pixra->setBackColor(QColor(0x55A92E));
+                    pixra->setFrameColor(QColor(0x55A92E));
                 } else {
                     painter.setOpacity(0.3);
                     pixra->setColor(Qt::lightGray);

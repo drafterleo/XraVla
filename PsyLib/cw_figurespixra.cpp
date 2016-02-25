@@ -57,12 +57,11 @@ void CFiguresPixra::paintEvent(QPaintEvent *event)
     Q_UNUSED(event);
 
     QPainter painter(this);
+    painter.setRenderHint(QPainter::Antialiasing);
 
     painter.setPen(QPen(QBrush(QColor(m_frameColor)), 2, Qt::SolidLine, Qt::SquareCap, Qt::MiterJoin));
     painter.setBrush(m_backColor);
     painter.drawRect(this->rect().adjusted(1, 1, -1, -1));
-
-    painter.setRenderHint(QPainter::Antialiasing);
 
     for (int i = 0; i < m_normFigures.count(); ++i) {
         /* draw figure */

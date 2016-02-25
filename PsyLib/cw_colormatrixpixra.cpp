@@ -5,7 +5,9 @@
 CColorMatrixPixra::CColorMatrixPixra(QWidget *parent)
     :CAbstractPixra(parent)
 {
-    margin = 0;
+    margin = 1;
+    m_backColor = QColor(0x272822);
+    m_frameColor = QColor(0x466A7E);
 }
 
 void CColorMatrixPixra::setMatrix(const CColorMatrix & cmx)
@@ -21,7 +23,7 @@ void CColorMatrixPixra::resizeEvent(QResizeEvent *)
 
 void CColorMatrixPixra::updateDrawArea()
 {
-    drawArea = this->rect().adjusted(0, 0, -6, -6);
+    drawArea = this->rect().adjusted(0, 0, -10, -10);
     if (drawArea.width() > drawArea.height()) {
         drawArea.setWidth(drawArea.height());
     } else {
@@ -47,9 +49,9 @@ void CColorMatrixPixra::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
 
-    painter.setPen(Qt::NoPen);
-    painter.setBrush(QColor("#272822"));
-    painter.drawRect(this->rect());
+    painter.setPen(QPen(QBrush(QColor(m_frameColor)), 2, Qt::SolidLine, Qt::SquareCap, Qt::MiterJoin));
+    painter.setBrush(m_backColor);
+    painter.drawRect(this->rect().adjusted(1, 1, -1, -1));
 
     int w = drawArea.width() / matrix.colCount();
     int h = drawArea.height() / matrix.rowCount();
@@ -64,9 +66,6 @@ void CColorMatrixPixra::paintEvent(QPaintEvent *)
             painter.drawRect(cellRect);
         }
     }
-
-    painter.setBrush(Qt::NoBrush);
-    painter.drawRect(this->rect().adjusted(1, 1, -1, -1));
 
     painter.end();
 }
@@ -85,9 +84,19 @@ void CColorMatrixPixra::assign(CAbstractPixra *pixra)
     //qDebug() << "CColorMatrixPixra::assign";
     CColorMatrixPixra *cmPixra = dynamic_cast <CColorMatrixPixra *>(pixra);
     if (cmPixra) {
-        matrix = cmPixra->colorMatrix();
+        matrix = cmPixra->getMatrix();
         updateDrawArea();
     }
 }
 
+void CColorMatrixPixra::setFrameColor(const QColor & color)
+{
+    m_frameColor = color;
+    update();
+}
 
+void CColorMatrixPixra::setBackColor(const QColor & color)
+{
+    m_backColor = color;
+    update();
+}
