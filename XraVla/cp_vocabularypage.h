@@ -24,12 +24,16 @@ public:
     inline bool isModified() {return m_modified;}
 
 protected:
-    void resizeEvent(QResizeEvent *event);
-    void paintEvent(QPaintEvent *event);
+    void locateWidgets();
+
+    void resizeEvent(QResizeEvent *);
+    void paintEvent(QPaintEvent *);
 
     void initStyles();
 
     void setMinMaxSize(QWidget *widget, int w, int h);
+
+    void createPixraEdit(const QString &classNameStr);
 
     bool readXML(const QDomElement & root, bool clearModel = true, int insRow = 0);
     void writeXML(const QString & fileName);
@@ -68,7 +72,7 @@ private:
     bool m_modified;
 
 
-    CFiguresEdit *m_pixraEdit;
+    CAbstractEdit  *m_pixraEdit;
     CXravlasteView *m_listView;
 
     QLineEdit *m_wordEdit;

@@ -2,6 +2,7 @@
 #include "c_xravlasteitem.h"
 #include "c_xravlastemodel.h"
 #include "cw_styledscrollbar.h"
+#include "c_editorsfactory.h"
 #include <QPainter>
 #include <QFile>
 #include <QTextStream>
@@ -16,7 +17,9 @@
 CVocabularyPage::CVocabularyPage(QWidget *parent) :
     CPageWidget(parent)
 {
-    m_pixraEdit = new CFiguresEdit(this);
+    m_pixraEdit = 0;
+    createPixraEdit("CFiguresEdit");
+
     m_wordEdit = new QLineEdit(this);
     m_specEdit = new QTextEdit(this);
 
@@ -81,8 +84,6 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
             this,        SLOT(wordChanged(QString)));
     connect(m_specEdit,  SIGNAL(textChanged()),
             this,        SLOT(specChanged()));
-    connect(m_pixraEdit, SIGNAL(modified()),
-            this,        SLOT(pixraChanged()));
 
     connect(m_addItemBtn, SIGNAL(clicked()),
             this        , SLOT(insertNewItem()));
@@ -115,6 +116,15 @@ CVocabularyPage::~CVocabularyPage()
 {
 }
 
+void CVocabularyPage::createPixraEdit(const QString &classNameStr)
+{
+    delete m_pixraEdit;
+    m_pixraEdit = editFactoryInstance.createEditor(classNameStr);
+    m_pixraEdit->setParent(this);
+    connect(m_pixraEdit, SIGNAL(modified()), SLOT(pixraChanged()));
+    m_pixraEdit->show();
+}
+
 void CVocabularyPage::initListView(void)
 {
     CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *>(m_listView->model());
@@ -140,10 +150,8 @@ void CVocabularyPage::setMinMaxSize(QWidget *widget, int w, int h)
     }
 }
 
-void CVocabularyPage::resizeEvent(QResizeEvent *event)
+void CVocabularyPage::locateWidgets()
 {
-    Q_UNUSED(event);
-
     int xwlWidth = 300;
     int xwlHeight = height() - 37;
     int xwlX = width() - xwlWidth - 2;
@@ -178,9 +186,12 @@ void CVocabularyPage::resizeEvent(QResizeEvent *event)
     m_randomizeBtn->setGeometry(m_protoPixraBtn->pos().x() - 65, feY + feHeight + 5, 60, 60);
 
     m_lwPanel->setGeometry(QRect(layoutX, layoutY, layoutW, layoutH));
-
-    listViewChanged(m_listView->currentIndex(), QModelIndex());
 }
+
+void CVocabularyPage::resizeEvent(QResizeEvent *)
+{
+   locateWidgets();
+   listViewChanged(m_listView->currentIndex(), QModelIndex());}
 
 void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelIndex & previous)
 {
@@ -202,6 +213,8 @@ void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelI
             m_wordEdit->setText(currItem->word);
             m_specEdit->setText(currItem->spec);
             if (currItem->pixra) {
+                createPixraEdit(currItem->pixra->metaObject()->className());
+                locateWidgets();
                 m_pixraEdit->assignPixra(currItem->pixra);
                 m_pixraEdit->clearHIstory();
             }
@@ -302,10 +315,8 @@ void CVocabularyPage::moveCurrItemDown()
 }
 
 
-void CVocabularyPage::paintEvent(QPaintEvent *event)
+void CVocabularyPage::paintEvent(QPaintEvent *)
 {
-    Q_UNUSED(event);
-
     QPainter painter(this);
     int x = m_listView->pos().x() - 2;
     //int w = m_ListView->width() + 2;
@@ -501,8 +512,12 @@ void CVocabularyPage::protoPixraChanged(CAbstractPixra *pixra)
 
     if (pixra && model && m_pixraEdit) {
         model->setProtoPixra(pixra);
+
+        createPixraEdit(pixra->metaObject()->className());
+        locateWidgets();
         m_pixraEdit->assignPixra(pixra);
         m_pixraEdit->setFocus();
+
         QPixmap protoPix(pixra->size());
         pixra->setColor(Qt::gray);
         pixra->setFrameColor(Qt::black);

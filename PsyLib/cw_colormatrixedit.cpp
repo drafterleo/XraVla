@@ -138,6 +138,7 @@ void CColorMatrixEdit::fillRandom(void)
         }
     updateColorWheel();
     this->update();
+    emit modified();
 }
 
 void CColorMatrixEdit::clear()
@@ -147,6 +148,8 @@ void CColorMatrixEdit::clear()
             matrix.setColor(col, row, Qt::white);
         }
     this->update();
+    updateColorWheel();
+    emit modified();
 }
 
 bool CColorMatrixEdit::assignPixra(CAbstractPixra *pixra)
@@ -155,6 +158,8 @@ bool CColorMatrixEdit::assignPixra(CAbstractPixra *pixra)
     if (cmPixra) {
         matrix = cmPixra->colorMatrix();
         updateMatrixArea();
+        updateColorWheel();
+        emit modified();
         return true;
     }
     return false;
@@ -197,6 +202,7 @@ void CColorMatrixEdit::wheelColorChanged(const QColor &color)
 {
     if (isCellValid(currentCell)) {
         matrix.setColor(currentCell.x(), currentCell.y(), color);
+        emit modified();
         update();
     }
 }
@@ -209,7 +215,9 @@ void CColorMatrixEdit::mouseDoubleClickEvent(QMouseEvent *event)
         color = QColorDialog::getColor(color, this);
         if (color.isValid()) {
             matrix.setColor(cell.x(), cell.y(), color);
-            this->update();
+            update();
+            updateColorWheel();
+            emit modified();
         }
     }
 }

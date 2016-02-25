@@ -31,7 +31,10 @@ HEADERS += \
     cw_styledcheckbox.h \
     ../PsyLib/cw_colormatrixedit.h \
     ../PsyLib/cw_colormatrixpixra.h \
-    ../PsyLib/c_colormatrix.h
+    ../PsyLib/c_colormatrix.h \
+    ../PsyLib/c_editorsfactory.h \
+    ../PsyLib/color_utils.hpp \
+    ../PsyLib/color_wheel.hpp
 
 SOURCES += \
     main.cpp \
@@ -62,7 +65,10 @@ SOURCES += \
     cw_styledcheckbox.cpp \
     ../PsyLib/cw_colormatrixedit.cpp \
     ../PsyLib/cw_colormatrixpixra.cpp \
-    ../PsyLib/c_colormatrix.cpp
+    ../PsyLib/c_colormatrix.cpp \
+    ../PsyLib/c_editorsfactory.cpp \
+    ../PsyLib/color_utils.cpp \
+    ../PsyLib/color_wheel.cpp
 
 RESOURCES += \
     XraVla.qrc

@@ -8,6 +8,7 @@
 #include "cw_colormatrixedit.h"
 
 #include <QMap>
+#include <QtDebug>
 
 class CAbstractPixraCreator
 {

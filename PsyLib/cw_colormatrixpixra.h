@@ -9,6 +9,7 @@
 
 class CColorMatrixPixra : public CAbstractPixra
 {
+    Q_OBJECT
 public:
     CColorMatrixPixra(QWidget *parent = 0);
 
@@ -28,8 +29,8 @@ public:
 protected:
     void updateDrawArea();
 
-    virtual void resizeEvent(QResizeEvent *event);
-    virtual void paintEvent(QPaintEvent *event);
+    virtual void resizeEvent(QResizeEvent *);
+    virtual void paintEvent(QPaintEvent *);
 
 private:
     CColorMatrix matrix;

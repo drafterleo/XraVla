@@ -1,4 +1,5 @@
 #include <qmath.h>
+#include <QtDebug>
 #include "c_figure.h"
 
 CAbstractFigure::CAbstractFigure()

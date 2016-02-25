@@ -1,4 +1,5 @@
 #include <QPainter>
+#include <QtDebug>
 #include "cw_colormatrixpixra.h"
 
 CColorMatrixPixra::CColorMatrixPixra(QWidget *parent)
@@ -13,9 +14,8 @@ void CColorMatrixPixra::setMatrix(const CColorMatrix & cmx)
     updateDrawArea();
 }
 
-void CColorMatrixPixra::resizeEvent(QResizeEvent *event)
+void CColorMatrixPixra::resizeEvent(QResizeEvent *)
 {
-    Q_UNUSED(event)
     updateDrawArea();
 }
 
@@ -43,10 +43,8 @@ void CColorMatrixPixra::updateDrawArea()
     update();
 }
 
-void CColorMatrixPixra::paintEvent(QPaintEvent *event)
+void CColorMatrixPixra::paintEvent(QPaintEvent *)
 {
-    Q_UNUSED(event)
-
     QPainter painter(this);
 
     painter.setPen(Qt::NoPen);
@@ -84,6 +82,7 @@ void CColorMatrixPixra::clear()
 
 void CColorMatrixPixra::assign(CAbstractPixra *pixra)
 {
+    //qDebug() << "CColorMatrixPixra::assign";
     CColorMatrixPixra *cmPixra = dynamic_cast <CColorMatrixPixra *>(pixra);
     if (cmPixra) {
         matrix = cmPixra->colorMatrix();

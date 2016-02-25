@@ -33,10 +33,15 @@ CProtoPixraPopup::CProtoPixraPopup(QWidget *parent) :
     polygone6Ellipse.addPolygon(6, QRectF(0.1, 0.1, 0.8, 0.8));
     polygone6Ellipse.addEllipse(QRectF(0.33, 0.33, 0.33, 0.33));
 
+
+    CColorMatrixPixra proto3x3ColorMatrix;
+    proto3x3ColorMatrix.setMatrix(CColorMatrix(3, 3));
+
     addProtoPixra(&proto3Rects);
     addProtoPixra(&proto2RectsEllipse);
     addProtoPixra(&polygones5_3);
     addProtoPixra(&polygone6Ellipse);
+    addProtoPixra(&proto3x3ColorMatrix);
 }
 
 CProtoPixraPopup::~CProtoPixraPopup()
@@ -49,7 +54,7 @@ CProtoPixraPopup::~CProtoPixraPopup()
 void CProtoPixraPopup::addProtoPixra(CAbstractPixra *pixra)
 {
     if (pixra) {
-        CAbstractPixra * protoPixra = pixraFactoryInstance.createPixra(pixra->metaObject()->className());
+        CAbstractPixra *protoPixra = pixraFactoryInstance.createPixra(pixra->metaObject()->className());
         protoPixra->assign(pixra);
         m_protoPixras.append(protoPixra);
         m_rects.append(QRect());
