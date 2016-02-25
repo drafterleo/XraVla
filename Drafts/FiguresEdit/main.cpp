@@ -10,7 +10,9 @@
 #include "cw_colormatrixedit.h"
 #include "cw_colormatrixpixra.h"
 #include "cw_runepatternedit.h"
+#include "color_wheel.hpp"
 
+using namespace color_widgets;
 
 class CWorkArea: public QWidget
 {
@@ -35,9 +37,9 @@ public:
             figEdit->addFigure(rfig);
 
         cmxEdit = new CColorMatrixEdit(this);
-            cmxEdit->setGeometry(310, 310, 300, 300);
+            cmxEdit->setGeometry(150, 150, 450, 450);
             cmxEdit->setColorMatrix(CColorMatrix(3, 3));
-            cmxEdit->fillRandom();
+            //cmxEdit->fillRandom();
             //cmxEdit->setColor(1, 1, Qt::blue);
 
         cmxPixra = new CColorMatrixPixra(this);
@@ -45,7 +47,7 @@ public:
         cmxPixra->assign(cmxEdit->pixra());
 
         rpEdit = new CRunePatternEdit(this);
-            rpEdit->setGeometry(310, 0, 300, 300);
+            rpEdit->setGeometry(310, 0, 100, 100);
             rpEdit->setPattern(CRunePattern(3, 3));
             rpEdit->genSolidLink(5, 1);
 

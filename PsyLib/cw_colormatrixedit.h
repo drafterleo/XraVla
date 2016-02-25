@@ -4,6 +4,9 @@
 #include "c_colormatrix.h"
 #include "cw_abstractedit.h"
 #include "cw_colormatrixpixra.h"
+#include "color_wheel.hpp"
+
+using namespace color_widgets;
 
 class CColorMatrixEdit : public CAbstractEdit
 {
@@ -25,22 +28,30 @@ public:
     virtual bool assignPixra(CAbstractPixra *pixra);
     virtual void randomize() {fillRandom();}
 
+protected slots:
+    void wheelColorChanged(const QColor & color);
+
 protected:
     QPoint cellAt(QPoint point);
-    void updateDrawArea();
+    bool isCellValid(const QPoint &cell);
+    void updateMatrixArea();
+    void updateColorWheel();
 
-    virtual void resizeEvent(QResizeEvent *event);
-    virtual void paintEvent(QPaintEvent *event);
+    virtual void resizeEvent(QResizeEvent *);
+    virtual void paintEvent(QPaintEvent *);
     virtual void mouseMoveEvent(QMouseEvent *event);
     virtual void mouseDoubleClickEvent(QMouseEvent *event);
-    virtual void leaveEvent(QEvent *event);
+    virtual void mousePressEvent(QMouseEvent *event);
+    virtual void leaveEvent(QEvent *);
 
 private:
     CColorMatrix matrix;
-    QRect drawArea;
+    QRect matrixArea;
     QPoint activeCell;
+    QPoint currentCell;
     int margin;
     CColorMatrixPixra *m_pixra;
+    ColorWheel        *colorWheel;
 };
 
 #endif // CW_COLORMATRIXEDIT_H

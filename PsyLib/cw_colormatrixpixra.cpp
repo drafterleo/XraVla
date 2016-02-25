@@ -4,7 +4,7 @@
 CColorMatrixPixra::CColorMatrixPixra(QWidget *parent)
     :CAbstractPixra(parent)
 {
-    margin = 2;
+    margin = 0;
 }
 
 void CColorMatrixPixra::setMatrix(const CColorMatrix & cmx)

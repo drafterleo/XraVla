@@ -15,7 +15,9 @@ SOURCES += \
     ../../PsyLib/cw_figurespixra.cpp \
     ../../PsyLib/c_figuresfactory.cpp \
     ../../PsyLib/cw_abstractpixra.cpp \
-    ../../PsyLib/cw_colormatrixpixra.cpp
+    ../../PsyLib/cw_colormatrixpixra.cpp \
+    ../../PsyLib/color_utils.cpp \
+    ../../PsyLib/color_wheel.cpp
 
 HEADERS += \
     ../../PsyLib/cw_figuresedit.h \
@@ -29,7 +31,9 @@ HEADERS += \
     ../../PsyLib/cw_figurespixra.h \
     ../../PsyLib/c_figuresfactory.h \
     ../../PsyLib/cw_abstractpixra.h \
-    ../../PsyLib/cw_colormatrixpixra.h
+    ../../PsyLib/cw_colormatrixpixra.h \
+    ../../PsyLib/color_utils.hpp \
+    ../../PsyLib/color_wheel.hpp
 
 
 
