@@ -132,6 +132,7 @@ void CVocabularyPage::initListView(void)
         xmodel->insertRow(0);
         m_listView->setCurrentIndex(xmodel->index(0, 0));
         updateProtoPixraBtn(xmodel->protoPixra());
+        listViewChanged(m_listView->currentIndex(), QModelIndex());
 
 //        CAbstractPixra *pixra = xmodel->protoPixra();
 //        pixra->resize(50, 50);
@@ -151,7 +152,7 @@ void CVocabularyPage::setMinMaxSize(QWidget *widget, int w, int h)
     }
 }
 
-void CVocabularyPage::locateWidgets()
+void CVocabularyPage::relocateWidgets()
 {
     int xwlWidth = 300;
     int xwlHeight = height() - 37;
@@ -162,6 +163,7 @@ void CVocabularyPage::locateWidgets()
 //    int feHeight = 400;
 //    int feX = (width() - feWidth - xwlWidth - 4)/2;
 //    int feY = (height() - feHeight + 50)/2;
+
 
     int feWidth = width() - xwlWidth - 12;
     int feHeight = height() - 170;
@@ -200,8 +202,9 @@ void CVocabularyPage::locateWidgets()
 
 void CVocabularyPage::resizeEvent(QResizeEvent *)
 {
-   locateWidgets();
-   listViewChanged(m_listView->currentIndex(), QModelIndex());}
+   relocateWidgets();
+   listViewChanged(m_listView->currentIndex(), QModelIndex());
+}
 
 void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelIndex & previous)
 {
@@ -224,7 +227,7 @@ void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelI
             m_specEdit->setText(currItem->spec);
             if (currItem->pixra) {
                 createPixraEdit(currItem->pixra->metaObject()->className());
-                locateWidgets();
+                relocateWidgets();
                 m_pixraEdit->assignPixra(currItem->pixra);
                 m_pixraEdit->clearHIstory();
             }
@@ -553,7 +556,7 @@ void CVocabularyPage::protoPixraChanged(CAbstractPixra *pixra)
         model->setProtoPixra(pixra);
 
         createPixraEdit(pixra->metaObject()->className());
-        locateWidgets();
+        relocateWidgets();
         m_pixraEdit->assignPixra(pixra);
         m_pixraEdit->setFocus();
 

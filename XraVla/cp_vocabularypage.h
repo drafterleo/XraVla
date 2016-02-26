@@ -24,7 +24,7 @@ public:
     inline bool isModified() {return m_modified;}
 
 protected:
-    void locateWidgets();
+    void relocateWidgets();
 
     void resizeEvent(QResizeEvent *);
     void paintEvent(QPaintEvent *);

@@ -34,11 +34,15 @@ CFiguresEdit::~CFiguresEdit()
 
 void CFiguresEdit::resizeEvent(QResizeEvent *event)
 {
+    // qDebug() << event->oldSize() << event->size();
+
+    qreal sx = static_cast<qreal>(width());
+    qreal sy = static_cast<qreal>(height());
+
     if (!event->oldSize().isEmpty()) {
-        //qDebug() << event->oldSize().width() << event->oldSize().height();
+        sx = sx / event->oldSize().width();
+        sy = sy / event->oldSize().height();
         for (int i = 0; i < figures.count(); ++i) {
-            qreal sx = static_cast<qreal>(width()) / event->oldSize().width();
-            qreal sy = static_cast<qreal>(height()) / event->oldSize().height();
             figures.at(i)->transform(QTransform().scale(sx, sy));
         }
     }
@@ -130,7 +134,8 @@ bool CFiguresEdit::readFromPixra(CAbstractPixra *pixra)
         clearFigures();
         for (int i = 0; i < figPixra->normFigures().count(); ++i) {
             CAbstractFigure *fig = figPixra->normFigures().at(i)->clone();
-            fig->transform(QTransform().scale(width(), height()));
+            if (size().isValid())
+                fig->transform(QTransform().scale(width(), height()));
             figures.append(fig);
         }
         contentChanged();
