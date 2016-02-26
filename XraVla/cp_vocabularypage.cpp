@@ -131,14 +131,15 @@ void CVocabularyPage::initListView(void)
     if (xmodel) {
         xmodel->insertRow(0);
         m_listView->setCurrentIndex(xmodel->index(0, 0));
+        updateProtoPixraBtn(xmodel->protoPixra());
 
-        CAbstractPixra *pixra = xmodel->protoPixra();
-        pixra->resize(50, 50);
-        QPixmap protoPix(xmodel->protoPixra()->size());
-        pixra->setColor(Qt::gray);
-        pixra->setFrameColor(Qt::black);
-        pixra->render(&protoPix, QPoint(), QRegion(), 0);
-        m_protoPixraBtn->setPixmap(protoPix);
+//        CAbstractPixra *pixra = xmodel->protoPixra();
+//        pixra->resize(50, 50);
+//        QPixmap protoPix(xmodel->protoPixra()->size());
+//        pixra->setColor(Qt::gray);
+//        pixra->setFrameColor(Qt::black);
+//        pixra->render(&protoPix, QPoint(), QRegion(), 0);
+//        m_protoPixraBtn->setPixmap(protoPix);
     }
 }
 
@@ -338,7 +339,8 @@ void CVocabularyPage::paintEvent(QPaintEvent *)
 
 bool CVocabularyPage::readXML(const QDomElement & root, bool clearModel, int insRow)
 {
-    QAbstractItemModel *xmodel = m_listView->model();
+    //QAbstractItemModel *xmodel = m_listView->model();
+    CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_listView->model());
 
     if (!xmodel)
         return false;
@@ -363,6 +365,17 @@ bool CVocabularyPage::readXML(const QDomElement & root, bool clearModel, int ins
                 if (xitem)
                     xitem->readXML(itemElement);
                 currRow ++;
+            } else
+            if (itemElement.tagName() == "proto") {
+                QDomElement pixraElement = itemElement.firstChildElement("pixra");
+                if (!pixraElement.isNull()) {
+                    CAbstractPixra *pixra = pixraFactoryInstance.createPixra(pixraElement.attribute("type"));
+                    if (pixra) {
+                        pixra->readXML(pixraElement);
+                        xmodel->setProtoPixra(pixra);
+                        updateProtoPixraBtn(pixra);
+                    }
+                }
             }
         }
         node = node.nextSibling();
@@ -440,6 +453,11 @@ void CVocabularyPage::writeXML(const QString & fileName)
         xml.writeStartElement("xravlaste");
         xml.writeAttribute("version", "1.0");
 
+        xml.writeStartElement("proto");
+            if (model->protoPixra())
+                model->protoPixra()->writeXML(xml);
+        xml.writeEndElement();
+
         for (int i = 0; i < model->rowCount(); ++i) {
             CXravlasteItem *item = model->data(model->index(i), Qt::DisplayRole).value<CXravlasteItem *>();
             if (item)
@@ -515,6 +533,18 @@ void CVocabularyPage::showProtoPixras()
     m_protoPixraPopup->setFocus();
 }
 
+void CVocabularyPage::updateProtoPixraBtn(CAbstractPixra *pixra)
+{
+    if(pixra) {
+        pixra->resize(50, 50);
+        QPixmap protoPix(pixra->size());
+        pixra->setColor(Qt::gray);
+        pixra->setFrameColor(Qt::black);
+        pixra->render(&protoPix, QPoint(), QRegion(), 0);
+        m_protoPixraBtn->setPixmap(protoPix);
+    }
+}
+
 void CVocabularyPage::protoPixraChanged(CAbstractPixra *pixra)
 {
     CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
@@ -527,11 +557,7 @@ void CVocabularyPage::protoPixraChanged(CAbstractPixra *pixra)
         m_pixraEdit->assignPixra(pixra);
         m_pixraEdit->setFocus();
 
-        QPixmap protoPix(pixra->size());
-        pixra->setColor(Qt::gray);
-        pixra->setFrameColor(Qt::black);
-        pixra->render(&protoPix, QPoint(), QRegion(), 0);
-        m_protoPixraBtn->setPixmap(protoPix);
+        updateProtoPixraBtn(pixra);
     }
 }
 

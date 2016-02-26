@@ -16,8 +16,8 @@ public:
     virtual void clear();
     virtual void assign(CAbstractPixra *pixra);
 
-    virtual void readXML(const QDomElement & element) {}
-    virtual void writeXML(QXmlStreamWriter & xml) {}
+    virtual void readXML(const QDomElement & element);
+    virtual void writeXML(QXmlStreamWriter & xml);
 
     virtual void setColor(const QColor &) {}
     virtual void setFrameColor(const QColor & color);

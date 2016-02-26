@@ -20,6 +20,7 @@ public:
 
     QColor getColor(int col, int row) const;
     void   setColor(int col, int row, const QColor & color);
+    void   setColor(int idx, const QColor & color);
 
 private:
     QVector <QColor> colors;

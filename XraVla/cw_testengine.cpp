@@ -82,7 +82,7 @@ void CTestEngine::placeTestFrame()
 }
 
 
-void CTestEngine::resizeEvent(QResizeEvent *event)
+void CTestEngine::resizeEvent(QResizeEvent *)
 {
     placeTestFrame();
 }

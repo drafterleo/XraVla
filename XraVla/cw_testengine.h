@@ -32,7 +32,7 @@ protected slots:
 
 protected:
     void paintEvent(QPaintEvent *event);
-    void resizeEvent(QResizeEvent *event);
+    void resizeEvent(QResizeEvent *);
 
     void placeTestFrame();
 

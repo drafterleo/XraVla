@@ -43,6 +43,8 @@ protected:
 
     void initListView(void);
 
+    void updateProtoPixraBtn(CAbstractPixra *pixra);
+
 public slots:
     void loadItemsClear();
     void loadItemsIns();

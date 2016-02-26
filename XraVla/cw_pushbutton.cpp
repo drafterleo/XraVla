@@ -16,7 +16,7 @@ void CPushButton::setPixmap(const QPixmap & pix)
     update();
 }
 
-void CPushButton::paintEvent(QPaintEvent *event)
+void CPushButton::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
 
@@ -49,7 +49,7 @@ void CPushButton::paintEvent(QPaintEvent *event)
     painter.end();
 }
 
-void CPushButton::mouseMoveEvent(QMouseEvent *event)
+void CPushButton::mouseMoveEvent(QMouseEvent *)
 {
     if(!m_mouseIn){
         m_mouseIn = true;

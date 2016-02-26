@@ -100,3 +100,50 @@ void CColorMatrixPixra::setBackColor(const QColor & color)
     m_backColor = color;
     update();
 }
+
+void CColorMatrixPixra::readXML(const QDomElement & element)
+{
+    if (element.tagName() == "pixra" &&
+        element.attribute("type") == metaObject()->className())
+    {
+        QDomNode node = element.firstChild();
+        if (node.isElement()) {
+            QDomElement matrixElement = node.toElement();
+            if (matrixElement.tagName() == "matrix") {
+                int cols = matrixElement.attribute("cols", "1").toInt();
+                int rows = matrixElement.attribute("rows", "1").toInt();
+                matrix = CColorMatrix(cols, rows);
+                int idx = 0;
+                QDomNode colorNode = matrixElement.firstChild();
+                while(!colorNode.isNull()) {
+                    if (colorNode.isElement()) {
+                        QDomElement colorElement = colorNode.toElement();
+                        if (colorElement.tagName() == "color") {
+                            QColor color = QColor(colorElement.attribute("rgb", "#FFFFFF"));
+                            matrix.setColor(idx, color);
+                            idx++;
+                        }
+                    }
+                    colorNode = colorNode.nextSibling();
+                }
+            }
+        }
+    }
+}
+
+void CColorMatrixPixra::writeXML(QXmlStreamWriter & xml)
+{
+    xml.writeStartElement("pixra");
+    xml.writeAttribute("type", metaObject()->className());
+        xml.writeStartElement("matrix");
+        xml.writeAttribute("cols", QString::number(matrix.colCount()));
+        xml.writeAttribute("rows", QString::number(matrix.colCount()));
+        for (int r = 0; r < matrix.rowCount(); ++r)
+            for (int c = 0; c < matrix.colCount(); ++c) {
+                xml.writeStartElement("color");
+                xml.writeAttribute("rgb", matrix.getColor(c, r).name());
+                xml.writeEndElement();
+            }
+        xml.writeEndElement();
+    xml.writeEndElement();
+}

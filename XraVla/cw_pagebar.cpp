@@ -141,7 +141,7 @@ void CPageBar::mousePressEvent(QMouseEvent *event)
     }
 }
 
-void CPageBar::leaveEvent(QEvent *event)
+void CPageBar::leaveEvent(QEvent *)
 {
     m_hotPageIdx = -1;
     update();

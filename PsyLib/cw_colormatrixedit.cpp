@@ -3,7 +3,6 @@
 #include <QtDebug>
 #include <QPainter>
 #include <QMouseEvent>
-#include <QColorDialog>
 
 CColorMatrixEdit::CColorMatrixEdit(QWidget *parent)
     : CAbstractEdit(parent)
@@ -213,12 +212,18 @@ void CColorMatrixEdit::mouseDoubleClickEvent(QMouseEvent *event)
     QPoint cell = cellAt(event->pos());
     if (isCellValid(cell)) {
         QColor color = matrix.getColor(cell.x(), cell.y());
-        color = QColorDialog::getColor(color, this);
-        if (color.isValid()) {
-            matrix.setColor(cell.x(), cell.y(), color);
-            update();
-            updateColorWheel();
-            emit modified();
+        if (!colorDialogPos.isNull())
+            colorDialog.move(colorDialogPos);
+        colorDialog.setCurrentColor(color);
+        if (colorDialog.exec() == QDialog::Accepted) {
+            colorDialogPos = colorDialog.pos();
+            color = colorDialog.currentColor();
+            if (color.isValid()) {
+                matrix.setColor(cell.x(), cell.y(), color);
+                update();
+                updateColorWheel();
+                emit modified();
+            }
         }
     }
 }

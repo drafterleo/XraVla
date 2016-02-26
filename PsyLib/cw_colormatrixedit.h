@@ -5,6 +5,7 @@
 #include "cw_abstractedit.h"
 #include "cw_colormatrixpixra.h"
 #include "color_wheel.hpp"
+#include <QColorDialog>
 
 using namespace color_widgets;
 
@@ -52,6 +53,9 @@ private:
     int margin;
     CColorMatrixPixra *m_pixra;
     ColorWheel        *colorWheel;
+
+    QColorDialog colorDialog;
+    QPoint       colorDialogPos;
 };
 
 #endif // CW_COLORMATRIXEDIT_H

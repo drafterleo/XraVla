@@ -64,7 +64,7 @@ void CChoiceTestFrame::shuffleItems(int n)
     }
 }
 
-void CChoiceTestFrame::resizeEvent(QResizeEvent *event)
+void CChoiceTestFrame::resizeEvent(QResizeEvent *)
 {
     updateRects();
 }

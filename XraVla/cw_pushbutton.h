@@ -17,13 +17,13 @@ protected:
     inline bool isMouseIn() {return m_mouseIn;}
     inline bool isPressed() {return m_pressed;}
 
-    void mouseMoveEvent(QMouseEvent *event);
+    void mouseMoveEvent(QMouseEvent *);
     void mousePressEvent(QMouseEvent *event);
     void mouseReleaseEvent(QMouseEvent * event);
     void leaveEvent(QEvent *event);
     void enterEvent(QEvent *event);
 
-    void paintEvent(QPaintEvent *event);
+    void paintEvent(QPaintEvent *);
 
 private:
     bool m_mouseIn;
