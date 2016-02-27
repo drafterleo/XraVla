@@ -26,11 +26,6 @@ CMainWindow::CMainWindow(QWidget *parent) :
 void CMainWindow::closeEvent(QCloseEvent *event)
 {
     if (m_vocabularyPage->isModified()) {
-//        QMessageBox::StandardButton reply;
-//        reply = QMessageBox::critical(this, tr("XraVla"),
-//                                      "Vocabulary has not been saved. Save it?",
-//                                      QMessageBox::Save | QMessageBox::Cancel | QMessageBox::Close);
-
         CStyledMessageBox msgBox;
         msgBox.setText("Vocabulary has not been saved.");
         msgBox.setInformativeText("Do you want to save your changes?");

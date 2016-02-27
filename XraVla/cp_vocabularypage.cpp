@@ -558,11 +558,11 @@ void CVocabularyPage::protoPixraChanged(CAbstractPixra *pixra)
     if (pixra && model && m_pixraEdit) {
         model->setProtoPixra(pixra);
 
-        createPixraEdit(pixra->metaObject()->className());
-        relocateWidgets();
-        m_pixraEdit->assignPixra(pixra);
+//        createPixraEdit(pixra->metaObject()->className());
+//        relocateWidgets();
+//        m_pixraEdit->assignPixra(pixra);
+        insertNewItem();
         m_pixraEdit->setFocus();
-
         updateProtoPixraBtn(pixra);
     }
 }
