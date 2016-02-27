@@ -35,8 +35,8 @@ QPushButton:hover {
 
 /* Increase the padding, so the text is shifted when the button is pressed. */
 QPushButton:pressed {
-    padding-left: 5px;
-    padding-top: 5px;
+    padding-left: 7px;
+    padding-top: 7px;
     color: white;
     border-color: white;
 }

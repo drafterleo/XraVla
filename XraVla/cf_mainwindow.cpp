@@ -26,11 +26,15 @@ CMainWindow::CMainWindow(QWidget *parent) :
 void CMainWindow::closeEvent(QCloseEvent *event)
 {
     if (m_vocabularyPage->isModified()) {
-        CStyledMessageBox msgBox;
+        CStyledMessageBox msgBox(this);
         msgBox.setText("Vocabulary has not been saved.");
         msgBox.setInformativeText("Do you want to save your changes?");
         msgBox.setStandardButtons(QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
         msgBox.setDefaultButton(QMessageBox::Save);
+        msgBox.setButtonText(QMessageBox::Cancel, tr("Back"));
+        QPixmap msgIcon(":/images/iconWarning.png");
+        msgBox.setIconPixmap(msgIcon);
+
         int reply = msgBox.exec();
 
         if (reply == QMessageBox::Save) {

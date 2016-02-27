@@ -11,6 +11,7 @@ CColorMatrixEdit::CColorMatrixEdit(QWidget *parent)
     matrix.setSize(1, 1);
     activeCell = QPoint(-1, -1);
     currentCell = QPoint(0, 0);
+    pressedCell = QPoint(-1, -1);
     margin = 2;
     m_pixra = new CColorMatrixPixra;
     colorWheel = new ColorWheel(this);
@@ -67,7 +68,7 @@ void CColorMatrixEdit::updateColorWheel()
 {
     if(isCellValid(currentCell)) {
         colorWheel->setEnabled(true);
-        colorWheel->setColor(matrix.getColor(currentCell.x(), currentCell.y()));
+        colorWheel->setColor(matrix.getColor(currentCell));
     } else {
         colorWheel->setEnabled(false);
     }
@@ -110,7 +111,7 @@ void CColorMatrixEdit::paintEvent(QPaintEvent *)
 //    }
 
     if (isCellValid(currentCell)) {
-        QColor currColor = matrix.getColor(currentCell.x(), currentCell.y());
+        QColor currColor = matrix.getColor(currentCell);
         QColor cursorColor = Qt::white;
         if (currColor.value() > 127) {
             cursorColor = Qt::black;
@@ -202,7 +203,7 @@ bool CColorMatrixEdit::isCellValid(const QPoint &cell)
 void CColorMatrixEdit::wheelColorChanged(const QColor &color)
 {
     if (isCellValid(currentCell)) {
-        matrix.setColor(currentCell.x(), currentCell.y(), color);
+        matrix.setColor(currentCell, color);
         emit modified();
         update();
     }
@@ -212,7 +213,7 @@ void CColorMatrixEdit::mouseDoubleClickEvent(QMouseEvent *event)
 {
     QPoint cell = cellAt(event->pos());
     if (isCellValid(cell)) {
-        QColor color = matrix.getColor(cell.x(), cell.y());
+        QColor color = matrix.getColor(cell);
         if (!colorDialogPos.isNull())
             colorDialog.move(colorDialogPos);
         colorDialog.setCurrentColor(color);
@@ -220,7 +221,7 @@ void CColorMatrixEdit::mouseDoubleClickEvent(QMouseEvent *event)
             colorDialogPos = colorDialog.pos();
             color = colorDialog.currentColor();
             if (color.isValid()) {
-                matrix.setColor(cell.x(), cell.y(), color);
+                matrix.setColor(cell, color);
                 update();
                 updateColorWheel();
                 emit modified();
@@ -233,7 +234,22 @@ void CColorMatrixEdit::mousePressEvent(QMouseEvent *event)
 {
     QPoint cell = cellAt(event->pos());
     if (isCellValid(cell)) {
+        pressedCell = cell;
         currentCell = cell;
+        updateColorWheel();
+        update();
+    }
+}
+
+void CColorMatrixEdit::mouseReleaseEvent(QMouseEvent *event)
+{
+    QPoint cell = cellAt(event->pos());
+    if (isCellValid(cell)) {
+        currentCell = cell;
+        if (isCellValid(pressedCell) && pressedCell != currentCell) {
+            matrix.setColor(currentCell, matrix.getColor(pressedCell));
+        }
+        pressedCell = QPoint(-1, -1);
         updateColorWheel();
         update();
     }

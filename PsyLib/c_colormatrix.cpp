@@ -33,6 +33,11 @@ QColor CColorMatrix::getColor(int col, int row) const
     return Qt::black;
 }
 
+QColor CColorMatrix::getColor(const QPoint &cell) const
+{
+    return getColor(cell.x(), cell.y());
+}
+
 void CColorMatrix::setColor(int idx, const QColor & color)
 {
     if (idx >= 0 && idx < colors.size()) {
@@ -43,4 +48,9 @@ void CColorMatrix::setColor(int idx, const QColor & color)
 void CColorMatrix::setColor(int col, int row, const QColor & color)
 {
     setColor(col + row * cols, color);
+}
+
+void CColorMatrix::setColor(const QPoint & cell, const QColor & color)
+{
+    setColor(cell.x(), cell.y(), color);
 }

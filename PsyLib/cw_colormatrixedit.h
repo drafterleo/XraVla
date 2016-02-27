@@ -43,6 +43,7 @@ protected:
     virtual void mouseMoveEvent(QMouseEvent *event);
     virtual void mouseDoubleClickEvent(QMouseEvent *event);
     virtual void mousePressEvent(QMouseEvent *event);
+    virtual void mouseReleaseEvent(QMouseEvent *event);
     virtual void leaveEvent(QEvent *);
 
 private:
@@ -50,6 +51,7 @@ private:
     QRect matrixArea;
     QPoint activeCell;
     QPoint currentCell;
+    QPoint pressedCell;
     int margin;
     CColorMatrixPixra *m_pixra;
     ColorWheel        *colorWheel;

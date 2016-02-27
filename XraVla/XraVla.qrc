@@ -18,5 +18,6 @@
         <file>images/cbox_empty.png</file>
         <file>styles/CheckBox.style</file>
         <file>styles/MsgBox.style</file>
+        <file>images/iconWarning.png</file>
     </qresource>
 </RCC>
