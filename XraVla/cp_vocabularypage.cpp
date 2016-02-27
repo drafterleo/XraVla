@@ -13,6 +13,7 @@
 #include <QApplication>
 #include <QtDebug>
 #include <QDesktopWidget>
+#include <QResizeEvent>
 
 CVocabularyPage::CVocabularyPage(QWidget *parent) :
     CPageWidget(parent)
@@ -200,10 +201,11 @@ void CVocabularyPage::relocateWidgets()
     m_lwPanel->setGeometry(QRect(layoutX, layoutY, layoutW, layoutH));
 }
 
-void CVocabularyPage::resizeEvent(QResizeEvent *)
+void CVocabularyPage::resizeEvent(QResizeEvent *event)
 {
-   relocateWidgets();
-   listViewChanged(m_listView->currentIndex(), QModelIndex());
+    relocateWidgets();
+    if (!event->oldSize().isValid())
+        listViewChanged(m_listView->currentIndex(), QModelIndex());
 }
 
 void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelIndex & previous)

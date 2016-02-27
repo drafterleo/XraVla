@@ -18,6 +18,9 @@ CXravlasteView::CXravlasteView(QWidget *parent) :
     setItemDelegate(xdelegate);
     setEditTriggers(QAbstractItemView::NoEditTriggers);
     setSelectionMode(QAbstractItemView::SingleSelection);
+    setVerticalScrollMode(QAbstractItemView::ScrollPerPixel);
+
+    setResizeMode(QListView::Adjust);
     //setSelectionMode(QAbstractItemView::ExtendedSelection);
 //    setMovement(QListView::Free);
 //    setDragEnabled(true);

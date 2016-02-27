@@ -33,7 +33,8 @@ CXravlasteModel::~CXravlasteModel()
 
 int CXravlasteModel::rowCount(const QModelIndex &parent) const
 {
-    return m_items.count();
+   Q_UNUSED(parent)
+   return m_items.count();
 }
 
 QVariant CXravlasteModel::data(const QModelIndex &index, int role) const

@@ -26,7 +26,7 @@ public:
 protected:
     void relocateWidgets();
 
-    void resizeEvent(QResizeEvent *);
+    void resizeEvent(QResizeEvent *event);
     void paintEvent(QPaintEvent *);
 
     void initStyles();

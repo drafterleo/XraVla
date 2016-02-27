@@ -55,7 +55,7 @@ private:
     ColorWheel        *colorWheel;
 
     QColorDialog colorDialog;
-    QPoint       colorDialogPos;
+    QPoint colorDialogPos;
 };
 
 #endif // CW_COLORMATRIXEDIT_H

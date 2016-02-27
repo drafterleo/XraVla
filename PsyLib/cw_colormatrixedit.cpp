@@ -4,6 +4,7 @@
 #include <QPainter>
 #include <QMouseEvent>
 
+
 CColorMatrixEdit::CColorMatrixEdit(QWidget *parent)
     : CAbstractEdit(parent)
 {
