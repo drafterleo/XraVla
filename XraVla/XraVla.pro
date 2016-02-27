@@ -36,7 +36,8 @@ HEADERS += \
     ../PsyLib/c_colormatrix.h \
     ../PsyLib/c_editorsfactory.h \
     ../PsyLib/color_utils.hpp \
-    ../PsyLib/color_wheel.hpp
+    ../PsyLib/color_wheel.hpp \
+    cw_styledmessagebox.h
 
 SOURCES += \
     main.cpp \
@@ -70,7 +71,8 @@ SOURCES += \
     ../PsyLib/c_colormatrix.cpp \
     ../PsyLib/c_editorsfactory.cpp \
     ../PsyLib/color_utils.cpp \
-    ../PsyLib/color_wheel.cpp
+    ../PsyLib/color_wheel.cpp \
+    cw_styledmessagebox.cpp
 
 RESOURCES += \
     XraVla.qrc

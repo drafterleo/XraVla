@@ -80,6 +80,7 @@ void CXravlasteDelegate::paint(QPainter *painter, const QStyleOptionViewItem &op
 
 QSize CXravlasteDelegate::sizeHint(const QStyleOptionViewItem &option, const QModelIndex &index) const
 {
+    Q_UNUSED(index)
     return QSize(option.rect.width(), 80);
     //return QItemDelegate::sizeHint(option, index);
 }

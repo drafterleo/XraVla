@@ -1,0 +1,47 @@
+/* ------------- QLabel ------------- */
+
+QLabel {
+    color: silver;
+    font-size: 12pt;
+}
+
+QMessageBox {
+    background-color: black;
+    font-size: 12pt;
+}
+
+
+/* ------------- QPushButton ------------- */
+
+QPushButton {
+    background-color: transparent;
+    color: silver;
+    border-width: 2px;
+    border-color: darkgrey;
+    border-style: solid;
+    border-radius: 0;
+    padding: 5px;
+    /*min-width: 15ex;*/
+    min-height: 2.5ex;
+    font-size: 12pt;
+    /*font-family: Arial;*/
+    /*font-weight: bold;*/
+}
+
+QPushButton:hover {
+    color: white;
+    border-color: white;
+}
+
+/* Increase the padding, so the text is shifted when the button is pressed. */
+QPushButton:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: white;
+    border-color: white;
+}
+
+QPushButton:disabled {
+    color: rgba(150, 150, 150, 150);
+    border-color: rgba(150, 150, 150, 150);
+}

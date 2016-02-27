@@ -24,14 +24,6 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     m_wordEdit = new QLineEdit(this);
     m_specEdit = new QTextEdit(this);
 
-    m_addItemBtn = new CPushButton(QPixmap(":/images/iconPlus.png"), this);
-    m_delItemBtn = new CPushButton(QPixmap(":/images/iconMinus.png"), this);
-    m_toDownBtn = new CPushButton(QPixmap(":/images/iconDown.png"), this);
-    m_toUpBtn = new CPushButton(QPixmap(":/images/iconUp.png"), this);
-    m_loadItemsBtn = new CPushButton(QPixmap(":/images/iconOpen.png"), this);
-    m_loadItemsInsBtn = new CPushButton(QPixmap(":/images/iconOpenPlus.png"), this);
-    m_saveItemsBtn = new CPushButton(QPixmap(":/images/iconSave.png"), this);
-
     m_protoPixraBtn = new CPushButton(QPixmap(), this);
     m_randomizeBtn = new CPushButton(QPixmap(":/images/iconRandomize.png"), this);
 
@@ -40,18 +32,13 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     connect(m_protoPixraPopup, SIGNAL(pixraSelected(CAbstractPixra*)),
             this             , SLOT(protoPixraChanged(CAbstractPixra*)));
 
-    initStyles();
-    m_wordEdit->setStyleSheet(m_wordStyle);
-    m_specEdit->setStyleSheet(m_specStyle);
-    m_loadItemsBtn->setToolTip("Load Items");
-    m_loadItemsInsBtn->setToolTip("Load-Insert Items");
-    m_saveItemsBtn->setToolTip("Save Items");
-    m_addItemBtn->setToolTip("Add Item");
-    m_delItemBtn->setToolTip("Delete Item");
-    m_toDownBtn->setToolTip("Move Item Down");
-    m_toUpBtn->setToolTip("Move Item Up");
-    m_randomizeBtn->setToolTip("Randomizer");
-    m_protoPixraBtn->setToolTip("Prototype");
+    m_addItemBtn = new CPushButton(QPixmap(":/images/iconPlus.png"));
+    m_delItemBtn = new CPushButton(QPixmap(":/images/iconMinus.png"));
+    m_toDownBtn = new CPushButton(QPixmap(":/images/iconDown.png"));
+    m_toUpBtn = new CPushButton(QPixmap(":/images/iconUp.png"));
+    m_loadItemsBtn = new CPushButton(QPixmap(":/images/iconOpen.png"));
+    m_loadItemsInsBtn = new CPushButton(QPixmap(":/images/iconOpenPlus.png"));
+    m_saveItemsBtn = new CPushButton(QPixmap(":/images/iconSave.png"));
 
     m_lwBtnsLayout = new QHBoxLayout(this);
     m_lwBtnsLayout->setMargin(0);
@@ -65,6 +52,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     setMinMaxSize(m_toUpBtn, 33, 33);
     m_lwBtnsLayout->addWidget(m_loadItemsBtn);
     m_lwBtnsLayout->addWidget(m_loadItemsInsBtn);
+    m_lwBtnsLayout->addSpacing(10);
     m_lwBtnsLayout->addWidget(m_saveItemsBtn);
     m_lwBtnsLayout->addStretch(1);
     m_lwBtnsLayout->addWidget(m_addItemBtn);
@@ -74,6 +62,19 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
 
     m_lwPanel = new QWidget(this);
     m_lwPanel->setLayout(m_lwBtnsLayout);
+
+    initStyles();
+    m_wordEdit->setStyleSheet(m_wordStyle);
+    m_specEdit->setStyleSheet(m_specStyle);
+    m_loadItemsBtn->setToolTip("Load Items");
+    m_loadItemsInsBtn->setToolTip("Load-Insert Items");
+    m_saveItemsBtn->setToolTip("Save Items");
+    m_addItemBtn->setToolTip("Add Item");
+    m_delItemBtn->setToolTip("Delete Item");
+    m_toDownBtn->setToolTip("Move Item Down");
+    m_toUpBtn->setToolTip("Move Item Up");
+    m_randomizeBtn->setToolTip("Randomizer");
+    m_protoPixraBtn->setToolTip("Prototype");
 
     m_listView = new CXravlasteView(this);
     m_listView->setVerticalScrollBar(new CStyledScrollBar());
