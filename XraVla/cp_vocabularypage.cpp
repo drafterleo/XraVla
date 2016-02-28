@@ -67,6 +67,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     initStyles();
     m_wordEdit->setStyleSheet(m_wordStyle);
     m_specEdit->setStyleSheet(m_specStyle);
+
     m_loadItemsBtn->setToolTip("Load Items");
     m_loadItemsInsBtn->setToolTip("Load-Insert Items");
     m_saveItemsBtn->setToolTip("Save Items");
@@ -112,7 +113,6 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
 
     setFileName("unknown.xvl");
     m_modified = false;
-
 }
 
 CVocabularyPage::~CVocabularyPage()
@@ -125,6 +125,7 @@ void CVocabularyPage::createPixraEdit(const QString &classNameStr)
     m_pixraEdit = editFactoryInstance.createEditor(classNameStr);
     m_pixraEdit->setParent(this);
     connect(m_pixraEdit, SIGNAL(modified()), SLOT(pixraChanged()));
+    m_pixraEdit->installEventFilter(this);
     m_pixraEdit->show();
 }
 
@@ -209,6 +210,32 @@ void CVocabularyPage::resizeEvent(QResizeEvent *event)
     if (!event->oldSize().isValid())
         listViewChanged(m_listView->currentIndex(), QModelIndex());
 }
+
+bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
+{
+    if (target == m_wordEdit || target == m_specEdit || target == m_pixraEdit) {
+        if (event->type() == QEvent::KeyPress) {
+            QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
+            if (keyEvent->key() == Qt::Key_S && (keyEvent->modifiers().testFlag(Qt::ControlModifier))){
+                // <Ctrl + S> : set vocabulary protoPixra to current Item
+                CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
+                createPixraEdit(model->protoPixra()->metaObject()->className());
+                relocateWidgets();
+                m_pixraEdit->assignPixra(model->protoPixra());
+                return true;
+            }
+            if (keyEvent->key() == Qt::Key_P && (keyEvent->modifiers().testFlag(Qt::ControlModifier))){
+                // <Ctrl + P> : set current pixra as Proto
+                CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
+                model->setProtoPixra(m_pixraEdit->pixra());
+                updateProtoPixraBtn(m_pixraEdit->pixra());
+                return true;
+            }
+        }
+    }
+    return CPageWidget::eventFilter(target, event);
+}
+
 
 void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelIndex & previous)
 {
@@ -558,7 +585,6 @@ void CVocabularyPage::protoPixraChanged(CAbstractPixra *pixra)
 
     if (pixra && model && m_pixraEdit) {
         model->setProtoPixra(pixra);
-
 //        createPixraEdit(pixra->metaObject()->className());
 //        relocateWidgets();
 //        m_pixraEdit->assignPixra(pixra);

@@ -26,8 +26,10 @@ public:
 protected:
     void relocateWidgets();
 
+    /* virtuals */
     void resizeEvent(QResizeEvent *event);
     void paintEvent(QPaintEvent *);
+    bool eventFilter(QObject *target, QEvent *event);
 
     void initStyles();
 

@@ -20,7 +20,7 @@ CColorMatrixEdit::CColorMatrixEdit(QWidget *parent)
     setMouseTracking(true);
     setFocusPolicy(Qt::ClickFocus);
 
-    installEventFilter(colorWheel);
+    colorWheel->installEventFilter(this);
 }
 
 CColorMatrixEdit::~CColorMatrixEdit()
