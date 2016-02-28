@@ -23,6 +23,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
 
     m_wordEdit = new QLineEdit(this);
     m_specEdit = new QTextEdit(this);
+    m_specEdit->setAcceptRichText(false);
 
     m_protoPixraBtn = new CPushButton(QPixmap(), this);
     m_randomizeBtn = new CPushButton(QPixmap(":/images/iconRandomize.png"), this);

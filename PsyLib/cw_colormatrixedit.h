@@ -30,11 +30,13 @@ public:
     virtual void randomize() {fillRandom();}
 
 protected slots:
-    void wheelColorChanged(const QColor & color);
+    void colorWheelChanged(const QColor & color);
 
 protected:
     QPoint cellAt(QPoint point);
     bool isCellValid(const QPoint &cell);
+    void setCurrentCell(int col, int row);
+    void setMatrixSize(int cols, int rows);
     void updateMatrixArea();
     void updateColorWheel();
 
@@ -45,6 +47,8 @@ protected:
     virtual void mousePressEvent(QMouseEvent *event);
     virtual void mouseReleaseEvent(QMouseEvent *event);
     virtual void leaveEvent(QEvent *);
+    virtual void keyPressEvent(QKeyEvent *event);
+    virtual bool eventFilter(QObject *target, QEvent *event);
 
 private:
     CColorMatrix matrix;

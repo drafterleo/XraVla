@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xravlaste>
+<xravlaste version="1.0">
+    <proto>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </proto>
+    <item>
+        <word>-B-  WANT/DESIRE</word>
+        <spec>&lt; (I) affective (F) request &gt;  &lt; (I) desire of need/lack (F) thing needed &gt;  &lt; (I) hope/wish (F) goal/aspiration &gt;</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a90303"/>
+                <color rgb="#79b0a2"/>
+                <color rgb="#d89312"/>
+                <color rgb="#7f204d"/>
+                <color rgb="#aeb079"/>
+                <color rgb="#a0a74d"/>
+                <color rgb="#c468ad"/>
+                <color rgb="#8f79b0"/>
+                <color rgb="#4390e0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>-Č- PHYSICAL CONTACT</word>
+        <spec>&lt; physical contact of 2 or more objects &gt; &lt; application of physical preassure/force &gt;  &lt; move via phys. contact &gt;</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>-D- NAME/DESIGNATION</word>
+        <spec>&lt; (I) name (F) title &gt; &lt;(I) designation (F) formal designation &gt; &lt; (I) label/nickname	(F) role &gt;</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>-Čh-  MAKE/CONSTRUCT</word>
+        <spec>&lt; (I) create (non-mechanical) (F) construct / build &gt; &lt;(I) to form/fashion/mix (F) integrate parts &gt; &lt; (I) integrate/organize (F) machine / mechanical device&gt;</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>-X- VISION/SIGHT</word>
+        <spec>&lt; (I) see + thing seen (F) observe / visually examine &gt; &lt;(I) eye (F) optical instrument &gt; &lt;(I) visualize/imagine (F) create, render an image &gt;</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#86a5ee"/>
+                <color rgb="#dbb1b1"/>
+                <color rgb="#1756ea"/>
+                <color rgb="#713b09"/>
+                <color rgb="#916767"/>
+                <color rgb="#939db9"/>
+                <color rgb="#16184d"/>
+                <color rgb="#380e0e"/>
+                <color rgb="#4a1374"/>
+            </matrix>
+        </pixra>
+    </item>
+</xravlaste>

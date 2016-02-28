@@ -15,10 +15,12 @@ CColorMatrixEdit::CColorMatrixEdit(QWidget *parent)
     margin = 2;
     m_pixra = new CColorMatrixPixra;
     colorWheel = new ColorWheel(this);
-    connect(colorWheel, SIGNAL(colorChanged(QColor)), SLOT(wheelColorChanged(QColor)));
+    connect(colorWheel, SIGNAL(colorChanged(QColor)), SLOT(colorWheelChanged(QColor)));
 
     setMouseTracking(true);
     setFocusPolicy(Qt::ClickFocus);
+
+    installEventFilter(colorWheel);
 }
 
 CColorMatrixEdit::~CColorMatrixEdit()
@@ -200,12 +202,73 @@ bool CColorMatrixEdit::isCellValid(const QPoint &cell)
         return false;
 }
 
-void CColorMatrixEdit::wheelColorChanged(const QColor &color)
+void CColorMatrixEdit::colorWheelChanged(const QColor &color)
 {
     if (isCellValid(currentCell)) {
         matrix.setColor(currentCell, color);
         emit modified();
         update();
+    }
+}
+
+void CColorMatrixEdit::setCurrentCell(int col, int row)
+{
+    if (row >= 0 && col >= 0 && col < matrix.colCount() && row < matrix.rowCount()){
+        currentCell = QPoint(col, row);
+        updateColorWheel();
+        update();
+    }
+}
+
+void CColorMatrixEdit::setMatrixSize(int cols, int rows)
+{
+    if (matrix.size() != QSize(cols, rows)) {
+        matrix.setSize(cols, rows);
+        updateColorWheel();
+        update();
+    }
+}
+
+bool CColorMatrixEdit::eventFilter(QObject *target, QEvent *event)
+{
+    if (target == colorWheel) {
+        if (event->type() == QEvent::KeyPress) {
+            this->keyPressEvent(static_cast<QKeyEvent *>(event));
+            return true;
+        }
+    }
+    return QWidget::eventFilter(target, event);
+}
+
+
+void CColorMatrixEdit::keyPressEvent(QKeyEvent *event)
+{
+    if (event->key() == Qt::Key_Left) {
+        setCurrentCell(currentCell.x() - 1, currentCell.y());
+    } else
+    if (event->key() == Qt::Key_Right) {
+        setCurrentCell(currentCell.x() + 1, currentCell.y());
+    } else
+    if (event->key() == Qt::Key_Up) {
+        setCurrentCell(currentCell.x(), currentCell.y() - 1);
+    } else
+    if (event->key() == Qt::Key_Down) {
+        setCurrentCell(currentCell.x(), currentCell.y() + 1);
+    } else
+    if (event->key() == Qt::Key_1) {
+        setMatrixSize(1, 1);
+    } else
+    if (event->key() == Qt::Key_2) {
+        setMatrixSize(2, 2);
+    } else
+    if (event->key() == Qt::Key_3) {
+        setMatrixSize(3, 3);
+    } else
+    if (event->key() == Qt::Key_4) {
+        setMatrixSize(4, 4);
+    } else
+    if (event->key() == Qt::Key_5) {
+        setMatrixSize(5, 5);
     }
 }
 
