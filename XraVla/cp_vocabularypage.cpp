@@ -22,8 +22,10 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     createPixraEdit("CFiguresEdit");
 
     m_wordEdit = new QLineEdit(this);
+
     m_specEdit = new QTextEdit(this);
     m_specEdit->setAcceptRichText(false);
+    m_specEdit->setVerticalScrollBar(new CStyledScrollBar);
 
     m_protoPixraBtn = new CPushButton(QPixmap(), this);
     m_randomizeBtn = new CPushButton(QPixmap(":/images/iconRandomize.png"), this);
@@ -613,14 +615,12 @@ void CVocabularyPage::initStyles()
                    "}"
                    "QLineEdit:hover {"
                       "color: white;"
-                      "background-color: transparent;"
                       "font-family: \"Verdana\";"
                       "font-size: 12pt;"
                       "border: 2px solid #538BC4;"
                    "}"
                    "QLineEdit:focus {"
                       "color: white;"
-                      "background-color: transparent;"
                       "font-family: \"Verdana\";"
                       "font-size: 12pt;"
                       "border: 2px solid #538BC4;"
@@ -629,20 +629,19 @@ void CVocabularyPage::initStyles()
     m_specStyle = "QTextEdit {"
                      "color: #91E22C;"
                      "background-color: transparent;"
+                     //"background-color: #272822;"
                      "font-family: \"Verdana\";"
                      "font-size: 10pt;"
                      "border: 2px solid #466A7E;"
                   "}"
                   "QTextEdit:hover {"
                      "color: #91E22C;"
-                     "background-color: transparent;"
                      "font-family: \"Verdana\";"
                      "font-size: 10pt;"
                      "border: 2px solid #538BC4;"
                   "}"
                   "QTextEdit:focus {"
                      "color: #91E22C;"
-                     "background-color: transparent;"
                      "font-family: \"Verdana\";"
                      "font-size: 10pt;"
                      "border: 2px solid #538BC4;"

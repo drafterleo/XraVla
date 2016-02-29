@@ -2,18 +2,21 @@
 <!DOCTYPE xravlaste>
 <xravlaste version="1.0">
     <proto>
-        <pixra type="CColorMatrixPixra">
-            <matrix cols="3" rows="3">
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-            </matrix>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
         </pixra>
     </proto>
     <item>
@@ -121,6 +124,23 @@
     <item>
         <word>-QT- PLEASURE/SATISFACTION</word>
         <spec>[IF] &lt; (1)  physical/sensual pleasure (feeling and cause)&gt; &lt; (2) emotional/psychological contentment/pleasure &gt; &lt; (3) physical satisfaction/satiety &gt; [F] &lt; (1) spiritual/value-based/philosophical pleasure &gt; &lt;(2) happiness&gt; &lt;(3) emotional/psychological satisfaction&gt;</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#358a95"/>
+                <color rgb="#0b9d03"/>
+                <color rgb="#f1b92b"/>
+                <color rgb="#17cb59"/>
+                <color rgb="#add22b"/>
+                <color rgb="#ebcc37"/>
+                <color rgb="#0068c6"/>
+                <color rgb="#17782c"/>
+                <color rgb="#eab30d"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>-R- THOUGHT/IDEA/REASON</word>
+        <spec>[IF] &lt;(1) think + idea cogitated &gt; &lt; (2) consider + idea considered &gt; &lt; (3) propose + argument&gt; [F] (logic, analyze, abstract concept)</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#a0a0a0"/>
