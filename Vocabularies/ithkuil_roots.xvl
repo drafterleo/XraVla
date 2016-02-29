@@ -34,36 +34,19 @@
         </pixra>
     </item>
     <item>
-        <word>-Č- PHYSICAL CONTACT</word>
-        <spec>&lt; physical contact of 2 or more objects &gt; &lt; application of physical preassure/force &gt;  &lt; move via phys. contact &gt;</spec>
-        <pixra type="CColorMatrixPixra">
-            <matrix cols="3" rows="3">
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-            </matrix>
-        </pixra>
-    </item>
-    <item>
         <word>-D- NAME/DESIGNATION</word>
         <spec>&lt; (I) name (F) title &gt; &lt;(I) designation (F) formal designation &gt; &lt; (I) label/nickname	(F) role &gt;</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
+                <color rgb="#efb102"/>
+                <color rgb="#3683e6"/>
+                <color rgb="#db2a2a"/>
+                <color rgb="#f69f16"/>
+                <color rgb="#3651e6"/>
+                <color rgb="#672323"/>
+                <color rgb="#c28d3d"/>
+                <color rgb="#5069bf"/>
+                <color rgb="#bf5950"/>
             </matrix>
         </pixra>
     </item>
@@ -72,15 +55,15 @@
         <spec>&lt; (I) create (non-mechanical) (F) construct / build &gt; &lt;(I) to form/fashion/mix (F) integrate parts &gt; &lt; (I) integrate/organize (F) machine / mechanical device&gt;</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
+                <color rgb="#48e186"/>
+                <color rgb="#bc6b1a"/>
+                <color rgb="#567686"/>
+                <color rgb="#599440"/>
+                <color rgb="#a32f70"/>
+                <color rgb="#3a5868"/>
+                <color rgb="#819f1d"/>
+                <color rgb="#b2263d"/>
+                <color rgb="#37375a"/>
             </matrix>
         </pixra>
     </item>
@@ -98,6 +81,57 @@
                 <color rgb="#16184d"/>
                 <color rgb="#380e0e"/>
                 <color rgb="#4a1374"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>-DR- MANAGE/GUIDE</word>
+        <spec>[IF] &lt; (1) guide / guideline + compliance &gt; &lt; (2)  manage / direct + compliance &gt; &lt;(3) discipline + submission/obedience &gt; [F] &lt; rule &gt; &lt; govern &gt; &lt; moral guideline&gt;</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#ff826c"/>
+                <color rgb="#62c0dc"/>
+                <color rgb="#7ce69b"/>
+                <color rgb="#cb2828"/>
+                <color rgb="#e400fd"/>
+                <color rgb="#13a71f"/>
+                <color rgb="#ffb26c"/>
+                <color rgb="#239ef4"/>
+                <color rgb="#b9f2ca"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>-DY- SENSE/SENSATION</word>
+        <spec>[IF] &lt; (1)  feeling/act of sensing &gt; &lt;(2) sensor organ/function/ability&gt; &lt; (3) imagine (feeling/image)&gt;</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#e0511f"/>
+                <color rgb="#db5f28"/>
+                <color rgb="#3e3e3e"/>
+                <color rgb="#39ecd8"/>
+                <color rgb="#4e7e44"/>
+                <color rgb="#14a314"/>
+                <color rgb="#0052be"/>
+                <color rgb="#2128a8"/>
+                <color rgb="#546cc0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>-QT- PLEASURE/SATISFACTION</word>
+        <spec>[IF] &lt; (1)  physical/sensual pleasure (feeling and cause)&gt; &lt; (2) emotional/psychological contentment/pleasure &gt; &lt; (3) physical satisfaction/satiety &gt; [F] &lt; (1) spiritual/value-based/philosophical pleasure &gt; &lt;(2) happiness&gt; &lt;(3) emotional/psychological satisfaction&gt;</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
             </matrix>
         </pixra>
     </item>

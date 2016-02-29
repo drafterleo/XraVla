@@ -38,7 +38,7 @@ void CXravlasteDelegate::paint(QPainter *painter, const QStyleOptionViewItem &op
         specPen = QColor(0x91E22C);
     }else{
         framePen = Qt::NoPen;//QPen(Qt::white, 2);
-        brush = QColor(0x1E1E1E);
+        brush = QColor(0x2A2A2A);
         wordPen = QColor(Qt::gray);
         specPen = QColor(0x9FB89A); //QColor(0xBEDF96);
     }
@@ -66,11 +66,11 @@ void CXravlasteDelegate::paint(QPainter *painter, const QStyleOptionViewItem &op
     int startX = 78;
     QRect wordRect = QRect(startX, pixraPos.y(),
                            option.rect.width() - startX, 25);
-    painter->setFont(QFont("verdana", 13));
+    painter->setFont(QFont("verdana", 11));
     painter->setPen(wordPen);
     painter->drawText(wordRect, Qt::AlignLeft, word);
 
-    QRect specRect = QRect(startX, pixraPos.y() + 25,
+    QRect specRect = QRect(startX, pixraPos.y() + 20,
                            option.rect.width() - startX, 40);
     painter->setFont(QFont("verdana", 9));
     painter->setPen(specPen);
