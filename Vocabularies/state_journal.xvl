@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xravlaste>
 <xravlaste version="1.0">
+    <proto>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </proto>
     <item>
         <word>25.12.2012 [16:30]</word>
         <spec>чешется левая нога</spec>
@@ -124,24 +142,6 @@
             <figure type="CRectangleFigure">
                 <anchor x="0.945714" y="0.554286"/>
                 <anchor x="0.474286" y="0.0685714"/>
-            </figure>
-        </pixra>
-    </item>
-    <item>
-        <word>01.01.2013 [5:40]</word>
-        <spec>после Нового Года</spec>
-        <pixra type="CFiguresPixra">
-            <figure type="CRectangleFigure">
-                <anchor x="0.228571" y="0.314286"/>
-                <anchor x="0.57" y="0.81"/>
-            </figure>
-            <figure type="CRectangleFigure">
-                <anchor x="0.171429" y="0.371429"/>
-                <anchor x="0.728572" y="0.525715"/>
-            </figure>
-            <figure type="CRectangleFigure">
-                <anchor x="0.685714" y="0.725714"/>
-                <anchor x="0.851429" y="0.891429"/>
             </figure>
         </pixra>
     </item>
