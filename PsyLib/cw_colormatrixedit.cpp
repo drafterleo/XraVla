@@ -35,7 +35,31 @@ void CColorMatrixEdit::setColorMatrix(const CColorMatrix & cm)
     activeCell = QPoint(-1, -1);
     updateMatrixArea();
     updateColorWheel();
+    commitModification();
 }
+
+void CColorMatrixEdit::commitModification()
+{
+    history.append(matrix);
+    while (history.length() > 1000) {
+        history.removeFirst();
+    }
+    emit modified();
+}
+
+void CColorMatrixEdit::undoModification()
+{
+    if (history.length() > 0) {
+        if (history.length() > 1) { // save first matrix
+            history.removeLast();
+        }
+        matrix = history.last();
+        updateMatrixArea();
+        updateColorWheel();
+        emit modified();
+    }
+}
+
 
 void CColorMatrixEdit::updateMatrixArea()
 {
@@ -142,7 +166,7 @@ void CColorMatrixEdit::fillRandom(void)
         }
     updateColorWheel();
     this->update();
-    emit modified();
+    commitModification();
 }
 
 void CColorMatrixEdit::clear()
@@ -153,7 +177,7 @@ void CColorMatrixEdit::clear()
         }
     this->update();
     updateColorWheel();
-    emit modified();
+    commitModification();
 }
 
 bool CColorMatrixEdit::assignPixra(CAbstractPixra *pixra)
@@ -163,7 +187,7 @@ bool CColorMatrixEdit::assignPixra(CAbstractPixra *pixra)
         matrix = cmPixra->getMatrix();
         updateMatrixArea();
         updateColorWheel();
-        emit modified();
+        commitModification();
         return true;
     }
     return false;
@@ -204,10 +228,10 @@ bool CColorMatrixEdit::isCellValid(const QPoint &cell)
 
 void CColorMatrixEdit::colorWheelChanged(const QColor &color)
 {
-    if (isCellValid(currentCell)) {
+    if (isCellValid(currentCell) && matrix.getColor(currentCell) != color) {
         matrix.setColor(currentCell, color);
-        emit modified();
         update();
+        commitModification();
     }
 }
 
@@ -222,10 +246,12 @@ void CColorMatrixEdit::setCurrentCell(int col, int row)
 
 void CColorMatrixEdit::setMatrixSize(int cols, int rows)
 {
-    if (matrix.size() != QSize(cols, rows)) {
+    if (matrix.size() != QSize(cols, rows) && cols > 0 && rows > 0) {
         matrix.setSize(cols, rows);
+        currentCell = QPoint(0, 0);
         updateColorWheel();
         update();
+        commitModification();
     }
 }
 
@@ -269,6 +295,11 @@ void CColorMatrixEdit::keyPressEvent(QKeyEvent *event)
     } else
     if (event->key() == Qt::Key_5) {
         setMatrixSize(5, 5);
+    } else
+    if (event->modifiers() & Qt::ControlModifier) {
+        if (event->key() == Qt::Key_Z) {
+            undoModification();
+        }
     }
 }
 
@@ -287,7 +318,7 @@ void CColorMatrixEdit::mouseDoubleClickEvent(QMouseEvent *event)
                 matrix.setColor(cell, color);
                 update();
                 updateColorWheel();
-                emit modified();
+                commitModification();
             }
         }
     }
@@ -311,6 +342,7 @@ void CColorMatrixEdit::mouseReleaseEvent(QMouseEvent *event)
         currentCell = cell;
         if (isCellValid(pressedCell) && pressedCell != currentCell) {
             matrix.setColor(currentCell, matrix.getColor(pressedCell));
+            commitModification();
         }
         pressedCell = QPoint(-1, -1);
         updateColorWheel();

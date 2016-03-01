@@ -6,6 +6,7 @@
 #include "cw_colormatrixpixra.h"
 #include "color_wheel.hpp"
 #include <QColorDialog>
+#include <QList>
 
 using namespace color_widgets;
 
@@ -40,6 +41,9 @@ protected:
     void updateMatrixArea();
     void updateColorWheel();
 
+    void commitModification();
+    void undoModification();
+
     virtual void resizeEvent(QResizeEvent *);
     virtual void paintEvent(QPaintEvent *);
     virtual void mouseMoveEvent(QMouseEvent *event);
@@ -62,6 +66,8 @@ private:
 
     QColorDialog colorDialog;
     QPoint colorDialogPos;
+
+    QList <CColorMatrix> history;
 };
 
 #endif // CW_COLORMATRIXEDIT_H
