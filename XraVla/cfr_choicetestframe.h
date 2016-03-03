@@ -33,7 +33,7 @@ private:
     QVector <CXravlasteItem *> m_items;
     int m_rightIdx;
 
-    QRect m_rightRect;
+    QRect m_descriptRect;
     QVector <QRect> m_pixraRects;
 
     int m_hotIdx;

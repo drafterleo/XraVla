@@ -62,8 +62,8 @@ void CTestEngine::clearVocabulary()
 
 void CTestEngine::placeTestFrame()
 {
-    int w = 640;
-    int h = 400;
+    int w = width() - 20; //640;
+    int h = height() - 120; //400;
 
     m_infoLabel->setGeometry((width() - w)/2, (height() - h)/2, w, h);
 

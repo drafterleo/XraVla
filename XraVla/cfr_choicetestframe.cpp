@@ -2,6 +2,7 @@
 #include <QPainter>
 #include <QResizeEvent>
 #include <QtDebug>
+#include <QFontMetrics>
 
 CChoiceTestFrame::CChoiceTestFrame(QWidget *parent) :
     CAbstractTestFrame(parent)
@@ -71,21 +72,35 @@ void CChoiceTestFrame::resizeEvent(QResizeEvent *)
 
 void CChoiceTestFrame::updateRects()
 {
-    m_rightRect = QRect(0, 0, width(), height() * 0.3);
+    m_descriptRect = QRect(0, 0, width(), height() * 0.25);
 
     if (m_pixraRects.count() > 0) {
-        int rwidth = width() / m_pixraRects.count();
-        int xshift = (width() % m_pixraRects.count())/2;
-        for (int i = 0; i < m_pixraRects.count(); ++i) {
-            QRect itemRect = QRect(i*rwidth + xshift, m_rightRect.bottom(), rwidth, height() - m_rightRect.height());
-            int pixWidth = itemRect.width() - 12;
-            int pixHeight = pixWidth;
-            m_pixraRects[i] = QRect(itemRect.left() + 6, itemRect.top() + 50, pixWidth, pixHeight);
-            if (m_items[i]->pixra){
-                m_items[i]->pixra->resize(pixWidth, pixHeight);
-            }
-            //qDebug() << m_itemRects[i];
-        }
+      QRect area = QRect((width() % m_pixraRects.count())/2,
+                         m_descriptRect.bottom(),
+                         (width() / m_pixraRects.count()) * m_pixraRects.count(),
+                         height() - m_descriptRect.height());
+
+      int span = 6;
+      int itemWidth = area.width() / m_pixraRects.count();
+      int itemHeight = area.height();
+      int pixWidth =  itemWidth - span * 2;
+      int pixHeight =  itemHeight;
+      if (pixWidth > pixHeight) {
+          pixWidth = pixHeight;
+      } else {
+          pixHeight = pixWidth;
+      }
+      int dy = (area.height() - pixHeight)/2;
+      m_descriptRect.translate(0, dy);
+
+      for (int i = 0; i < m_pixraRects.count(); ++i) {
+          int x = i * itemWidth + span;
+          int y = area.top() + dy;
+          m_pixraRects[i] = QRect(x, y, pixWidth, pixHeight);
+          if (m_items[i]->pixra){
+              m_items[i]->pixra->resize(pixWidth, pixHeight);
+          }
+      }
     }
 }
 
@@ -144,6 +159,7 @@ void CChoiceTestFrame::paintEvent(QPaintEvent *event)
 {
     Q_UNUSED(event)
     QPainter painter(this);
+    painter.setRenderHint(QPainter::Antialiasing);
 //    painter.setPen(Qt::gray);
 //    painter.drawRect(this->rect().adjusted(0, 0, -1, -1));
 //    painter.setPen(Qt::green);
@@ -151,17 +167,20 @@ void CChoiceTestFrame::paintEvent(QPaintEvent *event)
 //    painter.setPen(Qt::blue);
 //    painter.drawRects(m_itemRects);
 
+
     /* draw word */
     if (m_rightIdx >= 0 && m_rightIdx < m_items.count()) {
-        QRect wordRect = m_rightRect.adjusted(0, 0, 0, -m_rightRect.height()/2);
-        painter.setPen(Qt::white);
         painter.setFont(m_wordFont);
+        QFontMetrics metrics(m_wordFont);
+        QRect wordRect = m_descriptRect;
+        wordRect.setHeight(metrics.height());
+        painter.setPen(Qt::white);
         painter.drawText(wordRect, Qt::AlignCenter, m_items[m_rightIdx]->word);
         if (m_showSpec || !m_testMode) {
-            QRect specRect = wordRect.translated(0, wordRect.height() - 15);
+            QRect specRect = wordRect.translated(0, wordRect.height() + 5);
             painter.setPen(QColor(0x9FB89A));
             painter.setFont(m_specFont);
-            painter.drawText(specRect, Qt::AlignCenter | Qt::AlignTop, m_items[m_rightIdx]->spec);
+            painter.drawText(specRect, Qt::AlignCenter | Qt::AlignTop | Qt::TextWordWrap, m_items[m_rightIdx]->spec);
         }
     }
 
