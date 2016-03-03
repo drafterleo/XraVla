@@ -7,7 +7,7 @@
 CTestEngine::CTestEngine(QWidget *parent) :
     QWidget(parent)
 {
-    m_frame = 0;
+    m_choiceFrame = 0;
     m_usedMax = 10;
     m_testItemCount = 4;
 
@@ -63,7 +63,7 @@ void CTestEngine::clearVocabulary()
 void CTestEngine::placeTestFrame()
 {
     int w = width() - 20; //640;
-    int h = height() - 120; //400;
+    int h = height() - 200; //400;
 
     m_infoLabel->setGeometry((width() - w)/2, (height() - h)/2, w, h);
 
@@ -71,13 +71,13 @@ void CTestEngine::placeTestFrame()
     m_retryBtn->move(m_statsWidget->geometry().bottomRight() + QPoint(-48, 5));
     m_showSpecCBox->move(width() - 20 - m_showSpecCBox->width(), 10);
 
-    if (m_frame) {
-        m_frame->setGeometry((width() - w)/2, (height() - h)/2, w, h);
+    if (m_choiceFrame) {
+        m_choiceFrame->setGeometry((width() - w)/2, (height() - h)/2, w, h);
 
-        m_stopBtn->move(m_frame->geometry().right() - 50,
-                        m_frame->geometry().bottom());
-        m_forwardBtn->move(m_frame->geometry().right() - 105,
-                           m_frame->geometry().bottom());
+        m_stopBtn->move(m_choiceFrame->geometry().right() - 50,
+                        m_choiceFrame->geometry().bottom() + 5);
+        m_forwardBtn->move(m_choiceFrame->geometry().right() - 105,
+                           m_choiceFrame->geometry().bottom() + 5);
     }
 }
 
@@ -136,7 +136,7 @@ void CTestEngine::startTest()
 
 void CTestEngine::nextFrame()
 {
-    delete m_frame;
+    delete m_choiceFrame;
     CChoiceTestFrame *choiceFrame = new CChoiceTestFrame(this);
     connect(choiceFrame, SIGNAL(testDone(STestResult)), this, SLOT(frameDone(STestResult)));
 
@@ -161,11 +161,11 @@ void CTestEngine::nextFrame()
         m_usedItems.remove(0);
 
     choiceFrame->shuffleItems(5);
-    m_frame = choiceFrame;
+    m_choiceFrame = choiceFrame;
 
     placeTestFrame();
-    m_frame->showSpec(m_showSpecCBox->isChecked());
-    m_frame->show();
+    m_choiceFrame->showSpec(m_showSpecCBox->isChecked());
+    m_choiceFrame->show();
 }
 
 void CTestEngine::frameDone(STestResult result)
@@ -183,8 +183,8 @@ void CTestEngine::stopTest()
 
 void CTestEngine::errorFrame(const QString &msg)
 {
-    delete m_frame;
-    m_frame = 0;
+    delete m_choiceFrame;
+    m_choiceFrame = 0;
 
     m_infoLabel->setText(msg);
     m_infoLabel->setFrameShape(QFrame::Box);
@@ -196,8 +196,8 @@ void CTestEngine::errorFrame(const QString &msg)
 
 void CTestEngine::statsFrame()
 {
-    delete m_frame;
-    m_frame = 0;
+    delete m_choiceFrame;
+    m_choiceFrame = 0;
 
     int right = 0;
 
@@ -222,8 +222,8 @@ void CTestEngine::paintEvent(QPaintEvent *event)
 
 void CTestEngine::showItemSpec(bool xu)
 {
-    if (m_frame) {
-        m_frame->showSpec(xu);
+    if (m_choiceFrame) {
+        m_choiceFrame->showSpec(xu);
     }
 }
 

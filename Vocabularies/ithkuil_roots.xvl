@@ -123,15 +123,15 @@
         <spec>[IF] &lt; (1)  physical/sensual pleasure (feeling and cause)&gt; &lt; (2) emotional/psychological contentment/pleasure &gt; &lt; (3) physical satisfaction/satiety &gt; [F] &lt; (1) spiritual/value-based/philosophical pleasure &gt; &lt;(2) happiness&gt; &lt;(3) emotional/psychological satisfaction&gt;</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
-                <color rgb="#358a95"/>
+                <color rgb="#fbf836"/>
                 <color rgb="#0b9d03"/>
-                <color rgb="#f1b92b"/>
-                <color rgb="#17cb59"/>
-                <color rgb="#add22b"/>
-                <color rgb="#ebcc37"/>
-                <color rgb="#0068c6"/>
+                <color rgb="#06c8ea"/>
+                <color rgb="#fd536a"/>
+                <color rgb="#5dd22b"/>
+                <color rgb="#3deb37"/>
+                <color rgb="#fdac53"/>
                 <color rgb="#17782c"/>
-                <color rgb="#eab30d"/>
+                <color rgb="#0068c6"/>
             </matrix>
         </pixra>
     </item>
@@ -154,18 +154,18 @@
     </item>
     <item>
         <word>-S- CHANGE/ALTER/DEVIATE</word>
-        <spec>[IF] &lt; (1) change apperance/behavior&gt; &lt; (2) vary, variation&gt; &lt; (2)  deviate, deviation &gt; [F] (alter, permutate, modulate)</spec>
+        <spec>[IF] &lt; (1) change apperance/behavior&gt; &lt; (2) vary, variation&gt; &lt; (3)  deviate, deviation &gt; [F] (alter, permutate, modulate)</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
+                <color rgb="#4fb50e"/>
+                <color rgb="#fff522"/>
+                <color rgb="#f27320"/>
+                <color rgb="#0eb59b"/>
+                <color rgb="#fbbf3c"/>
+                <color rgb="#ee9439"/>
+                <color rgb="#6e9014"/>
+                <color rgb="#906914"/>
+                <color rgb="#901488"/>
             </matrix>
         </pixra>
     </item>
@@ -174,15 +174,15 @@
         <spec>[IF] &lt; (1) course/way (itself or travelling along)&gt; &lt; (2) path &gt; &lt; (3) trajectory&gt; [F] (route, road, channel)</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
+                <color rgb="#68cfee"/>
+                <color rgb="#9663fb"/>
+                <color rgb="#f28867"/>
+                <color rgb="#4bbf42"/>
+                <color rgb="#147beb"/>
+                <color rgb="#85ad26"/>
+                <color rgb="#606b61"/>
+                <color rgb="#3e5337"/>
+                <color rgb="#a59589"/>
             </matrix>
         </pixra>
     </item>
@@ -191,15 +191,15 @@
         <spec>[IF] &lt; (1) excange/swap (entity given or taken)&gt; &lt; (2) substitute/transpose/interchange (new place/old place)&gt; &lt; (3) change out/supplant/replace&gt; [F] (act of trade, commercial transaction, investment)</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
+                <color rgb="#fc558a"/>
+                <color rgb="#1edd1c"/>
+                <color rgb="#5385d5"/>
+                <color rgb="#a1db63"/>
+                <color rgb="#f6c125"/>
+                <color rgb="#a3aacb"/>
+                <color rgb="#07cd59"/>
+                <color rgb="#ff7b00"/>
+                <color rgb="#96542f"/>
             </matrix>
         </pixra>
     </item>
@@ -208,15 +208,15 @@
         <spec>[IF] &lt; (1) non-volitiona emotion (state/content)&gt; &lt; (2) act or action caused by emotion&gt; &lt; (3)  cause or causal circumstance for emotion&gt; [F] (institutionalized/symbolic expressions of the particular emotion)</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
+                <color rgb="#723984"/>
+                <color rgb="#b96bc8"/>
+                <color rgb="#b32a62"/>
+                <color rgb="#6031a9"/>
+                <color rgb="#c4486b"/>
+                <color rgb="#c4486b"/>
+                <color rgb="#9b52b4"/>
+                <color rgb="#403135"/>
+                <color rgb="#8b091b"/>
             </matrix>
         </pixra>
     </item>

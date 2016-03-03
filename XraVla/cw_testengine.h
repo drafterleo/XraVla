@@ -54,7 +54,7 @@ private:
 
     QVector <STestResult> m_results;
 
-    CAbstractTestFrame *m_frame;
+    CAbstractTestFrame *m_choiceFrame;
     QLabel *m_infoLabel;
     CTestStats *m_statsWidget;
 
