@@ -21,15 +21,15 @@
         <spec>&lt; (I) affective (F) request &gt;  &lt; (I) desire of need/lack (F) thing needed &gt;  &lt; (I) hope/wish (F) goal/aspiration &gt;</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
-                <color rgb="#a90303"/>
-                <color rgb="#79b0a2"/>
-                <color rgb="#d89312"/>
-                <color rgb="#7f204d"/>
-                <color rgb="#aeb079"/>
-                <color rgb="#a0a74d"/>
-                <color rgb="#c468ad"/>
-                <color rgb="#8f79b0"/>
-                <color rgb="#4390e0"/>
+                <color rgb="#f83f3f"/>
+                <color rgb="#fdc95b"/>
+                <color rgb="#e8f116"/>
+                <color rgb="#ff439c"/>
+                <color rgb="#fd7f5b"/>
+                <color rgb="#ecbf17"/>
+                <color rgb="#64a3ff"/>
+                <color rgb="#2d88ff"/>
+                <color rgb="#edb98b"/>
             </matrix>
         </pixra>
     </item>
@@ -225,15 +225,15 @@
         <spec>[IF] &lt; (1) chronic systemic illness/condition/ailmen (underlying condition/physical effect, impact, symptoms) &gt; &lt; (2) to suffer from a chronic infectious illness &gt; &lt; (3) ideopathic, genetic/neoplastic, or unknown origin &gt; [F] (acute illnes, infection, ideopathic)</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
-                <color rgb="#a0a0a0"/>
+                <color rgb="#9c6279"/>
+                <color rgb="#a4967c"/>
+                <color rgb="#a57824"/>
+                <color rgb="#968113"/>
+                <color rgb="#df67a8"/>
+                <color rgb="#781f1f"/>
+                <color rgb="#9790e2"/>
+                <color rgb="#756567"/>
+                <color rgb="#634142"/>
             </matrix>
         </pixra>
     </item>
