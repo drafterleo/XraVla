@@ -167,7 +167,6 @@ void CChoiceTestFrame::paintEvent(QPaintEvent *event)
 //    painter.setPen(Qt::blue);
 //    painter.drawRects(m_itemRects);
 
-
     /* draw word */
     if (m_rightIdx >= 0 && m_rightIdx < m_items.count()) {
         painter.setFont(m_wordFont);
