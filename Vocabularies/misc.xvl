@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xravlaste>
+<xravlaste version="1.0">
+    <proto>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </proto>
+    <item>
+        <word>toki ike</word>
+        <spec>description</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#980d9b"/>
+                <color rgb="#a76cdc"/>
+                <color rgb="#505aa2"/>
+                <color rgb="#b882c7"/>
+                <color rgb="#8c73ec"/>
+                <color rgb="#ad40d0"/>
+                <color rgb="#5978b5"/>
+                <color rgb="#9694e2"/>
+                <color rgb="#596db5"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>toki ike</word>
+        <spec>description</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.509714" y="0.869116"/>
+                <anchor x="0.461438" y="0.0698829"/>
+                <anchor x="0.287109" y="0.737698"/>
+                <anchor x="0.273699" y="0.120841"/>
+                <anchor x="0.831553" y="0.92812"/>
+                <anchor x="0.684043" y="0.217392"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.432376" y="0.264986"/>
+                <anchor x="0.353427" y="0.443737"/>
+                <anchor x="0.432376" y="0.622488"/>
+                <anchor x="0.511324" y="0.443737"/>
+            </figure>
+        </pixra>
+    </item>
+</xravlaste>

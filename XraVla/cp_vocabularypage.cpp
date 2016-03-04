@@ -3,6 +3,7 @@
 #include "c_xravlastemodel.h"
 #include "cw_styledscrollbar.h"
 #include "c_editorsfactory.h"
+#include "cw_styledmessagebox.h"
 #include <QPainter>
 #include <QFile>
 #include <QTextStream>
@@ -42,6 +43,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     m_loadItemsBtn = new CPushButton(QPixmap(":/images/iconOpen.png"));
     m_loadItemsInsBtn = new CPushButton(QPixmap(":/images/iconOpenPlus.png"));
     m_saveItemsBtn = new CPushButton(QPixmap(":/images/iconSave.png"));
+    m_newVocabularyBtn = new CPushButton(QPixmap(":/images/iconNew.png"));
 
     m_lwBtnsLayout = new QHBoxLayout(this);
     m_lwBtnsLayout->setMargin(0);
@@ -51,8 +53,10 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     setMinMaxSize(m_loadItemsBtn, 33, 33);
     setMinMaxSize(m_loadItemsInsBtn, 33, 33);
     setMinMaxSize(m_saveItemsBtn, 33, 33);
+    setMinMaxSize(m_newVocabularyBtn, 33, 33);
     setMinMaxSize(m_toDownBtn, 33, 33);
     setMinMaxSize(m_toUpBtn, 33, 33);
+    m_lwBtnsLayout->addWidget(m_newVocabularyBtn);
     m_lwBtnsLayout->addWidget(m_loadItemsBtn);
     m_lwBtnsLayout->addWidget(m_loadItemsInsBtn);
     m_lwBtnsLayout->addSpacing(10);
@@ -70,6 +74,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     m_wordEdit->setStyleSheet(m_wordStyle);
     m_specEdit->setStyleSheet(m_specStyle);
 
+    m_newVocabularyBtn->setToolTip("New Vocabulary");
     m_loadItemsBtn->setToolTip("Load Items");
     m_loadItemsInsBtn->setToolTip("Load-Insert Items");
     m_saveItemsBtn->setToolTip("Save Items");
@@ -100,6 +105,8 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     connect(m_toUpBtn   , SIGNAL(clicked()),
             this        , SLOT(moveCurrItemUp()));
 
+    connect(m_newVocabularyBtn  , SIGNAL(clicked()),
+            this             , SLOT(newVocabulary()));
     connect(m_loadItemsBtn   , SIGNAL(clicked()),
             this             , SLOT(loadItemsClear()));
     connect(m_loadItemsInsBtn, SIGNAL(clicked()),
@@ -474,6 +481,34 @@ void CVocabularyPage::loadItemsIns()
     loadItems(false, m_listView->currentIndex().row() + 1);
 }
 
+void CVocabularyPage::newVocabulary()
+{
+    CStyledMessageBox msgBox(this);
+    msgBox.setText("Vocabulary has not been saved.");
+    msgBox.setInformativeText("Do you want to save your changes?");
+    msgBox.setStandardButtons(QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
+    msgBox.setDefaultButton(QMessageBox::Save);
+    msgBox.setButtonText(QMessageBox::Cancel, tr("Back"));
+    QPixmap msgIcon(":/images/iconWarning.png");
+    msgBox.setIconPixmap(msgIcon);
+
+    int reply = msgBox.exec();
+
+    if (reply == QMessageBox::Save) {
+        saveItems();
+    } else
+    if (reply == QMessageBox::Cancel) {
+        return;
+    }
+
+    CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_listView->model());
+    if (xmodel) {
+        xmodel->removeRows(0, xmodel->rowCount());
+        insertNewItem();
+        setCurrentFileName("unknown.xvl");
+    }
+}
+
 void CVocabularyPage::writeXML(const QString & fileName)
 {
     CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
@@ -516,7 +551,7 @@ void CVocabularyPage::saveItems()
     if (finfo.exists()) {
         fileStr = m_currentFileName;
     } else {
-        fileStr = qApp->applicationDirPath() + "/unknown.xvl";
+        fileStr = "unknown.xvl";
     }
 
     fileStr = QFileDialog::getSaveFileName(this, tr("Save Items"), fileStr, tr("XVL (*.xvl)"));

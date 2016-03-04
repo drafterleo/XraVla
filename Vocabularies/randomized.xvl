@@ -21,7 +21,7 @@
     </proto>
     <item>
         <word>prototype form</word>
-        <spec>description</spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.5" y="0.1"/>
@@ -41,7 +41,7 @@
     </item>
     <item>
         <word>равновесие</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.154412" y="0.215686"/>
@@ -61,7 +61,7 @@
     </item>
     <item>
         <word>проективная геометрия</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.269608" y="0.97549"/>
@@ -81,7 +81,7 @@
     </item>
     <item>
         <word>упущенное время</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.64951" y="0.306373"/>
@@ -101,7 +101,7 @@
     </item>
     <item>
         <word>альпинизм</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.470588" y="0.379902"/>
@@ -121,7 +121,7 @@
     </item>
     <item>
         <word>дискуссия</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.534314" y="0.651961"/>
@@ -141,7 +141,7 @@
     </item>
     <item>
         <word>лезгинка</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.669118" y="0.0637255"/>
@@ -161,7 +161,7 @@
     </item>
     <item>
         <word>полёт</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.32598" y="0.585784"/>
@@ -181,7 +181,7 @@
     </item>
     <item>
         <word>трамвай</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.955882" y="0.0416667"/>
@@ -201,7 +201,7 @@
     </item>
     <item>
         <word>минорный аккорд</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.620098" y="0.455882"/>
@@ -221,7 +221,7 @@
     </item>
     <item>
         <word>тень</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.887255" y="0.740196"/>
@@ -241,7 +241,7 @@
     </item>
     <item>
         <word>обувь</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.862745" y="0.52451"/>
@@ -261,7 +261,7 @@
     </item>
     <item>
         <word>постулат</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.583333" y="0.196078"/>
@@ -281,7 +281,7 @@
     </item>
     <item>
         <word>вежливость</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.487745" y="0.237745"/>
@@ -301,7 +301,7 @@
     </item>
     <item>
         <word>цель</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.691176" y="0.941176"/>
@@ -321,7 +321,7 @@
     </item>
     <item>
         <word>вдохновение</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.747549" y="0.301471"/>
@@ -341,7 +341,7 @@
     </item>
     <item>
         <word>слух</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.794118" y="0.637255"/>
@@ -361,7 +361,7 @@
     </item>
     <item>
         <word>подарок</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.205882" y="0.578431"/>
@@ -381,7 +381,7 @@
     </item>
     <item>
         <word>комсомол</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.781563" y="0.248497"/>
@@ -401,7 +401,7 @@
     </item>
     <item>
         <word>взрывчатка</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.0220441" y="0.380762"/>
@@ -421,7 +421,7 @@
     </item>
     <item>
         <word>кондиционер</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.230461" y="0.164329"/>
@@ -441,7 +441,7 @@
     </item>
     <item>
         <word>женщина</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.450902" y="0.482966"/>
@@ -461,7 +461,7 @@
     </item>
     <item>
         <word>грамматика</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.691383" y="0.92986"/>
@@ -481,7 +481,7 @@
     </item>
     <item>
         <word>речевой аппарат</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.561122" y="0.763527"/>
@@ -501,7 +501,7 @@
     </item>
     <item>
         <word>карандаш</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.350701" y="0.436874"/>
@@ -520,8 +520,8 @@
         </pixra>
     </item>
     <item>
-        <word>проводник</word>
-        <spec></spec>
+        <word>полупроводник</word>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.180361" y="0.142285"/>
@@ -541,7 +541,7 @@
     </item>
     <item>
         <word>корова</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.813627" y="0.0761523"/>
@@ -561,7 +561,7 @@
     </item>
     <item>
         <word>кенгуру</word>
-        <spec></spec>
+        <spec>...</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.49499" y="0.52505"/>

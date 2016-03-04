@@ -50,6 +50,7 @@ protected:
     void updateProtoPixraBtn(CAbstractPixra *pixra);
 
 public slots:
+    void newVocabulary();
     void loadItemsClear();
     void loadItemsIns();
     void saveItems();
@@ -91,6 +92,7 @@ private:
     CPushButton *m_delItemBtn;
     CPushButton *m_toDownBtn;
     CPushButton *m_toUpBtn;
+    CPushButton *m_newVocabularyBtn;
     CPushButton *m_loadItemsBtn;
     CPushButton *m_loadItemsInsBtn;
     CPushButton *m_saveItemsBtn;
