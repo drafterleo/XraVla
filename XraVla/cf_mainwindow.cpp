@@ -1,6 +1,9 @@
 #include "cf_mainwindow.h"
 #include <QGridLayout>
 #include <QCloseEvent>
+#include <QSettings>
+#include <QFileInfo>
+#include <QDir>
 #include <cw_styledmessagebox.h>
 
 CMainWindow::CMainWindow(QWidget *parent) :
@@ -8,6 +11,7 @@ CMainWindow::CMainWindow(QWidget *parent) :
 {
 
     setMinimumSize(800, 600);
+    setWindowIcon(QPixmap(":/images/XraVla.png"));
 
     m_vocabularyPage = new CVocabularyPage;
     m_testPage = new CTestPage;
@@ -21,10 +25,14 @@ CMainWindow::CMainWindow(QWidget *parent) :
     layout->setMargin(0);
     layout->addWidget(m_pageManager);
     this->setLayout(layout);
+
+    readSettings();
 }
 
 void CMainWindow::closeEvent(QCloseEvent *event)
 {
+    writeSettings();
+
     if (m_vocabularyPage->isModified()) {
         CStyledMessageBox msgBox(this);
         msgBox.setText("Vocabulary has not been saved.");
@@ -46,7 +54,27 @@ void CMainWindow::closeEvent(QCloseEvent *event)
         } else {
             event->accept();
         }
-    } else
+    } else {
         event->accept();
+    }
+}
 
+void CMainWindow::readSettings()
+{
+    QSettings settings(QSettings::UserScope, "DrafterSoft", "XraVla");
+    QString fileName = settings.value("File Name", "").toString();
+    QFileInfo fileInfo(fileName);
+    if (fileInfo.exists()) {
+        m_vocabularyPage->loadVocabularyFromFile(fileName, true, 0);
+        setWindowTitle(fileInfo.fileName());
+        qDebug() << QDir::setCurrent(fileInfo.dir().path());
+    } else {
+        setWindowTitle("XraVla");
+    }
+}
+
+void CMainWindow::writeSettings()
+{
+    QSettings settings(QSettings::UserScope, "DrafterSoft", "XraVla");
+    settings.setValue("File Name", m_vocabularyPage->currentFileName());
 }

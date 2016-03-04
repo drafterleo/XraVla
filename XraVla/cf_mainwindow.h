@@ -19,6 +19,9 @@ public slots:
 protected:
     void closeEvent(QCloseEvent *event);
 
+    void readSettings();
+    void writeSettings();
+
 private:
     CPageManager *m_pageManager;
 

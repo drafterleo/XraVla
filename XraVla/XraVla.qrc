@@ -19,5 +19,6 @@
         <file>styles/CheckBox.style</file>
         <file>styles/MsgBox.style</file>
         <file>images/iconWarning.png</file>
+        <file>images/XraVla.png</file>
     </qresource>
 </RCC>

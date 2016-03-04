@@ -113,7 +113,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     connect(m_randomizeBtn, SIGNAL(clicked()),
             this          , SLOT(randomizePixra()));
 
-    setFileName("unknown.xvl");
+    setCurrentFileName("unknown.xvl");
     m_modified = false;
 }
 
@@ -423,32 +423,12 @@ bool CVocabularyPage::readXML(const QDomElement & root, bool clearModel, int ins
 }
 
 
-void CVocabularyPage::loadItemsClear()
+void CVocabularyPage::loadVocabularyFromFile(const QString &fileName, bool clearModel, int insRow)
 {
-    loadItems(true, 0);
-}
-
-void CVocabularyPage::loadItemsIns()
-{
-    loadItems(false, m_listView->currentIndex().row() + 1);
-}
-
-void CVocabularyPage::loadItems(bool clearModel, int insRow)
-{
-    QString xmlFileName = QFileDialog::getOpenFileName(this,
-                                                       tr("Load Items"),
-                                                       qApp->applicationDirPath(),
-                                                       tr("XVL (*.xvl)"));
-
-    if (xmlFileName.isEmpty())
-        return;
-
-    QFile file(xmlFileName);
+    QFile file(fileName);
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        qDebug() << "Can't open xvl file " << xmlFileName;
-
+        qDebug() << "Can't open xvl file " << fileName;
     } else {
-
         QString errorStr;
         int errorLine;
         int errorColumn;
@@ -458,18 +438,40 @@ void CVocabularyPage::loadItems(bool clearModel, int insRow)
             qDebug()  << "Error: Parse error at line " << errorLine << ", "
                       << "column " << errorColumn << ": "
                       << errorStr;
-        }  else {
+        } else {
             QDomElement root = doc.documentElement();
             if (root.tagName() != "xravlaste") {
                 qDebug() << "Error: Not a xravlaste file";
             } else {
                 readXML(root, clearModel, insRow);
-                setFileName(xmlFileName);
+                setCurrentFileName(fileName);
             }
         }
 
         file.close();
     }
+}
+
+void CVocabularyPage::loadItems(bool clearModel, int insRow)
+{
+    QString xmlFileName = QFileDialog::getOpenFileName(this,
+                                                       tr("Load Items"),
+                                                       "",
+                                                       tr("XVL (*.xvl)"));
+
+    if (!xmlFileName.isEmpty()) {
+        loadVocabularyFromFile(xmlFileName, clearModel, insRow);
+    }
+}
+
+void CVocabularyPage::loadItemsClear()
+{
+    loadItems(true, 0);
+}
+
+void CVocabularyPage::loadItemsIns()
+{
+    loadItems(false, m_listView->currentIndex().row() + 1);
 }
 
 void CVocabularyPage::writeXML(const QString & fileName)
@@ -508,35 +510,36 @@ void CVocabularyPage::writeXML(const QString & fileName)
 
 void CVocabularyPage::saveItems()
 {
-    QFileInfo finfo(m_fileName);
+    QFileInfo finfo(m_currentFileName);
     QString fileStr;
 
     if (finfo.exists()) {
-        fileStr = m_fileName;
+        fileStr = m_currentFileName;
     } else {
         fileStr = qApp->applicationDirPath() + "/unknown.xvl";
     }
 
     fileStr = QFileDialog::getSaveFileName(this, tr("Save Items"), fileStr, tr("XVL (*.xvl)"));
-
-    if (fileStr.isEmpty())
-        return;
-    else
-        setFileName(fileStr);
-
-    writeXML(m_fileName);
-    m_modified = false;
+    if (!fileStr.isEmpty()) {
+        writeXML(fileStr);
+        setCurrentFileName(fileStr);
+        m_modified = false;
+    }
 }
 
 
-void CVocabularyPage::setFileName(const QString & fileName)
+void CVocabularyPage::setCurrentFileName(const QString & fileName)
 {
-    m_fileName = fileName;
+    QFileInfo fileInfo(fileName);
+    m_currentFileName = fileName;
+    QString title = "XraVla";
+    if (!m_currentFileName.isEmpty()) {
+        title = fileInfo.fileName();
+    }
 
     foreach(QWidget *widget, QApplication::topLevelWidgets()) {
       if(widget->objectName() == "MainWindow") {
-          QFileInfo fileInfo(m_fileName);
-          qobject_cast<QWidget*>(widget)->setWindowTitle(fileInfo.fileName());
+          qobject_cast<QWidget*>(widget)->setWindowTitle(title);
           break;
       }
     }

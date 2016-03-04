@@ -4,6 +4,10 @@ QT += xml widgets
 
 INCLUDEPATH = ../PsyLib/
 
+win32 {
+    RC_FILE = XraVla.rc
+}
+
 HEADERS += \
     cw_pagemanager.h \
     cw_pagebar.h \

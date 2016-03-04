@@ -22,6 +22,8 @@ public:
 
     inline CXravlasteModel *model() {return dynamic_cast<CXravlasteModel *>(m_listView->model());}
     inline bool isModified() {return m_modified;}
+    inline QString currentFileName() {return m_currentFileName;}
+    void loadVocabularyFromFile(const QString &fileName, bool clearModel, int insRow);
 
 protected:
     void relocateWidgets();
@@ -41,7 +43,7 @@ protected:
     void writeXML(const QString & fileName);
 
     void loadItems(bool clearModel = true, int insRow = 0);
-    void setFileName(const QString & fileName);
+    void setCurrentFileName(const QString & fileName);
 
     void initListView(void);
 
@@ -71,7 +73,7 @@ protected slots:
     void randomizePixra();
 
 private:
-    QString m_fileName;
+    QString m_currentFileName;
 
     bool m_modified;
 
