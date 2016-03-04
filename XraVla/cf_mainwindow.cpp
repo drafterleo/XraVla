@@ -4,6 +4,7 @@
 #include <QSettings>
 #include <QFileInfo>
 #include <QDir>
+#include <QApplication>
 #include <cw_styledmessagebox.h>
 
 CMainWindow::CMainWindow(QWidget *parent) :
@@ -63,13 +64,15 @@ void CMainWindow::readSettings()
 {
     QSettings settings(QSettings::UserScope, "DrafterSoft", "XraVla");
     QString fileName = settings.value("File Name", "").toString();
+
     QFileInfo fileInfo(fileName);
     if (fileInfo.exists()) {
         m_vocabularyPage->loadVocabularyFromFile(fileName, true, 0);
         setWindowTitle(fileInfo.fileName());
-        qDebug() << QDir::setCurrent(fileInfo.dir().path());
+        QDir::setCurrent(fileInfo.dir().path());
     } else {
         setWindowTitle("XraVla");
+        QDir::setCurrent(qApp->applicationDirPath());
     }
 }
 
