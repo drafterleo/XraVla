@@ -2,26 +2,23 @@
 <!DOCTYPE xravlaste>
 <xravlaste version="1.0">
     <proto>
-        <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
-            </figure>
-            <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
-            </figure>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
         </pixra>
     </proto>
     <item>
         <word>toki ike</word>
-        <spec>description</spec>
+        <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#980d9b"/>
@@ -38,7 +35,7 @@
     </item>
     <item>
         <word>toki ike</word>
-        <spec>description</spec>
+        <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.509714" y="0.869116"/>
@@ -53,6 +50,43 @@
                 <anchor x="0.353427" y="0.443737"/>
                 <anchor x="0.432376" y="0.622488"/>
                 <anchor x="0.511324" y="0.443737"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mi pona</word>
+        <spec>mi pona e insa napa pi ilo sona</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#76f3fa"/>
+                <color rgb="#95b5ff"/>
+                <color rgb="#6d7bd2"/>
+                <color rgb="#3769e1"/>
+                <color rgb="#92d7bf"/>
+                <color rgb="#73d483"/>
+                <color rgb="#287a7a"/>
+                <color rgb="#3d8f2d"/>
+                <color rgb="#c57b89"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>mi pona</word>
+        <spec>mi pona e insa napa pi ilo sona</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CEllipseFigure">
+                <anchor x="0.370098" y="0.252451"/>
+                <anchor x="0.598039" y="0.444853"/>
+                <anchor x="0.370098" y="0.637255"/>
+                <anchor x="0.142157" y="0.444853"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.0490196" y="0.443627"/>
+                <anchor x="0.426471" y="0.213235"/>
+                <anchor x="0.303922" y="0.97549"/>
+                <anchor x="0.656863" y="0.573529"/>
+                <anchor x="0.166667" y="0.164216"/>
+                <anchor x="0.563725" y="0.323529"/>
             </figure>
         </pixra>
     </item>
