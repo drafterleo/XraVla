@@ -187,7 +187,7 @@ bool CXravlasteModel::insertRows(int position, int rows, const QModelIndex &inde
 //        pixra->addNormFigure(new CRectangleFigure(QRectF(0.56, 0.56, 0.33, 0.33)));
 //        m_items.insert(position, new CXravlasteItem("toki", "toki", pixra));
 
-        m_items.insert(position, new CXravlasteItem("name", "description", m_protoPixra));
+        m_items.insert(position, new CXravlasteItem("", "", m_protoPixra));
     }
 
     endInsertRows();

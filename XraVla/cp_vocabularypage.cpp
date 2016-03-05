@@ -23,10 +23,13 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     createPixraEdit("CFiguresEdit");
 
     m_wordEdit = new QLineEdit(this);
+    m_wordEdit->setPlaceholderText("name");
 
     m_specEdit = new QTextEdit(this);
     m_specEdit->setAcceptRichText(false);
     m_specEdit->setVerticalScrollBar(new CStyledScrollBar);
+    m_specEdit->setPlaceholderText("description");
+
 
     m_protoPixraBtn = new CPushButton(QPixmap(), this);
     m_randomizeBtn = new CPushButton(QPixmap(":/images/iconRandomize.png"), this);
