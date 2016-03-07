@@ -32,6 +32,7 @@ protected:
     void resizeEvent(QResizeEvent *event);
     void paintEvent(QPaintEvent *);
     bool eventFilter(QObject *target, QEvent *event);
+    void keyPressEvent(QKeyEvent *event);
 
     void initStyles();
 

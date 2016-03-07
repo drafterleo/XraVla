@@ -27,6 +27,7 @@ CXravlasteView::CXravlasteView(QWidget *parent) :
 //    viewport()->setAcceptDrops(true);
     setDropIndicatorShown(false);
     setDragDropMode(QAbstractItemView::InternalMove);
+    //setDragDropMode(QAbstractItemView::DragDrop);
 
     setCurrentIndex(xmodel->index(0));
 

@@ -233,4 +233,184 @@
             </figure>
         </pixra>
     </item>
+    <item>
+        <word>lawa</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.566176" y="0.884804"/>
+                <anchor x="0.897059" y="0.17402"/>
+                <anchor x="0.529412" y="0.0882353"/>
+                <anchor x="0.566176" y="0.683824"/>
+                <anchor x="0.154412" y="0.683824"/>
+                <anchor x="0.495098" y="0.215686"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.571078" y="0.0441176"/>
+                <anchor x="0.17402" y="0.376225"/>
+                <anchor x="0.571078" y="0.708333"/>
+                <anchor x="0.968137" y="0.376225"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lape ala</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.605392" y="0.580882"/>
+                <anchor x="0.463235" y="0.808824"/>
+                <anchor x="0.482843" y="0.470588"/>
+                <anchor x="0.968137" y="0.578431"/>
+                <anchor x="0.144608" y="0.875"/>
+                <anchor x="0.0269608" y="0.852941"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.797794" y="0.686275"/>
+                <anchor x="0.627451" y="0.430147"/>
+                <anchor x="0.797794" y="0.17402"/>
+                <anchor x="0.968137" y="0.430147"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.938725" y="0.47549"/>
+                <anchor x="0.487745" y="0.879902"/>
+                <anchor x="0.414216" y="0.411765"/>
+                <anchor x="0.384804" y="0.482843"/>
+                <anchor x="0.134804" y="0.132353"/>
+                <anchor x="0.132353" y="0.308824"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.355392" y="0.0563725"/>
+                <anchor x="0.698529" y="0.446078"/>
+                <anchor x="0.355392" y="0.835784"/>
+                <anchor x="0.0122549" y="0.446078"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>pilin e weka jan</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.67402" y="0.904412"/>
+                <anchor x="0.240196" y="0.171569"/>
+                <anchor x="0.281863" y="0.708333"/>
+                <anchor x="0.0416667" y="0.838235"/>
+                <anchor x="0.568627" y="0.605392"/>
+                <anchor x="0.411765" y="0.215686"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.658088" y="0.539216"/>
+                <anchor x="0.426471" y="0.699755"/>
+                <anchor x="0.658088" y="0.860294"/>
+                <anchor x="0.889706" y="0.699755"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mi wile lape</word>
+        <spec>tenpo pimeja. mi wile lape tan ni: mi sona mute</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.705882" y="0.79902"/>
+                <anchor x="0.588235" y="0.107843"/>
+                <anchor x="0.0882353" y="0.414216"/>
+                <anchor x="0.759804" y="0.127451"/>
+                <anchor x="0.218137" y="0.0490196"/>
+                <anchor x="0.686275" y="0.666667"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.75" y="0.132353"/>
+                <anchor x="0.561275" y="0.357843"/>
+                <anchor x="0.75" y="0.583333"/>
+                <anchor x="0.938725" y="0.357843"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mi pilin e nasin</word>
+        <spec>ilo napa</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.0735294" y="0.75"/>
+                <anchor x="0.745098" y="0.45098"/>
+                <anchor x="0.235294" y="0.147059"/>
+                <anchor x="0.757353" y="0.0416667"/>
+                <anchor x="0.909314" y="0.904412"/>
+                <anchor x="0.178922" y="0.144608"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.542892" y="0.740196"/>
+                <anchor x="0.906863" y="0.551471"/>
+                <anchor x="0.542892" y="0.362745"/>
+                <anchor x="0.178922" y="0.551471"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mi toki e mama</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CEllipseFigure">
+                <anchor x="0.441176" y="0.977941"/>
+                <anchor x="0.705882" y="0.582108"/>
+                <anchor x="0.441176" y="0.186275"/>
+                <anchor x="0.176471" y="0.582108"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.54902" y="0.338235"/>
+                <anchor x="0.921569" y="0.235294"/>
+                <anchor x="0.791667" y="0.276961"/>
+                <anchor x="0.330882" y="0.732843"/>
+                <anchor x="0.686275" y="0.602941"/>
+                <anchor x="0.169118" y="0.625"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.323529" y="0.122549"/>
+                <anchor x="0.392157" y="0.333333"/>
+                <anchor x="0.904412" y="0.20098"/>
+                <anchor x="0.409314" y="0.965686"/>
+                <anchor x="0.482843" y="0.176471"/>
+                <anchor x="0.723039" y="0.960784"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.580882" y="0.0735294"/>
+                <anchor x="0.906863" y="0.189951"/>
+                <anchor x="0.580882" y="0.306373"/>
+                <anchor x="0.254902" y="0.189951"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mi kama lape</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.0980392" y="0.686275"/>
+                <anchor x="0.732843" y="0.718137"/>
+                <anchor x="0.468137" y="0.835784"/>
+                <anchor x="0.911765" y="0.762255"/>
+                <anchor x="0.198529" y="0.127451"/>
+                <anchor x="0.254902" y="0.590686"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.292892" y="0.676471"/>
+                <anchor x="0.144608" y="0.371324"/>
+                <anchor x="0.292892" y="0.0661765"/>
+                <anchor x="0.441176" y="0.371324"/>
+            </figure>
+        </pixra>
+    </item>
 </xravlaste>

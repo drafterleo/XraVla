@@ -24,12 +24,13 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
 
     m_wordEdit = new QLineEdit(this);
     m_wordEdit->setPlaceholderText("name");
+    m_wordEdit->installEventFilter(this);
 
     m_specEdit = new QTextEdit(this);
     m_specEdit->setAcceptRichText(false);
     m_specEdit->setVerticalScrollBar(new CStyledScrollBar);
     m_specEdit->setPlaceholderText("description");
-
+    m_specEdit->installEventFilter(this);
 
     m_protoPixraBtn = new CPushButton(QPixmap(), this);
     m_randomizeBtn = new CPushButton(QPixmap(":/images/iconRandomize.png"), this);
@@ -90,6 +91,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
 
     m_listView = new CXravlasteView(this);
     m_listView->setVerticalScrollBar(new CStyledScrollBar());
+    m_listView->installEventFilter(this);
     initListView();
 
     connect(m_listView,  SIGNAL(changed(QModelIndex, QModelIndex)),
@@ -225,9 +227,26 @@ void CVocabularyPage::resizeEvent(QResizeEvent *event)
 
 bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
 {
-    if (target == m_wordEdit || target == m_specEdit || target == m_pixraEdit) {
-        if (event->type() == QEvent::KeyPress) {
-            QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
+    if (event->type() == QEvent::KeyPress) {
+        QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
+
+        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
+            keyEvent->key() == Qt::Key_Plus) {
+            // add new item in xravlaste
+            this->keyPressEvent(keyEvent);
+            return true;
+        }
+
+        if (target == m_wordEdit) {
+            if (keyEvent->key() == Qt::Key_Up || keyEvent->key() == Qt::Key_Down) {
+                //qDebug() << "up or down";
+                QApplication::postEvent(m_listView, keyEvent);
+                QApplication::processEvents();
+                return true;
+            }
+        }
+
+        if (target == m_pixraEdit) {
             if (keyEvent->key() == Qt::Key_S && (keyEvent->modifiers().testFlag(Qt::ControlModifier))){
                 // <Ctrl + S> : set vocabulary protoPixra to current Item
                 CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
@@ -248,6 +267,26 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
     return CPageWidget::eventFilter(target, event);
 }
 
+void CVocabularyPage::keyPressEvent(QKeyEvent *event)
+{
+    if (event->modifiers().testFlag(Qt::ControlModifier) &&
+        event->modifiers().testFlag(Qt::ShiftModifier) &&
+        event->key() == Qt::Key_Plus) {
+        // <Ctrl + Shift + "+">
+        insertNewItem();
+        randomizePixra();
+        this->setFocus();
+        return;
+    }
+
+    if (event->modifiers().testFlag(Qt::ControlModifier) &&
+        event->key() == Qt::Key_Plus) {
+        // <Ctrl + "+">
+        insertNewItem();
+        this->setFocus();
+        return;
+    }
+}
 
 void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelIndex & previous)
 {
@@ -274,6 +313,7 @@ void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelI
                 m_pixraEdit->assignPixra(currItem->pixra);
                 m_pixraEdit->clearHIstory();
             }
+            m_wordEdit->setFocus();
         }
     } else {
         m_wordEdit->setText("");
@@ -641,7 +681,7 @@ void CVocabularyPage::randomizePixra()
 {
     if (m_pixraEdit) {
         m_pixraEdit->randomize();
-        m_pixraEdit->setFocus();
+        //m_pixraEdit->setFocus();
     }
 }
 
