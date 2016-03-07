@@ -231,8 +231,17 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
         QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
 
         if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
+            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
             keyEvent->key() == Qt::Key_Plus) {
-            // add new item in xravlaste
+            // add new item in the xravlaste
+            this->keyPressEvent(keyEvent);
+            return true;
+        }
+
+        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
+            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
+            keyEvent->key() == Qt::Key_R) {
+            // add new randomized item in the xravlaste
             this->keyPressEvent(keyEvent);
             return true;
         }
@@ -247,7 +256,8 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
         }
 
         if (target == m_pixraEdit) {
-            if (keyEvent->key() == Qt::Key_S && (keyEvent->modifiers().testFlag(Qt::ControlModifier))){
+            if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
+                keyEvent->key() == Qt::Key_S){
                 // <Ctrl + S> : set vocabulary protoPixra to current Item
                 CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
                 createPixraEdit(model->protoPixra()->metaObject()->className());
@@ -255,7 +265,8 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
                 m_pixraEdit->assignPixra(model->protoPixra());
                 return true;
             }
-            if (keyEvent->key() == Qt::Key_P && (keyEvent->modifiers().testFlag(Qt::ControlModifier))){
+            if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
+                keyEvent->key() == Qt::Key_P) {
                 // <Ctrl + P> : set current pixra as Proto
                 CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
                 model->setProtoPixra(m_pixraEdit->pixra());
@@ -272,17 +283,18 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
     if (event->modifiers().testFlag(Qt::ControlModifier) &&
         event->modifiers().testFlag(Qt::ShiftModifier) &&
         event->key() == Qt::Key_Plus) {
-        // <Ctrl + Shift + "+">
+        // <Ctrl + Shift + "+"> add new proto item
         insertNewItem();
-        randomizePixra();
         this->setFocus();
         return;
     }
 
     if (event->modifiers().testFlag(Qt::ControlModifier) &&
-        event->key() == Qt::Key_Plus) {
-        // <Ctrl + "+">
+        event->modifiers().testFlag(Qt::ShiftModifier) &&
+        event->key() == Qt::Key_R) {
+        // <Ctrl + Shift + "R"> add new randomized item
         insertNewItem();
+        randomizePixra();
         this->setFocus();
         return;
     }
