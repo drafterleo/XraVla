@@ -285,7 +285,7 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
         event->key() == Qt::Key_Plus) {
         // <Ctrl + Shift + "+"> add new proto item
         insertNewItem();
-        this->setFocus();
+        m_wordEdit->setFocus();
         return;
     }
 
@@ -295,7 +295,7 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
         // <Ctrl + Shift + "R"> add new randomized item
         insertNewItem();
         randomizePixra();
-        this->setFocus();
+        m_wordEdit->setFocus();
         return;
     }
 }
@@ -538,22 +538,24 @@ void CVocabularyPage::loadItemsIns()
 
 void CVocabularyPage::newVocabulary()
 {
-    CStyledMessageBox msgBox(this);
-    msgBox.setText("Vocabulary has not been saved.");
-    msgBox.setInformativeText("Do you want to save your changes?");
-    msgBox.setStandardButtons(QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
-    msgBox.setDefaultButton(QMessageBox::Save);
-    msgBox.setButtonText(QMessageBox::Cancel, tr("Back"));
-    QPixmap msgIcon(":/images/iconWarning.png");
-    msgBox.setIconPixmap(msgIcon);
+    if (m_modified) {
+        CStyledMessageBox msgBox(this);
+        msgBox.setText("Vocabulary has not been saved.");
+        msgBox.setInformativeText("Do you want to save your changes?");
+        msgBox.setStandardButtons(QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
+        msgBox.setDefaultButton(QMessageBox::Save);
+        msgBox.setButtonText(QMessageBox::Cancel, tr("Back"));
+        QPixmap msgIcon(":/images/iconWarning.png");
+        msgBox.setIconPixmap(msgIcon);
 
-    int reply = msgBox.exec();
+        int reply = msgBox.exec();
 
-    if (reply == QMessageBox::Save) {
-        saveItems();
-    } else
-    if (reply == QMessageBox::Cancel) {
-        return;
+        if (reply == QMessageBox::Save) {
+            saveItems();
+        } else
+        if (reply == QMessageBox::Cancel) {
+            return;
+        }
     }
 
     CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_listView->model());
@@ -561,6 +563,7 @@ void CVocabularyPage::newVocabulary()
         xmodel->removeRows(0, xmodel->rowCount());
         insertNewItem();
         setCurrentFileName("unknown.xvl");
+        m_modified = true;
     }
 }
 

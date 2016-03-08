@@ -2,21 +2,18 @@
 <!DOCTYPE xravlaste>
 <xravlaste version="1.0">
     <proto>
-        <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
-            </figure>
-            <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
-            </figure>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
         </pixra>
     </proto>
     <item>
