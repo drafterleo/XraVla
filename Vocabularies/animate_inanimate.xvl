@@ -160,7 +160,7 @@
         </pixra>
     </item>
     <item>
-        <word>animate</word>
+        <word>inanimate</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -180,7 +180,7 @@
         </pixra>
     </item>
     <item>
-        <word>animate</word>
+        <word>inanimate</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">

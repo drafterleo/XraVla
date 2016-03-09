@@ -516,12 +516,20 @@ void CVocabularyPage::loadVocabularyFromFile(const QString &fileName, bool clear
 
 void CVocabularyPage::loadItems(bool clearModel, int insRow)
 {
+    QFileInfo fileInfo(m_currentFileName);
+    QString fileStr;
+
+    if (fileInfo.exists()) {
+        fileStr = fileInfo.dir().path();
+    }
+
     QString xmlFileName = QFileDialog::getOpenFileName(this,
                                                        tr("Load Items"),
-                                                       "",
+                                                       fileStr,
                                                        tr("XVL (*.xvl)"));
 
-    if (!xmlFileName.isEmpty()) {
+    fileInfo.setFile(xmlFileName);
+    if (fileInfo.exists()) {
         loadVocabularyFromFile(xmlFileName, clearModel, insRow);
     }
 }
