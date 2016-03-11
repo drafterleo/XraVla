@@ -1,5 +1,5 @@
 #include "cw_colormatrixedit.h"
-#include "math.h"
+#include "qmath.h"
 #include <QtDebug>
 #include <QPainter>
 #include <QMouseEvent>
@@ -157,13 +157,44 @@ void CColorMatrixEdit::paintEvent(QPaintEvent *)
     painter.end();
 }
 
+QColor genRandomColor()
+{
+    //return QColor(qrand()%150 + 100, qrand()%150 + 100, qrand()%150 + 100);
+    return QColor(qrand()%200 + qrand()%40 + 5,
+                  qrand()%200 + qrand()%40 + 5,
+                  qrand()%200 + qrand()%40 + 5);
+}
 
 void CColorMatrixEdit::fillRandom(void)
 {
-    for (int col = 0; col < matrix.colCount(); ++ col)
+    qreal passDistance = 20;
+    QVector <QColor> addedColors;
+    for (int col = 0; col < matrix.colCount(); ++ col) {
         for (int row = 0; row < matrix.rowCount(); ++row) {
-            matrix.setColor(col, row, QColor(qrand()%150 + 100, qrand()%150 + 100, qrand()%150 + 100));
+            QColor rndColor;
+            bool passColor = false;
+            int attempts = 100;
+            while (passColor == false && attempts > 0) {
+                passColor = true;
+                rndColor = genRandomColor();
+                for (int i = 0; i < addedColors.count(); ++i) {
+                    QColor iColor = addedColors.at(i);
+                    int dr = rndColor.red() - iColor.red();
+                    int dg = rndColor.green() - iColor.green();
+                    int db = rndColor.blue() - iColor.blue();
+                    qreal distance = sqrt(dr*dr + dg*dg + db*db);
+                    //qDebug() << distance;
+                    if (distance < passDistance) {
+                        passColor = false;
+                        break;
+                    }
+                }
+                attempts --;
+            }
+            addedColors.append(rndColor);
+            matrix.setColor(col, row, rndColor);
         }
+    }
     updateColorWheel();
     this->update();
     commitModification();

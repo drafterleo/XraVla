@@ -19,6 +19,7 @@ public:
 
     inline bool isEmpty(void) {return cols == 0 || rows == 0;}
 
+    QColor getColor(int idx) const;
     QColor getColor(int col, int row) const;
     QColor getColor(const QPoint &cell) const;
     void   setColor(int idx, const QColor & color);

@@ -24,6 +24,14 @@ void CColorMatrix::setSize(int w, int h)
     }
 }
 
+QColor CColorMatrix::getColor(int idx) const
+{
+    if (idx >= 0 && idx < colors.size()) {
+        return colors.at(idx);
+    }
+    return Qt::black;
+}
+
 QColor CColorMatrix::getColor(int col, int row) const
 {
     int idx = col + row * cols;
