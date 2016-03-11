@@ -9,7 +9,12 @@ int main(int argc, char *argv[])
     QTime currTime = QTime::currentTime();
     qsrand(currTime.minute() + currTime.second() + currTime.msec());
 
-    CMainWindow *mainWindow = new CMainWindow;
+    QString argFileName = QString();
+    if (QApplication::arguments().count() > 1) {
+        argFileName = QApplication::arguments().at(1);
+    }
+
+    CMainWindow *mainWindow = new CMainWindow(0, argFileName);
     mainWindow->setObjectName("MainWindow");
     mainWindow->show();
 

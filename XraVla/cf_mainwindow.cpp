@@ -7,7 +7,7 @@
 #include <QApplication>
 #include <cw_styledmessagebox.h>
 
-CMainWindow::CMainWindow(QWidget *parent) :
+CMainWindow::CMainWindow(QWidget *parent, const QString &paramFileName) :
     QWidget(parent)
 {
 
@@ -27,7 +27,7 @@ CMainWindow::CMainWindow(QWidget *parent) :
     layout->addWidget(m_pageManager);
     this->setLayout(layout);
 
-    readSettings();
+    readSettings(paramFileName);
 }
 
 void CMainWindow::closeEvent(QCloseEvent *event)
@@ -60,10 +60,16 @@ void CMainWindow::closeEvent(QCloseEvent *event)
     }
 }
 
-void CMainWindow::readSettings()
+void CMainWindow::readSettings(const QString &paramFileName)
 {
     QSettings settings(QSettings::UserScope, "DrafterSoft", "XraVla");
-    QString fileName = settings.value("File Name", "").toString();
+
+    QString fileName;
+    if (paramFileName.isEmpty()) {
+        fileName = settings.value("File Name", "").toString();
+    } else {
+        fileName = QDir::fromNativeSeparators(paramFileName);
+    }
 
     QFileInfo fileInfo(fileName);
     if (fileInfo.exists()) {
@@ -71,7 +77,7 @@ void CMainWindow::readSettings()
         setWindowTitle(fileInfo.fileName());
         QDir::setCurrent(fileInfo.dir().path());
     } else {
-        setWindowTitle("XraVla");
+        setWindowTitle("XraVla " + paramFileName);
         QDir::setCurrent(qApp->applicationDirPath());
     }
 }

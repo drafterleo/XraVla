@@ -10,7 +10,7 @@ class CMainWindow : public QWidget
 {
     Q_OBJECT
 public:
-    explicit CMainWindow(QWidget *parent = 0);
+    explicit CMainWindow(QWidget *parent = 0, const QString &paramFileName = QString());
     
 signals:
     
@@ -19,7 +19,7 @@ public slots:
 protected:
     void closeEvent(QCloseEvent *event);
 
-    void readSettings();
+    void readSettings(const QString &paramFileName);
     void writeSettings();
 
 private:
