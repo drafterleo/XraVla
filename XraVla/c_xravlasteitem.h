@@ -17,7 +17,7 @@ public:
     void readXML(const QDomElement & element);
     void writeXML(QXmlStreamWriter & xml);
 
-    QString word;
+    QString name;
     QString spec;
     CAbstractPixra *pixra;
 };

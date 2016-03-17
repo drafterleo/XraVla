@@ -22,9 +22,9 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     m_pixraEdit = 0;
     createPixraEdit("CFiguresEdit");
 
-    m_wordEdit = new QLineEdit(this);
-    m_wordEdit->setPlaceholderText("name");
-    m_wordEdit->installEventFilter(this);
+    m_nameEdit = new QLineEdit(this);
+    m_nameEdit->setPlaceholderText("name");
+    m_nameEdit->installEventFilter(this);
 
     m_specEdit = new QTextEdit(this);
     m_specEdit->setAcceptRichText(false);
@@ -75,7 +75,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     m_lwPanel->setLayout(m_lwBtnsLayout);
 
     initStyles();
-    m_wordEdit->setStyleSheet(m_wordStyle);
+    m_nameEdit->setStyleSheet(m_wordStyle);
     m_specEdit->setStyleSheet(m_specStyle);
 
     m_newVocabularyBtn->setToolTip("New Vocabulary");
@@ -96,7 +96,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
 
     connect(m_listView,  SIGNAL(changed(QModelIndex, QModelIndex)),
             this,        SLOT(listViewChanged(QModelIndex, QModelIndex)));
-    connect(m_wordEdit,  SIGNAL(textChanged(QString)),
+    connect(m_nameEdit,  SIGNAL(textChanged(QString)),
             this,        SLOT(wordChanged(QString)));
     connect(m_specEdit,  SIGNAL(textChanged()),
             this,        SLOT(specChanged()));
@@ -209,7 +209,7 @@ void CVocabularyPage::relocateWidgets()
 
     m_listView->setGeometry(xwlX, xwlY, xwlWidth, xwlHeight);
     m_pixraEdit->setGeometry(feX, feY, feWidth, feHeight);
-    m_wordEdit->setGeometry(weX, weY, weWidth, weHeight);
+    m_nameEdit->setGeometry(weX, weY, weWidth, weHeight);
     m_specEdit->setGeometry(seX, seY, seWidth, seHeight);
 
     m_protoPixraBtn->setGeometry(feX + feWidth - 58, feY + feHeight + 5, 60, 60);
@@ -254,7 +254,7 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
             return true;
         }
 
-        if (target == m_wordEdit) {
+        if (target == m_nameEdit) {
             if (keyEvent->key() == Qt::Key_Up || keyEvent->key() == Qt::Key_Down) {
                 //qDebug() << "up or down";
                 QApplication::postEvent(m_listView, keyEvent);
@@ -293,7 +293,7 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
         event->key() == Qt::Key_Plus) {
         // <Ctrl + Shift + "+"> add new proto item
         insertNewItem();
-        m_wordEdit->setFocus();
+        m_nameEdit->setFocus();
         return;
     }
 
@@ -303,7 +303,7 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
         // <Ctrl + Shift + "R"> add new randomized item
         insertNewItem();
         randomizePixra();
-        m_wordEdit->setFocus();
+        m_nameEdit->setFocus();
         return;
     }
 
@@ -312,7 +312,7 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
         event->key() == Qt::Key_C) {
         // <Ctrl + Shift + "C"> add new randomized item
         copyCurrItem();
-        m_wordEdit->setFocus();
+        m_nameEdit->setFocus();
         return;
     }
 }
@@ -334,7 +334,7 @@ void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelI
         CXravlasteItem *currItem = model->data(current).value<CXravlasteItem *>();
         if (currItem) {
             enableEdits();
-            m_wordEdit->setText(currItem->word);
+            m_nameEdit->setText(currItem->name);
             m_specEdit->setText(currItem->spec);
             if (currItem->pixra) {
                 createPixraEdit(currItem->pixra->metaObject()->className());
@@ -342,10 +342,10 @@ void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelI
                 m_pixraEdit->assignPixra(currItem->pixra);
                 m_pixraEdit->clearHIstory();
             }
-            m_wordEdit->setFocus();
+            m_nameEdit->setFocus();
         }
     } else {
-        m_wordEdit->setText("");
+        m_nameEdit->setText("");
         m_specEdit->setText("");
         m_pixraEdit->clear();
         disableEdits();
@@ -360,7 +360,7 @@ void CVocabularyPage::wordChanged(const QString & str)
     if (current.isValid()) {
         CXravlasteItem *currItem = m_listView->model()->data(current).value<CXravlasteItem *>();
         if (currItem) {
-            currItem->word = str;
+            currItem->name = str;
             m_listView->update(current);
             m_listView->scrollTo(current);
             m_modified = true;
@@ -687,14 +687,14 @@ void CVocabularyPage::setCurrentFileName(const QString & fileName)
 void CVocabularyPage::disableEdits()
 {
     m_pixraEdit->setEnabled(false);
-    m_wordEdit->setEnabled(false);
+    m_nameEdit->setEnabled(false);
     m_specEdit->setEnabled(false);
 }
 
 void CVocabularyPage::enableEdits()
 {
     m_pixraEdit->setEnabled(true);
-    m_wordEdit->setEnabled(true);
+    m_nameEdit->setEnabled(true);
     m_specEdit->setEnabled(true);
 }
 

@@ -3,7 +3,7 @@
 #include <QtDebug>
 
 CXravlasteItem::CXravlasteItem(const QString & aWord, const QString & aSpec, CAbstractPixra *aPixra)
-    : word(aWord), spec(aSpec)
+    : name(aWord), spec(aSpec)
 {
     if (aPixra) {
         pixra = pixraFactoryInstance.createPixra(aPixra->metaObject()->className());
@@ -20,7 +20,7 @@ CXravlasteItem::~CXravlasteItem()
 void CXravlasteItem::assign(CXravlasteItem *other)
 {
     if (other) {
-        word = other->word;
+        name = other->name;
         spec = other->spec;
 
         delete pixra;
@@ -45,7 +45,7 @@ void CXravlasteItem::setPixra(CAbstractPixra *aPixra)
 void CXravlasteItem::readXML(const QDomElement & element)
 {
     if (element.tagName() == "item") {
-        word = element.firstChildElement("word").text();
+        name = element.firstChildElement("word").text();
         spec = element.firstChildElement("spec").text();
         delete pixra;
         pixra = 0;
@@ -62,7 +62,7 @@ void CXravlasteItem::writeXML(QXmlStreamWriter & xml)
 {
     xml.writeStartElement("item");
         xml.writeStartElement("word");
-        xml.writeCharacters(word);
+        xml.writeCharacters(name);
         xml.writeEndElement();
 
         xml.writeStartElement("spec");

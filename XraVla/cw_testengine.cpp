@@ -106,7 +106,7 @@ void CTestEngine::calculateTestItemCount()
 {
     QHash <QString, int> names;
     for (int i = 0; i < m_vocabulary.count(); ++i) {
-        names[m_vocabulary.at(i)->word] = names.value(m_vocabulary.at(i)->word, 0) + 1;
+        names[m_vocabulary.at(i)->name] = names.value(m_vocabulary.at(i)->name, 0) + 1;
     }
     if (names.size() < m_vocabulary.size()) {
         m_checkItemNames = true;
@@ -165,11 +165,11 @@ void CTestEngine::nextFrame()
             int rndIdx = qrand() % m_vocabulary.count();
             if (!m_usedItems.contains(rndIdx) && !tempItems.contains(rndIdx)) {
                 if (m_checkItemNames == false ||
-                    (m_checkItemNames && !tempNames.contains(m_vocabulary.at(rndIdx)->word))) {
+                    (m_checkItemNames && !tempNames.contains(m_vocabulary.at(rndIdx)->name))) {
                     choiceFrame->addItem(m_vocabulary.at(rndIdx));
                     tempItems.append(rndIdx);
                     if (m_checkItemNames && i == 0) { // right item
-                        tempNames.append(m_vocabulary.at(rndIdx)->word);
+                        tempNames.append(m_vocabulary.at(rndIdx)->name);
                     }
                     break;
                 }

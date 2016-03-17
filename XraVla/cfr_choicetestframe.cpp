@@ -174,7 +174,7 @@ void CChoiceTestFrame::paintEvent(QPaintEvent *event)
         QRect wordRect = m_descriptRect;
         wordRect.setHeight(metrics.height());
         painter.setPen(Qt::white);
-        painter.drawText(wordRect, Qt::AlignCenter, m_items[m_rightIdx]->word);
+        painter.drawText(wordRect, Qt::AlignCenter, m_items[m_rightIdx]->name);
         if (m_showSpec || !m_testMode) {
             QRect specRect = wordRect.translated(0, wordRect.height() + 5);
             painter.setPen(QColor(0x9FB89A));

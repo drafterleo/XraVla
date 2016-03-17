@@ -21,7 +21,7 @@ void CXravlasteDelegate::paint(QPainter *painter, const QStyleOptionViewItem &op
     CAbstractPixra *pixra = 0;
     CXravlasteItem * xitem = index.data().value<CXravlasteItem *>();
     if (xitem) {
-        word = xitem->word;
+        word = xitem->name;
         spec = xitem->spec;
         pixra = xitem->pixra;
     }

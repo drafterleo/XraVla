@@ -84,7 +84,7 @@ private:
     CAbstractEdit  *m_pixraEdit;
     CXravlasteView *m_listView;
 
-    QLineEdit *m_wordEdit;
+    QLineEdit *m_nameEdit;
     QTextEdit *m_specEdit;
 
     QString m_wordStyle;
