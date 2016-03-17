@@ -220,6 +220,7 @@ void CChoiceTestFrame::paintEvent(QPaintEvent *event)
             painter.translate(m_pixraRects[i].topLeft());
             pixra->render(&painter, QPoint(), QRegion(), 0);
             painter.restore();
+
             //qDebug() << m_itemRects[i] << offset << pixra->size();
         }
     }
