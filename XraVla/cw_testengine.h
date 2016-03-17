@@ -42,15 +42,18 @@ protected:
     void hideTestButtons();
     void showTestButtons();
 
+    void calculateTestItemCount();
+
 
 private:
     QVector <CXravlasteItem *> m_vocabulary;
 
-    QVector <int> m_restItems;
     QVector <int> m_usedItems;
 
     int m_usedMax;
     int m_testItemCount;
+
+    bool m_checkItemNames;
 
     QVector <STestResult> m_results;
 

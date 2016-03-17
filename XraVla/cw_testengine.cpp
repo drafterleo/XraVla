@@ -2,6 +2,7 @@
 #include "cfr_choicetestframe.h"
 #include <QPainter>
 #include <QResizeEvent>
+#include <QHash>
 #include <QtDebug>
 
 CTestEngine::CTestEngine(QWidget *parent) :
@@ -10,6 +11,7 @@ CTestEngine::CTestEngine(QWidget *parent) :
     m_choiceFrame = 0;
     m_usedMax = 10;
     m_testItemCount = 4;
+    m_checkItemNames = false;
 
     m_infoLabel = new QLabel(this);
     m_infoLabel->hide();
@@ -41,7 +43,6 @@ CTestEngine::CTestEngine(QWidget *parent) :
 CTestEngine::~CTestEngine()
 {
     clearVocabulary();
-    m_restItems.clear();
     m_usedItems.clear();
 }
 
@@ -101,33 +102,49 @@ void CTestEngine::showTestButtons()
     m_showSpecCBox->show();
 }
 
+void CTestEngine::calculateTestItemCount()
+{
+    QHash <QString, int> names;
+    for (int i = 0; i < m_vocabulary.count(); ++i) {
+        names[m_vocabulary.at(i)->word] = names.value(m_vocabulary.at(i)->word, 0) + 1;
+    }
+    if (names.size() < m_vocabulary.size()) {
+        m_checkItemNames = true;
+    } else {
+        m_checkItemNames = false;
+    }
+
+    if (names.size() < 4) {
+        m_testItemCount = names.size();
+    } else {
+        m_testItemCount = 4;
+    }
+}
+
+
 void CTestEngine::startTest()
 {
     m_retryBtn->hide();
     m_infoLabel->hide();
     m_statsWidget->hide();
 
-    m_restItems.clear();
     m_usedItems.clear();
     m_results.clear();
 
-    for (int i = 0; i < m_vocabulary.count(); ++i) {
-        m_restItems.append(i);
-    }
-
     if (m_vocabulary.count() > 3) {
-//        if (m_usedMax > m_vocabulary.count()) {
-//            m_usedMax = m_vocabulary.count() / 2;
-//        }
-
         if (m_vocabulary.count() > 8) {
             m_usedMax = m_vocabulary.count() / 2;
         } else {
             m_usedMax = 0;
         }
-
-        nextFrame();
-        showTestButtons();
+        calculateTestItemCount();
+        if (m_testItemCount > 1) {
+            nextFrame();
+            showTestButtons();
+        } else {
+            hideTestButtons();
+            errorFrame("too few names");
+        }
     } else {
         hideTestButtons();
         errorFrame("too few items");
@@ -141,14 +158,21 @@ void CTestEngine::nextFrame()
     connect(choiceFrame, SIGNAL(testDone(STestResult)), this, SLOT(frameDone(STestResult)));
 
     QVector <int> tempItems;
+    QVector <QString> tempNames;
     for (int i = 0; i < m_testItemCount; ++i) {
-        int attempts = 100;
+        int attempts = m_vocabulary.count() * 10;
         while (attempts > 0) {
             int rndIdx = qrand() % m_vocabulary.count();
-            if (m_usedItems.indexOf(rndIdx) < 0 && tempItems.indexOf(rndIdx) < 0) {
-                choiceFrame->addItem(m_vocabulary.at(rndIdx));
-                tempItems.append(rndIdx);
-                break;
+            if (!m_usedItems.contains(rndIdx) && !tempItems.contains(rndIdx)) {
+                if (m_checkItemNames == false ||
+                    (m_checkItemNames && !tempNames.contains(m_vocabulary.at(rndIdx)->word))) {
+                    choiceFrame->addItem(m_vocabulary.at(rndIdx));
+                    tempItems.append(rndIdx);
+                    if (m_checkItemNames && i == 0) { // right item
+                        tempNames.append(m_vocabulary.at(rndIdx)->word);
+                    }
+                    break;
+                }
             }
             attempts --;
         }
