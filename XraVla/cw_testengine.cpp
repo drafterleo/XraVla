@@ -145,12 +145,10 @@ void CTestEngine::nextFrame()
         int attempts = 100;
         while (attempts > 0) {
             int rndIdx = qrand() % m_vocabulary.count();
-            if (m_usedItems.indexOf(rndIdx) < 0) {
-                if (tempItems.indexOf(rndIdx) < 0) {
-                    choiceFrame->addItem(m_vocabulary.at(rndIdx));
-                    tempItems.append(rndIdx);
-                    break;
-                }
+            if (m_usedItems.indexOf(rndIdx) < 0 && tempItems.indexOf(rndIdx) < 0) {
+                choiceFrame->addItem(m_vocabulary.at(rndIdx));
+                tempItems.append(rndIdx);
+                break;
             }
             attempts --;
         }

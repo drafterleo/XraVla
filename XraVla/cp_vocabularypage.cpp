@@ -246,6 +246,14 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
             return true;
         }
 
+        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
+            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
+            keyEvent->key() == Qt::Key_C) {
+            // copy current item in the xravlaste
+            this->keyPressEvent(keyEvent);
+            return true;
+        }
+
         if (target == m_wordEdit) {
             if (keyEvent->key() == Qt::Key_Up || keyEvent->key() == Qt::Key_Down) {
                 //qDebug() << "up or down";
@@ -295,6 +303,15 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
         // <Ctrl + Shift + "R"> add new randomized item
         insertNewItem();
         randomizePixra();
+        m_wordEdit->setFocus();
+        return;
+    }
+
+    if (event->modifiers().testFlag(Qt::ControlModifier) &&
+        event->modifiers().testFlag(Qt::ShiftModifier) &&
+        event->key() == Qt::Key_C) {
+        // <Ctrl + Shift + "C"> add new randomized item
+        copyCurrItem();
         m_wordEdit->setFocus();
         return;
     }
@@ -390,6 +407,27 @@ void CVocabularyPage::insertNewItem()
             m_listView->setCurrentIndex(model->index(0, 0));
 
         m_modified = true;
+    }
+}
+
+void CVocabularyPage::copyCurrItem()
+{
+    QModelIndex prevCurrentIndex = m_listView->currentIndex();
+    if (prevCurrentIndex.isValid()) {
+        CXravlasteItem *prevCurrItem = m_listView->model()->data(prevCurrentIndex).value<CXravlasteItem *>();
+        if (prevCurrItem && prevCurrItem->pixra) {
+            insertNewItem();
+            QModelIndex currentIndex = m_listView->currentIndex();
+            if (prevCurrentIndex.isValid()) {
+                CXravlasteItem *currItem = m_listView->model()->data(currentIndex).value<CXravlasteItem *>();
+                if (currItem) {
+                    currItem->setPixra(prevCurrItem->pixra);
+                    listViewChanged(currentIndex, prevCurrentIndex);
+                    m_modified = true;
+                }
+            }
+
+        }
     }
 }
 

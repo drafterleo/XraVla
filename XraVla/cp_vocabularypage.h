@@ -57,6 +57,7 @@ public slots:
     void saveItems();
 
     void insertNewItem();
+    void copyCurrItem();
     void removeCurrItem();
     void moveCurrItemUp();
     void moveCurrItemDown();
