@@ -43,6 +43,7 @@ protected:
 
     void commitModification();
     void undoModification();
+    void rgbSums(int & r, int & g, int & b);
 
     virtual void resizeEvent(QResizeEvent *);
     virtual void paintEvent(QPaintEvent *);

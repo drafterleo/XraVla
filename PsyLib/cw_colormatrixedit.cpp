@@ -105,6 +105,22 @@ void CColorMatrixEdit::resizeEvent(QResizeEvent *)
     updateMatrixArea();
 }
 
+void CColorMatrixEdit::rgbSums(int & r, int & g, int & b)
+{
+    r = 0;
+    g = 0;
+    b = 0;
+
+    for (int col = 0; col < matrix.colCount(); ++ col) {
+        for (int row = 0; row < matrix.rowCount(); ++row) {
+            QColor color = matrix.getColor(col, row);
+            r += color.red();
+            g += color.green();
+            b += color.blue();
+        }
+    }
+}
+
 void CColorMatrixEdit::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
@@ -153,6 +169,11 @@ void CColorMatrixEdit::paintEvent(QPaintEvent *)
         painter.setPen(QPen(cursorColor, 3));
         painter.drawEllipse(cursorRect);
     }
+
+//    int r, g, b;
+//    rgbSums(r, g, b);
+//    painter.setPen(Qt::lightGray);
+//    painter.drawText(rect(), Qt::AlignBottom | Qt::AlignLeft, QString("r: %1, g: %2, b: %3").arg(r).arg(g).arg(b));
 
     painter.end();
 }
