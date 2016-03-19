@@ -122,9 +122,8 @@ void CChoiceTestFrame::mouseMoveEvent(QMouseEvent *event)
     }
 }
 
-void CChoiceTestFrame::leaveEvent(QEvent *event)
+void CChoiceTestFrame::leaveEvent(QEvent *)
 {
-    Q_UNUSED(event);
     m_hotIdx = -1;
     update();
 }
@@ -146,6 +145,15 @@ void CChoiceTestFrame::mousePressEvent(QMouseEvent *event)
     }
 }
 
+
+void CChoiceTestFrame::mouseDoubleClickEvent(QMouseEvent *event)
+{
+    for (int i = 0; i < m_pixraRects.count(); ++i) {
+        if(m_pixraRects[i].contains(event->pos())) {
+            emit needEditItem(m_items.at(i)->idxTag);
+        }
+    }
+}
 
 void CChoiceTestFrame::showSpec(bool xu)
 {

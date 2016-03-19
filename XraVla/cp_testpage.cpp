@@ -7,6 +7,7 @@ CTestPage::CTestPage(QWidget *parent) :
 {
     m_vocPage = 0;
     m_testEngine = new CTestEngine(this);
+    connect(m_testEngine, SIGNAL(needEditItem(int)), SIGNAL(needEditItem(int)));
 }
 
 void CTestPage::resizeEvent(QResizeEvent *event)
@@ -29,6 +30,7 @@ void CTestPage::enterPage()
         for (int i = 0; i < m_vocPage->model()->rowCount(); ++i) {
             CXravlasteItem *xitem = new CXravlasteItem;
             xitem->assign(m_vocPage->model()->data(m_vocPage->model()->index(i, 0)).value<CXravlasteItem *>());
+            xitem->idxTag = i;
             m_testEngine->addItem(xitem);
         }
 

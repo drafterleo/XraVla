@@ -20,6 +20,7 @@ public:
     QString name;
     QString spec;
     CAbstractPixra *pixra;
+    int idxTag;
 };
 
 Q_DECLARE_METATYPE(CXravlasteItem *)

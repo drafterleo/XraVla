@@ -18,6 +18,12 @@ public:
     explicit CPageBar(QWidget *parent = 0);
     void addPage(int pageIdx, const QString &name, const QPixmap &pix);
 
+public slots:
+    void setCurrPage(int newPageIdx);
+
+signals:
+    void pageChanged(int newPageIdx);
+
 protected:
     void paintEvent(QPaintEvent *event);
 
@@ -25,10 +31,6 @@ protected:
     void mousePressEvent(QMouseEvent *event);
     void leaveEvent(QEvent *);
 
-    void setCurrPage(int newPageIdx);
-
-signals:
-    void pageChanged(int newPageIdx);
 
 private:
     QVector <SPageBarItem> m_pages;

@@ -15,6 +15,7 @@ public:
     void setVocabularyPage(CVocabularyPage *vocPage);
     
 signals:
+    void needEditItem(int idx);
     
 public slots:
 

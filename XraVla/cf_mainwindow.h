@@ -14,7 +14,8 @@ public:
     
 signals:
     
-public slots:
+protected slots:
+    void carryItemEdit(int idx);
 
 protected:
     void closeEvent(QCloseEvent *event);

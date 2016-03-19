@@ -22,6 +22,7 @@ void CXravlasteItem::assign(CXravlasteItem *other)
     if (other) {
         name = other->name;
         spec = other->spec;
+        idxTag = other->idxTag;
 
         delete pixra;
         if (other->pixra) {

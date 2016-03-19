@@ -17,6 +17,7 @@ CMainWindow::CMainWindow(QWidget *parent, const QString &paramFileName) :
     m_vocabularyPage = new CVocabularyPage;
     m_testPage = new CTestPage;
     m_testPage->setVocabularyPage(m_vocabularyPage);
+    connect(m_testPage, SIGNAL(needEditItem(int)), SLOT(carryItemEdit(int)));
 
     m_pageManager = new CPageManager(this);
     m_pageManager->addPage("Vocabulary", QPixmap(":/images/iconVocabulary.png"), m_vocabularyPage);
@@ -28,6 +29,12 @@ CMainWindow::CMainWindow(QWidget *parent, const QString &paramFileName) :
     this->setLayout(layout);
 
     readSettings(paramFileName);
+}
+
+void CMainWindow::carryItemEdit(int idx)
+{
+    m_pageManager->setPage(0); //vocabulary page
+    m_vocabularyPage->setCurrItem(idx);
 }
 
 void CMainWindow::closeEvent(QCloseEvent *event)

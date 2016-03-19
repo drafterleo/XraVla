@@ -155,7 +155,8 @@ void CTestEngine::nextFrame()
 {
     delete m_choiceFrame;
     CChoiceTestFrame *choiceFrame = new CChoiceTestFrame(this);
-    connect(choiceFrame, SIGNAL(testDone(STestResult)), this, SLOT(frameDone(STestResult)));
+    connect(choiceFrame, SIGNAL(testDone(STestResult)), SLOT(frameDone(STestResult)));
+    connect(choiceFrame, SIGNAL(needEditItem(int)), SIGNAL(needEditItem(int)));
 
     QVector <int> tempItems;
     QVector <QString> tempNames;
@@ -166,7 +167,8 @@ void CTestEngine::nextFrame()
             if (!m_usedItems.contains(rndIdx) && !tempItems.contains(rndIdx)) {
                 if (m_checkItemNames == false ||
                     (m_checkItemNames && !tempNames.contains(m_vocabulary.at(rndIdx)->name))) {
-                    choiceFrame->addItem(m_vocabulary.at(rndIdx));
+                    CXravlasteItem *item = m_vocabulary.at(rndIdx);
+                    choiceFrame->addItem(item);
                     tempItems.append(rndIdx);
                     if (m_checkItemNames && i == 0) { // right item
                         tempNames.append(m_vocabulary.at(rndIdx)->name);
@@ -177,7 +179,7 @@ void CTestEngine::nextFrame()
             attempts --;
         }
     }
-    choiceFrame->setRight(0);
+    choiceFrame->setRight(0); // zero item is right
     m_usedItems.append(tempItems.at(0));
     if (m_usedItems.count() > m_usedMax)
         m_usedItems.remove(0);

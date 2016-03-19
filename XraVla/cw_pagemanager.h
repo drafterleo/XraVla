@@ -14,7 +14,7 @@ public:
     void addPage(const QString &name, const QPixmap &pix, CPageWidget *pageWidget);
 
 protected:
-    void paintEvent(QPaintEvent *event);
+    void paintEvent(QPaintEvent *);
     void resizeEvent(QResizeEvent *event);
 
 signals:

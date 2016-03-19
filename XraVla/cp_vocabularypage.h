@@ -61,6 +61,7 @@ public slots:
     void removeCurrItem();
     void moveCurrItemUp();
     void moveCurrItemDown();
+    void setCurrItem(int idx);
 
 protected slots:
     void listViewChanged(const QModelIndex & current, const QModelIndex & previous);

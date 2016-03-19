@@ -396,6 +396,17 @@ void CVocabularyPage::pixraChanged()
     }
 }
 
+
+void CVocabularyPage::setCurrItem(int idx)
+{
+    QAbstractItemModel *model = m_listView->model();
+    if (model) {
+        QModelIndex modelIndex = model->index(idx, 0);
+        m_listView->setCurrentIndex(modelIndex);
+    }
+}
+
+
 void CVocabularyPage::insertNewItem()
 {
     QAbstractItemModel *model = m_listView->model();

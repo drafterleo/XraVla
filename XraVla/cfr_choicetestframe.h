@@ -19,6 +19,9 @@ public:
     void shuffleItems(int n);
     void showSpec(bool xu);
 
+signals:
+    void needEditItem(int idx);
+
 protected:
     void paintEvent(QPaintEvent *event);
     void resizeEvent(QResizeEvent *);
@@ -26,8 +29,9 @@ protected:
     void updateRects();
 
     void mouseMoveEvent(QMouseEvent *event);
-    void leaveEvent(QEvent *event);
+    void leaveEvent(QEvent *);
     void mousePressEvent(QMouseEvent *event);
+    void mouseDoubleClickEvent(QMouseEvent *event);
 
 private:
     QVector <CXravlasteItem *> m_items;

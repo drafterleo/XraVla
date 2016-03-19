@@ -21,6 +21,9 @@ public:
     void addItem(CXravlasteItem *item); // owns items (ca'o ponse la items)
     void clearVocabulary();             // !!! deletes items
 
+signals:
+    void needEditItem(int idx);
+
 public slots:
     void startTest();
 

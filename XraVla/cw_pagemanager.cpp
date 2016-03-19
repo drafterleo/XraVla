@@ -49,15 +49,14 @@ void CPageManager::setPage(int pageIdx)
         if (nextPage)
             nextPage->enterPage();
 
+        m_pageBar->setCurrPage(pageIdx);
         m_pageStack->setCurrentIndex(pageIdx);
     }
 }
 
 
-void CPageManager::paintEvent(QPaintEvent *event)
+void CPageManager::paintEvent(QPaintEvent *)
 {
-    Q_UNUSED(event);
-
     QPainter painter(this);
 //    painter.setRenderHint(QPainter::Antialiasing);
 
