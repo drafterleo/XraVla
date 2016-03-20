@@ -1,0 +1,2059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xravlaste>
+<xravlaste version="1.0">
+    <proto>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </proto>
+    <item>
+        <word>ala</word>
+        <spec>отрицание</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CEllipseFigure">
+                <anchor x="0.474265" y="0.607843"/>
+                <anchor x="0.776961" y="0.454657"/>
+                <anchor x="0.474265" y="0.301471"/>
+                <anchor x="0.171569" y="0.454657"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.210784" y="0.754902"/>
+                <anchor x="0.568627" y="0.183824"/>
+                <anchor x="0.769608" y="0.75"/>
+                <anchor x="0.134804" y="0.0882353"/>
+                <anchor x="0.612745" y="0.808824"/>
+                <anchor x="0.367647" y="0.14951"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>alasa</word>
+        <spec>cобирать урожай, охотиться</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.183824" y="0.688725"/>
+                <anchor x="0.803922" y="0.622549"/>
+                <anchor x="0.590686" y="0.367647"/>
+                <anchor x="0.161765" y="0.223039"/>
+                <anchor x="0.909314" y="0.333333"/>
+                <anchor x="0.781863" y="0.870098"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.13848" y="0.541667"/>
+                <anchor x="0.213235" y="0.447304"/>
+                <anchor x="0.13848" y="0.352941"/>
+                <anchor x="0.0637255" y="0.447304"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ali, ale</word>
+        <spec>всё, все, каждый, целый, 
+полный, вселенная</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CEllipseFigure">
+                <anchor x="0.484069" y="0.85049"/>
+                <anchor x="0.115196" y="0.480392"/>
+                <anchor x="0.484069" y="0.110294"/>
+                <anchor x="0.852941" y="0.480392"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.754902" y="0.735294"/>
+                <anchor x="0.404412" y="0.845588"/>
+                <anchor x="0.129902" y="0.588235"/>
+                <anchor x="0.245098" y="0.20098"/>
+                <anchor x="0.664216" y="0.151961"/>
+                <anchor x="0.845588" y="0.409314"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>anpa</word>
+        <spec>низ, под, пол, ниже, вниз</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.973891" y="0.616017"/>
+                <anchor x="0.822567" y="0.867322"/>
+                <anchor x="0.833376" y="0.478205"/>
+                <anchor x="0.757714" y="0.948388"/>
+                <anchor x="0.0875674" y="0.867322"/>
+                <anchor x="0.557751" y="0.688977"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.456475" y="0.864478"/>
+                <anchor x="0.275695" y="0.91018"/>
+                <anchor x="0.456475" y="0.955882"/>
+                <anchor x="0.637255" y="0.91018"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ante</word>
+        <spec>отличие, другой, иначе, 
+изменить, сменить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.45098" y="0.453431"/>
+                <anchor x="0.178922" y="0.215686"/>
+                <anchor x="0.943627" y="0.252451"/>
+                <anchor x="0.313725" y="0.781863"/>
+                <anchor x="0.0196078" y="0.416667"/>
+                <anchor x="0.254902" y="0.60049"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.743873" y="0.894608"/>
+                <anchor x="0.558824" y="0.800245"/>
+                <anchor x="0.743873" y="0.705882"/>
+                <anchor x="0.928922" y="0.800245"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>apeja</word>
+        <spec>обижать, оскорблять, унижать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.867647" y="0.845588"/>
+                <anchor x="0.370098" y="0.801471"/>
+                <anchor x="0.480392" y="0.720588"/>
+                <anchor x="0.370098" y="0.465686"/>
+                <anchor x="0.186275" y="0.42402"/>
+                <anchor x="0.411765" y="0.0612745"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.390931" y="0.688725"/>
+                <anchor x="0.352941" y="0.482843"/>
+                <anchor x="0.390931" y="0.276961"/>
+                <anchor x="0.428922" y="0.482843"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>awen</word>
+        <spec>оставаться, ждать, хранить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.0514706" y="0.713235"/>
+                <anchor x="0.397059" y="0.681373"/>
+                <anchor x="0.620098" y="0.688725"/>
+                <anchor x="0.0147059" y="0.573529"/>
+                <anchor x="0.803922" y="0.558824"/>
+                <anchor x="0.781863" y="0.438725"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.16299" y="0.52451"/>
+                <anchor x="0.257353" y="0.273284"/>
+                <anchor x="0.16299" y="0.0220588"/>
+                <anchor x="0.0686275" y="0.273284"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>esun</word>
+        <spec>рынок, магазин
+торговая площадка</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.818627" y="0.808824"/>
+                <anchor x="0.362745" y="0.985294"/>
+                <anchor x="0.823529" y="0.360294"/>
+                <anchor x="0.531863" y="0.0612745"/>
+                <anchor x="0.0637255" y="0.296569"/>
+                <anchor x="0.0245098" y="0.855392"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.335784" y="0.713235"/>
+                <anchor x="0.0686275" y="0.53799"/>
+                <anchor x="0.335784" y="0.362745"/>
+                <anchor x="0.602941" y="0.53799"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ijo</word>
+        <spec>вещь, объект, что-то,
+из чего-то, воплощать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ike</word>
+        <spec>плохой, злой, сложный, 
+больной, вредность, ухудшить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ilo</word>
+        <spec>инструмент, устройство
+аппарат, механизм, прибор</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>insa</word>
+        <spec>внутри, центр, живот
+внутренний</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>jaki</word>
+        <spec>грязный, мерзкий, мусор, брань</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>jan</word>
+        <spec>человек, люди, кто-то
+олицетворять</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>jelo</word>
+        <spec>жёлтый</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>jo</word>
+        <spec>иметь, содержать,
+имущество, собственность</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>kalama</word>
+        <spec>звук, шум, голос</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>kama</word>
+        <spec>подходить, приходить, событие,
+начинать, будущее, вызвать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ken</word>
+        <spec>мочь, разрешать, способность,
+сделать возможным, разрешить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>kepeken</word>
+        <spec>использовать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>kipisi</word>
+        <spec>резать, разелять</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>kiwen</word>
+        <spec>твёрдый, сплошной, камень,
+металл, сплошной</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ko</word>
+        <spec>вязкая субстанция,
+резина, порошок</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>kon</word>
+        <spec>воздух, ветер, запах,
+газообразный, неземной</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>kule</word>
+        <spec>цвет, краска, цветной</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>kute</word>
+        <spec>слух, слушать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>kulupu</word>
+        <spec>группа, общество,
+совместный, общий</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lape</word>
+        <spec>сон, отдых, спать, сонный</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>laso</word>
+        <spec>синий</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lawa</word>
+        <spec>голова, ум, главный
+управлять, контролировать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lete</word>
+        <spec>холод, холодный, заморозить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lili</word>
+        <spec>маленький, молодой, мало
+уменьшать, сокращать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>linja</word>
+        <spec>тонкий предмет,
+верёвка, нитка, волос</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lipu</word>
+        <spec>плоский и гибкий предмет,
+бумага, карточка, билет</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>loje</word>
+        <spec>красный</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lon</word>
+        <spec>быть, существовать,
+присутствовать, правда</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lukin</word>
+        <spec>сметреть, видеть, наблюдать,
+читать, видимый</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>lupa</word>
+        <spec>дыра, отверстие, окно, дверь,
+проход</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ma</word>
+        <spec>земля, место, страна,
+пространство</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mama</word>
+        <spec>родитель, папа, мама</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mani</word>
+        <spec>деньги</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>meli</word>
+        <spec>женский, женщина, 
+девочка, жена, подружка</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mi</word>
+        <spec>я, мы, мой, наш</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mije</word>
+        <spec>мужчина, муж, мужской</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>moku</word>
+        <spec>еда, пища, есть, пить, глотать,
+потреблять</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>moli</word>
+        <spec>смерть, умереть, мёртвый, 
+убить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>monsi</word>
+        <spec>сзади, зад, задний</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>musi</word>
+        <spec>развлечение, игра, искусство,
+развлекаться, развеселить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>mute</word>
+        <spec>много, очень, больше,
+количество, увеличить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>napa</word>
+        <spec>число</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>nasa</word>
+        <spec>тупой, сумасшедший, странный,
+чудить, сводить с ума</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>nasin</word>
+        <spec>дорога, путь, выбор, метод</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>nena</word>
+        <spec>выпуклость, гора, нос, кнопка</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ni</word>
+        <spec>это, этот</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>nimi</word>
+        <spec>имя</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>olin</word>
+        <spec>любовь, любить, любимый</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>ona</word>
+        <spec>он, она, они, его, её, их</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>open</word>
+        <spec>открыть, включить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>pakala</word>
+        <spec>промах, ошибка, сломать,
+разрушить, развалиться</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>pali</word>
+        <spec>активность, работа, делать,
+создавать, строить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>palisa</word>
+        <spec>твёрдый объект, палка, ветка</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>pana</word>
+        <spec>давать, класть, посылать,
+передача, обмен</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>pilin</word>
+        <spec>чувства, эмоции, ощущать,
+думать о чём-либо</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>pimeja</word>
+        <spec>чёрный, тёмный, темнота,
+тень, затемнять</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>pini</word>
+        <spec>конец, кончик, прошлый,
+заканчивать, выключать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>poka</word>
+        <spec>сторона, бок, край, бедро,
+почти, соседний</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>poki</word>
+        <spec>контейнер, коробка, чашка</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>pona</word>
+        <spec>доброта, простота, хороший,
+правильный, ремонтировать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>sama</word>
+        <spec>такой же, похожий, равный</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>seli</word>
+        <spec>огонь, тепло, горячий, тёплый,
+нагревать, готовить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>selo</word>
+        <spec>поверхность, кожа, форма,
+снаружи</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>sewi</word>
+        <spec>верх, над, на, верхний
+религиозный, официальный</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>sijelo</word>
+        <spec>тело, физическое состояние</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>sike</word>
+        <spec>круг, колесо, шар, мяч
+круглый, периодический</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>sin</word>
+        <spec>новый, свежий, другой, ещё,
+обновить, освежить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>sina</word>
+        <spec>ты, твой</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>sinpin</word>
+        <spec>перед, грудь, торс, лицо, стена</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>sitelen</word>
+        <spec>изображение, картинка,
+рисовать, писать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>sona</word>
+        <spec>знание, мудрость, понимание,
+знать, понимать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>suli</word>
+        <spec>большой, высокий, взрослый,
+размер, важный, увеличивать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>suno</word>
+        <spec>солнце, свет</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>supa</word>
+        <spec>мебель, стол, стул, этаж,
+горизонтальная поверхность</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>suwi</word>
+        <spec>лакомство, конфета, сладкий,
+изящный, услащать</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>tan</word>
+        <spec>источник, причина, из, 
+с помощью, благодаря, после</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>taso</word>
+        <spec>единственный, но, однако</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>tawa</word>
+        <spec>двигать, перемещать, в, для,
+идти, передвижной</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>telo</word>
+        <spec>вода, жидкость, сок, мыть</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>tenpo</word>
+        <spec>время, период, момент,
+длительность </spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>toki</word>
+        <spec>язык, разговор, речь
+сказать, общаться</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>tomo</word>
+        <spec>дом, помещение, комната,
+городской, домашний</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>tu</word>
+        <spec>два, пара, разделять</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>unpa</word>
+        <spec>пол, секс, эротический</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>uta</word>
+        <spec>рот, устный, оральный</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>utala</word>
+        <spec>конфликт, соревнование, 
+атака, спор, насилие</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>walo</word>
+        <spec>белый, светлый, чистота</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>wan</word>
+        <spec>один, элемент, часть, 
+объединить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>wawa</word>
+        <spec>сила, энергия, мощный
+интенсивный, укреплять</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>weka</word>
+        <spec>отсутствие, далёкий, убрать,
+выбросить</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>wile</word>
+        <spec>хотеть, желать, нужда, воля,
+необходимый</spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.5" y="0.1"/>
+                <anchor x="0.84641" y="0.3"/>
+                <anchor x="0.84641" y="0.7"/>
+                <anchor x="0.5" y="0.9"/>
+                <anchor x="0.15359" y="0.7"/>
+                <anchor x="0.15359" y="0.3"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.495" y="0.33"/>
+                <anchor x="0.66" y="0.495"/>
+                <anchor x="0.495" y="0.66"/>
+                <anchor x="0.33" y="0.495"/>
+            </figure>
+        </pixra>
+    </item>
+</xravlaste>
