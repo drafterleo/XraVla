@@ -127,6 +127,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
 
     setCurrentFileName("unknown.xvl");
     m_modified = false;
+    m_showInfo = false;
 }
 
 CVocabularyPage::~CVocabularyPage()
@@ -256,6 +257,14 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
 
         if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
             keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
+            keyEvent->key() == Qt::Key_I) {
+            // show info
+            this->keyPressEvent(keyEvent);
+            return true;
+        }
+
+        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
+            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
             keyEvent->key() == Qt::Key_S){
             // <Ctrl + Shidt + S> : set vocabulary protoPixra to current Item
             CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
@@ -290,6 +299,15 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
 
 void CVocabularyPage::keyPressEvent(QKeyEvent *event)
 {
+    if (event->modifiers().testFlag(Qt::ControlModifier) &&
+        event->modifiers().testFlag(Qt::ShiftModifier) &&
+        event->key() == Qt::Key_I) {
+        // <Ctrl + Shift + "I"> show/hide info
+        m_showInfo = !m_showInfo;
+        update();
+        return;
+    }
+
     if (event->modifiers().testFlag(Qt::ControlModifier) &&
         event->modifiers().testFlag(Qt::ShiftModifier) &&
         event->key() == Qt::Key_Plus) {
@@ -354,6 +372,9 @@ void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelI
     }
 
     m_modified = modifiedTmp;
+    if (m_showInfo) {
+        update();
+    }
 }
 
 void CVocabularyPage::wordChanged(const QString & str)
@@ -482,6 +503,11 @@ void CVocabularyPage::paintEvent(QPaintEvent *)
     painter.setPen(QPen(QColor(0x4E4E4E), 2));
     //painter.drawRect(x, 1, w, height() - 2);
     painter.drawLine(x, 0, x, height());
+    if (m_showInfo) {
+        QString infoStr = QString("Item Count: %1").arg(m_listView->model()->rowCount());
+        painter.setPen(Qt::lightGray);
+        painter.drawText(5, height() - 10, infoStr);
+    }
     painter.end();
 }
 

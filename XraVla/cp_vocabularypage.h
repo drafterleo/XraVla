@@ -80,6 +80,7 @@ private:
     QString m_currentFileName;
 
     bool m_modified;
+    bool m_showInfo;
 
 
     CAbstractEdit  *m_pixraEdit;
