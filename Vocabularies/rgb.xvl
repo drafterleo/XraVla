@@ -4845,7 +4845,7 @@
         </pixra>
     </item>
     <item>
-        <word>b</word>
+        <word>r</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">

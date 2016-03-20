@@ -254,6 +254,26 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
             return true;
         }
 
+        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
+            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
+            keyEvent->key() == Qt::Key_S){
+            // <Ctrl + Shidt + S> : set vocabulary protoPixra to current Item
+            CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
+            createPixraEdit(model->protoPixra()->metaObject()->className());
+            relocateWidgets();
+            m_pixraEdit->assignPixra(model->protoPixra());
+            return true;
+        }
+
+        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
+            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
+            keyEvent->key() == Qt::Key_P) {
+            // <Ctrl + Shift + P> : set current pixra as Proto
+            CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
+            model->setProtoPixra(m_pixraEdit->pixra());
+            updateProtoPixraBtn(m_pixraEdit->pixra());
+            return true;
+        }
         if (target == m_nameEdit) {
             if (keyEvent->key() == Qt::Key_Up || keyEvent->key() == Qt::Key_Down) {
                 //qDebug() << "up or down";
@@ -263,25 +283,7 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
             }
         }
 
-        if (target == m_pixraEdit) {
-            if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
-                keyEvent->key() == Qt::Key_S){
-                // <Ctrl + S> : set vocabulary protoPixra to current Item
-                CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
-                createPixraEdit(model->protoPixra()->metaObject()->className());
-                relocateWidgets();
-                m_pixraEdit->assignPixra(model->protoPixra());
-                return true;
-            }
-            if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
-                keyEvent->key() == Qt::Key_P) {
-                // <Ctrl + P> : set current pixra as Proto
-                CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
-                model->setProtoPixra(m_pixraEdit->pixra());
-                updateProtoPixraBtn(m_pixraEdit->pixra());
-                return true;
-            }
-        }
+
     }
     return CPageWidget::eventFilter(target, event);
 }

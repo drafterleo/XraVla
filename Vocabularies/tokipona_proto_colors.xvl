@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xravlaste>
+<xravlaste version="1.0">
+    <proto>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </proto>
+    <item>
+        <word>ala</word>
+        <spec>отрицание</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>alasa</word>
+        <spec>cобирать урожай, охотиться</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ali, ale</word>
+        <spec>всё, все, каждый, целый, 
+полный, вселенная</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>anpa</word>
+        <spec>низ, под, пол, ниже, вниз</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ante</word>
+        <spec>отличие, другой, иначе, 
+изменить, сменить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>apeja</word>
+        <spec>обижать, оскорблять, унижать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>awen</word>
+        <spec>оставаться, ждать, хранить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>esun</word>
+        <spec>рынок, магазин
+торговая площадка</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ijo</word>
+        <spec>вещь, объект, что-то,
+из чего-то, воплощать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ike</word>
+        <spec>плохой, злой, сложный, 
+больной, вредность, ухудшить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ilo</word>
+        <spec>инструмент, устройство
+аппарат, механизм, прибор</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>insa</word>
+        <spec>внутри, центр, живот
+внутренний</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>jaki</word>
+        <spec>грязный, мерзкий, мусор, брань</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>jan</word>
+        <spec>человек, люди, кто-то
+олицетворять</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>jelo</word>
+        <spec>жёлтый</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>jo</word>
+        <spec>иметь, содержать,
+имущество, собственность</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>kalama</word>
+        <spec>звук, шум, голос</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>kama</word>
+        <spec>подходить, приходить, событие,
+начинать, будущее, вызвать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ken</word>
+        <spec>мочь, разрешать, способность,
+сделать возможным, разрешить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>kepeken</word>
+        <spec>использовать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>kipisi</word>
+        <spec>резать, разелять</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>kiwen</word>
+        <spec>твёрдый, сплошной, камень,
+металл, сплошной</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ko</word>
+        <spec>вязкая субстанция,
+резина, порошок</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>kon</word>
+        <spec>воздух, ветер, запах,
+газообразный, неземной</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>kule</word>
+        <spec>цвет, краска, цветной</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>kute</word>
+        <spec>слух, слушать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>kulupu</word>
+        <spec>группа, общество,
+совместный, общий</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>lape</word>
+        <spec>сон, отдых, спать, сонный</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>laso</word>
+        <spec>синий</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>lawa</word>
+        <spec>голова, ум, главный
+управлять, контролировать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>lete</word>
+        <spec>холод, холодный, заморозить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>lili</word>
+        <spec>маленький, молодой, мало
+уменьшать, сокращать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>linja</word>
+        <spec>тонкий предмет,
+верёвка, нитка, волос</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>lipu</word>
+        <spec>плоский и гибкий предмет,
+бумага, карточка, билет</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>loje</word>
+        <spec>красный</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>lon</word>
+        <spec>быть, существовать,
+присутствовать, правда</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>lukin</word>
+        <spec>сметреть, видеть, наблюдать,
+читать, видимый</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>lupa</word>
+        <spec>дыра, отверстие, окно, дверь,
+проход</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ma</word>
+        <spec>земля, место, страна,
+пространство</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>mama</word>
+        <spec>родитель, папа, мама</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>mani</word>
+        <spec>деньги</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>meli</word>
+        <spec>женский, женщина, 
+девочка, жена, подружка</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>mi</word>
+        <spec>я, мы, мой, наш</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>mije</word>
+        <spec>мужчина, муж, мужской</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>moku</word>
+        <spec>еда, пища, есть, пить, глотать,
+потреблять</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>moli</word>
+        <spec>смерть, умереть, мёртвый, 
+убить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>monsi</word>
+        <spec>сзади, зад, задний</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>musi</word>
+        <spec>развлечение, игра, искусство,
+развлекаться, развеселить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>mute</word>
+        <spec>много, очень, больше,
+количество, увеличить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>napa</word>
+        <spec>число</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>nasa</word>
+        <spec>тупой, сумасшедший, странный,
+чудить, сводить с ума</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>nasin</word>
+        <spec>дорога, путь, выбор, метод</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>nena</word>
+        <spec>выпуклость, гора, нос, кнопка</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ni</word>
+        <spec>это, этот</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>nimi</word>
+        <spec>имя</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>olin</word>
+        <spec>любовь, любить, любимый</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>ona</word>
+        <spec>он, она, они, его, её, их</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>open</word>
+        <spec>открыть, включить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>pakala</word>
+        <spec>промах, ошибка, сломать,
+разрушить, развалиться</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>pali</word>
+        <spec>активность, работа, делать,
+создавать, строить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>palisa</word>
+        <spec>твёрдый объект, палка, ветка</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>pana</word>
+        <spec>давать, класть, посылать,
+передача, обмен</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>pilin</word>
+        <spec>чувства, эмоции, ощущать,
+думать о чём-либо</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>pimeja</word>
+        <spec>чёрный, тёмный, темнота,
+тень, затемнять</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>pini</word>
+        <spec>конец, кончик, прошлый,
+заканчивать, выключать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>poka</word>
+        <spec>сторона, бок, край, бедро,
+почти, соседний</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>poki</word>
+        <spec>контейнер, коробка, чашка</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>pona</word>
+        <spec>доброта, простота, хороший,
+правильный, ремонтировать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>sama</word>
+        <spec>такой же, похожий, равный</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>seli</word>
+        <spec>огонь, тепло, горячий, тёплый,
+нагревать, готовить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>selo</word>
+        <spec>поверхность, кожа, форма,
+снаружи</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>sewi</word>
+        <spec>верх, над, на, верхний
+религиозный, официальный</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>sijelo</word>
+        <spec>тело, физическое состояние</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>sike</word>
+        <spec>круг, колесо, шар, мяч
+круглый, периодический</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>sin</word>
+        <spec>новый, свежий, другой, ещё,
+обновить, освежить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>sina</word>
+        <spec>ты, твой</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>sinpin</word>
+        <spec>перед, грудь, торс, лицо, стена</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>sitelen</word>
+        <spec>изображение, картинка,
+рисовать, писать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>sona</word>
+        <spec>знание, мудрость, понимание,
+знать, понимать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>suli</word>
+        <spec>большой, высокий, взрослый,
+размер, важный, увеличивать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>suno</word>
+        <spec>солнце, свет</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>supa</word>
+        <spec>мебель, стол, стул, этаж,
+горизонтальная поверхность</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>suwi</word>
+        <spec>лакомство, конфета, сладкий,
+изящный, услащать</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>tan</word>
+        <spec>источник, причина, из, 
+с помощью, благодаря, после</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>taso</word>
+        <spec>единственный, но, однако</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>tawa</word>
+        <spec>двигать, перемещать, в, для,
+идти, передвижной</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>telo</word>
+        <spec>вода, жидкость, сок, мыть</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>tenpo</word>
+        <spec>время, период, момент,
+длительность </spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>toki</word>
+        <spec>язык, разговор, речь
+сказать, общаться</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>tomo</word>
+        <spec>дом, помещение, комната,
+городской, домашний</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>tu</word>
+        <spec>два, пара, разделять</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>unpa</word>
+        <spec>пол, секс, эротический</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>uta</word>
+        <spec>рот, устный, оральный</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>utala</word>
+        <spec>конфликт, соревнование, 
+атака, спор, насилие</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>walo</word>
+        <spec>белый, светлый, чистота</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>wan</word>
+        <spec>один, элемент, часть, 
+объединить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>wawa</word>
+        <spec>сила, энергия, мощный
+интенсивный, укреплять</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>weka</word>
+        <spec>отсутствие, далёкий, убрать,
+выбросить</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>wile</word>
+        <spec>хотеть, желать, нужда, воля,
+необходимый</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </item>
+</xravlaste>
