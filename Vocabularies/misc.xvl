@@ -473,4 +473,24 @@
             </figure>
         </pixra>
     </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.644608" y="0.512255"/>
+                <anchor x="0.534314" y="0.857843"/>
+                <anchor x="0.401961" y="0.602941"/>
+                <anchor x="0.539216" y="0.308824"/>
+                <anchor x="0.382353" y="0.220588"/>
+                <anchor x="0.620098" y="0.232843"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.546569" y="0.703431"/>
+                <anchor x="0.860294" y="0.591912"/>
+                <anchor x="0.546569" y="0.480392"/>
+                <anchor x="0.232843" y="0.591912"/>
+            </figure>
+        </pixra>
+    </item>
 </xravlaste>
