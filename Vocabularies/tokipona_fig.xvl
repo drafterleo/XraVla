@@ -187,19 +187,19 @@
         <spec>вещь, объект, что-то,
 из чего-то, воплощать</spec>
         <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
-            </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
+                <anchor x="0.617647" y="0.848039"/>
+                <anchor x="0.335784" y="0.77451"/>
+                <anchor x="0.617647" y="0.70098"/>
+                <anchor x="0.89951" y="0.77451"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.497549" y="0.428922"/>
+                <anchor x="0.669118" y="0.438725"/>
+                <anchor x="0.213235" y="0.267157"/>
+                <anchor x="0.448529" y="0.754902"/>
+                <anchor x="0.857843" y="0.781863"/>
+                <anchor x="0.431373" y="0.426471"/>
             </figure>
         </pixra>
     </item>
@@ -209,18 +209,18 @@
 больной, вредность, ухудшить</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
+                <anchor x="0.303922" y="0.414216"/>
+                <anchor x="0.301471" y="0.0735294"/>
+                <anchor x="0.745098" y="0.977941"/>
+                <anchor x="0.791667" y="0.914216"/>
+                <anchor x="0.546569" y="0.235294"/>
+                <anchor x="0.526961" y="0.578431"/>
             </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
+                <anchor x="0.531863" y="0.637255"/>
+                <anchor x="0.379902" y="0.405637"/>
+                <anchor x="0.531863" y="0.17402"/>
+                <anchor x="0.683824" y="0.405637"/>
             </figure>
         </pixra>
     </item>
@@ -230,18 +230,18 @@
 аппарат, механизм, прибор</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
+                <anchor x="0.117276" y="0.835012"/>
+                <anchor x="0.636234" y="0.529549"/>
+                <anchor x="0.163259" y="0.476996"/>
+                <anchor x="0.521275" y="0.805451"/>
+                <anchor x="0.652657" y="0.621517"/>
+                <anchor x="0.948266" y="0.89085"/>
             </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
+                <anchor x="0.439498" y="0.10358"/>
+                <anchor x="0.625638" y="0.298989"/>
+                <anchor x="0.439498" y="0.494397"/>
+                <anchor x="0.253358" y="0.298989"/>
             </figure>
         </pixra>
     </item>
@@ -251,18 +251,18 @@
 внутренний</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
+                <anchor x="0.835784" y="0.431373"/>
+                <anchor x="0.333333" y="0.151961"/>
+                <anchor x="0.669118" y="0.120098"/>
+                <anchor x="0.571078" y="0.227941"/>
+                <anchor x="0.247549" y="0.742647"/>
+                <anchor x="0.948529" y="0.703431"/>
             </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
+                <anchor x="0.61152" y="0.659314"/>
+                <anchor x="0.477941" y="0.528186"/>
+                <anchor x="0.61152" y="0.397059"/>
+                <anchor x="0.745098" y="0.528186"/>
             </figure>
         </pixra>
     </item>
