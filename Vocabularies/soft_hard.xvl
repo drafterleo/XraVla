@@ -153,7 +153,7 @@
         </pixra>
     </item>
     <item>
-        <word>h</word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -204,7 +204,7 @@
         </pixra>
     </item>
     <item>
-        <word>h</word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -306,7 +306,7 @@
         </pixra>
     </item>
     <item>
-        <word>h</word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -425,7 +425,7 @@
         </pixra>
     </item>
     <item>
-        <word>s</word>
+        <word>h</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -459,7 +459,7 @@
         </pixra>
     </item>
     <item>
-        <word>s</word>
+        <word>h</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -544,7 +544,7 @@
         </pixra>
     </item>
     <item>
-        <word>h</word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -612,7 +612,7 @@
         </pixra>
     </item>
     <item>
-        <word>s</word>
+        <word>h</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -663,7 +663,7 @@
         </pixra>
     </item>
     <item>
-        <word>h</word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -901,7 +901,7 @@
         </pixra>
     </item>
     <item>
-        <word>s</word>
+        <word>h</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -1479,7 +1479,7 @@
         </pixra>
     </item>
     <item>
-        <word>s</word>
+        <word>h</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
