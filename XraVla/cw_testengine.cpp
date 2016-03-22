@@ -102,6 +102,15 @@ void CTestEngine::showTestButtons()
     m_showSpecCBox->show();
 }
 
+void CTestEngine::setTestItemCount(int count)
+{
+    if (m_choiceFrame && count != m_testItemCount && count > 1) {
+        m_testItemCount = count;
+        nextFrame();
+        showTestButtons();
+    }
+}
+
 void CTestEngine::calculateTestItemCount()
 {
     QHash <QString, int> names;
@@ -151,12 +160,49 @@ void CTestEngine::startTest()
     }
 }
 
+
+bool CTestEngine::eventFilter(QObject *object, QEvent *event)
+{
+    if (event->type() == QEvent::KeyPress) {
+        QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
+        if (keyEvent->key() == Qt::Key_2) {
+            setTestItemCount(2);
+            return true;
+        } else
+        if (keyEvent->key() == Qt::Key_3) {
+            setTestItemCount(3);
+            return true;
+        } else
+        if (keyEvent->key() == Qt::Key_4) {
+            setTestItemCount(4);
+            return true;
+        }
+    }
+    return QObject::eventFilter(object, event);
+}
+
+
+void CTestEngine::keyPressEvent(QKeyEvent *keyEvent)
+{
+    if (keyEvent->key() == Qt::Key_2) {
+        setTestItemCount(2);
+    } else
+    if (keyEvent->key() == Qt::Key_3) {
+        setTestItemCount(3);
+    } else
+    if (keyEvent->key() == Qt::Key_4) {
+        setTestItemCount(4);
+    }
+}
+
+
 void CTestEngine::nextFrame()
 {
     delete m_choiceFrame;
     CChoiceTestFrame *choiceFrame = new CChoiceTestFrame(this);
     connect(choiceFrame, SIGNAL(testDone(STestResult)), SLOT(frameDone(STestResult)));
     connect(choiceFrame, SIGNAL(needEditItem(int)), SIGNAL(needEditItem(int)));
+    choiceFrame->installEventFilter(this);
 
     QVector <int> tempItems;
     QVector <QString> tempNames;

@@ -5,7 +5,7 @@
 CColorMatrixPixra::CColorMatrixPixra(QWidget *parent)
     :CAbstractPixra(parent)
 {
-    margin = 1;
+    margin = 2;
     m_backColor = QColor(0x272822);
     m_frameColor = QColor(0x466A7E);
 }
@@ -28,6 +28,11 @@ void CColorMatrixPixra::updateDrawArea()
         drawArea.setWidth(drawArea.height());
     } else {
         drawArea.setHeight(drawArea.width());
+    }
+    if (drawArea.width() < 100) {
+        margin = 1;
+    } else {
+        margin = 2;
     }
     int dx = this->rect().width() - drawArea.width();
     int dy = this->rect().height() - drawArea.height();

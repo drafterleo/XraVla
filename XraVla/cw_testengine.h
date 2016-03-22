@@ -36,6 +36,8 @@ protected slots:
 protected:
     void paintEvent(QPaintEvent *event);
     void resizeEvent(QResizeEvent *);
+    void keyPressEvent(QKeyEvent *keyEvent);
+    bool eventFilter(QObject *object, QEvent *event);
 
     void placeTestFrame();
 
@@ -45,7 +47,9 @@ protected:
     void hideTestButtons();
     void showTestButtons();
 
+    void setTestItemCount(int count);
     void calculateTestItemCount();
+
 
 
 private:

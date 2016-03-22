@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xravlaste>
+<xravlaste version="1.0">
+    <proto>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
+        </pixra>
+    </proto>
+    <item>
+        <word>h</word>
+        <spec>s - soft, h - hard</spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#d2e571"/>
+                <color rgb="#9288ad"/>
+                <color rgb="#67c8c3"/>
+                <color rgb="#f07218"/>
+                <color rgb="#1b86a1"/>
+                <color rgb="#6b354b"/>
+                <color rgb="#a84d9f"/>
+                <color rgb="#89967b"/>
+                <color rgb="#342b22"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#8aba49"/>
+                <color rgb="#d91c99"/>
+                <color rgb="#a5c54a"/>
+                <color rgb="#437a89"/>
+                <color rgb="#1e3478"/>
+                <color rgb="#e28990"/>
+                <color rgb="#48c82a"/>
+                <color rgb="#a130a4"/>
+                <color rgb="#3982db"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#9fac24"/>
+                <color rgb="#38b883"/>
+                <color rgb="#41a34c"/>
+                <color rgb="#777b87"/>
+                <color rgb="#60319f"/>
+                <color rgb="#d6c3ae"/>
+                <color rgb="#8aab19"/>
+                <color rgb="#6dcb71"/>
+                <color rgb="#40cbd0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#8b49b5"/>
+                <color rgb="#68392c"/>
+                <color rgb="#926e9c"/>
+                <color rgb="#cd6449"/>
+                <color rgb="#334074"/>
+                <color rgb="#3f59b0"/>
+                <color rgb="#bed23e"/>
+                <color rgb="#b97a88"/>
+                <color rgb="#598d29"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#2aaea9"/>
+                <color rgb="#c53c73"/>
+                <color rgb="#c8b676"/>
+                <color rgb="#adb0ad"/>
+                <color rgb="#8c21ce"/>
+                <color rgb="#127b80"/>
+                <color rgb="#e09977"/>
+                <color rgb="#c2775f"/>
+                <color rgb="#34cfc4"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#b12331"/>
+                <color rgb="#856287"/>
+                <color rgb="#38e4bf"/>
+                <color rgb="#1f3039"/>
+                <color rgb="#be3d59"/>
+                <color rgb="#9ca34c"/>
+                <color rgb="#794c10"/>
+                <color rgb="#c1865c"/>
+                <color rgb="#3a4e95"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#2ab52c"/>
+                <color rgb="#886d4b"/>
+                <color rgb="#cc4bd3"/>
+                <color rgb="#a45f4f"/>
+                <color rgb="#65617e"/>
+                <color rgb="#a2bbe3"/>
+                <color rgb="#85cda6"/>
+                <color rgb="#85a249"/>
+                <color rgb="#2a54d4"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#d7712f"/>
+                <color rgb="#6893aa"/>
+                <color rgb="#ac5ccd"/>
+                <color rgb="#56674c"/>
+                <color rgb="#82880d"/>
+                <color rgb="#90944f"/>
+                <color rgb="#c26049"/>
+                <color rgb="#a77aa2"/>
+                <color rgb="#e43a1c"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#aa389d"/>
+                <color rgb="#1ae697"/>
+                <color rgb="#af14a2"/>
+                <color rgb="#4f1fd5"/>
+                <color rgb="#acb994"/>
+                <color rgb="#9db7d7"/>
+                <color rgb="#7b2dbd"/>
+                <color rgb="#301a76"/>
+                <color rgb="#1b6982"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#1975af"/>
+                <color rgb="#d27bbb"/>
+                <color rgb="#73cf63"/>
+                <color rgb="#5e3058"/>
+                <color rgb="#6b6736"/>
+                <color rgb="#abc7ba"/>
+                <color rgb="#288089"/>
+                <color rgb="#d08fc6"/>
+                <color rgb="#4154b1"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#ce606e"/>
+                <color rgb="#36704f"/>
+                <color rgb="#1dab95"/>
+                <color rgb="#9d9e44"/>
+                <color rgb="#2fafd6"/>
+                <color rgb="#3ad567"/>
+                <color rgb="#36a9b9"/>
+                <color rgb="#4a5d6a"/>
+                <color rgb="#74b560"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#9a7d6a"/>
+                <color rgb="#1cbfe2"/>
+                <color rgb="#9ce382"/>
+                <color rgb="#9d2ec6"/>
+                <color rgb="#eba4ad"/>
+                <color rgb="#61ca10"/>
+                <color rgb="#998b3d"/>
+                <color rgb="#2b5550"/>
+                <color rgb="#bbbc3e"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#b1d308"/>
+                <color rgb="#4084cf"/>
+                <color rgb="#7749c8"/>
+                <color rgb="#58746a"/>
+                <color rgb="#2d5a8f"/>
+                <color rgb="#d04041"/>
+                <color rgb="#a29f26"/>
+                <color rgb="#bc3f9c"/>
+                <color rgb="#cad316"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#ccbc3e"/>
+                <color rgb="#c78144"/>
+                <color rgb="#bd68dd"/>
+                <color rgb="#935a7c"/>
+                <color rgb="#9254ae"/>
+                <color rgb="#8c67aa"/>
+                <color rgb="#227240"/>
+                <color rgb="#b3ddb3"/>
+                <color rgb="#808f64"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#b892d3"/>
+                <color rgb="#69e5ac"/>
+                <color rgb="#a1698f"/>
+                <color rgb="#6d256c"/>
+                <color rgb="#7b5ed1"/>
+                <color rgb="#965e1e"/>
+                <color rgb="#e19ea0"/>
+                <color rgb="#dac62e"/>
+                <color rgb="#2460e1"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#927025"/>
+                <color rgb="#528f47"/>
+                <color rgb="#b6a236"/>
+                <color rgb="#876356"/>
+                <color rgb="#52a774"/>
+                <color rgb="#da6180"/>
+                <color rgb="#49aaaf"/>
+                <color rgb="#717567"/>
+                <color rgb="#ac5a3c"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#d7d351"/>
+                <color rgb="#604b9c"/>
+                <color rgb="#9b518a"/>
+                <color rgb="#90923b"/>
+                <color rgb="#5990cc"/>
+                <color rgb="#12a2ab"/>
+                <color rgb="#cd7d36"/>
+                <color rgb="#852298"/>
+                <color rgb="#9c7b78"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#9e94bf"/>
+                <color rgb="#46a15e"/>
+                <color rgb="#5e5f9e"/>
+                <color rgb="#6abb77"/>
+                <color rgb="#b9297f"/>
+                <color rgb="#295342"/>
+                <color rgb="#ac8b15"/>
+                <color rgb="#3f7978"/>
+                <color rgb="#49c48d"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#8732a4"/>
+                <color rgb="#2ea56b"/>
+                <color rgb="#0daba1"/>
+                <color rgb="#6f785d"/>
+                <color rgb="#4053a8"/>
+                <color rgb="#ea7a42"/>
+                <color rgb="#277018"/>
+                <color rgb="#2dc6e1"/>
+                <color rgb="#345b52"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#13386d"/>
+                <color rgb="#76b138"/>
+                <color rgb="#61b558"/>
+                <color rgb="#91764c"/>
+                <color rgb="#58717c"/>
+                <color rgb="#be5ab7"/>
+                <color rgb="#b55b4a"/>
+                <color rgb="#65c90d"/>
+                <color rgb="#2f2340"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#0a5aa7"/>
+                <color rgb="#5c3146"/>
+                <color rgb="#40b79f"/>
+                <color rgb="#b56697"/>
+                <color rgb="#95c26a"/>
+                <color rgb="#cb3c52"/>
+                <color rgb="#425ba1"/>
+                <color rgb="#cbcc0a"/>
+                <color rgb="#55482c"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#7bcfa7"/>
+                <color rgb="#c686c4"/>
+                <color rgb="#536c4d"/>
+                <color rgb="#df6cad"/>
+                <color rgb="#55ccc9"/>
+                <color rgb="#c90a57"/>
+                <color rgb="#b25ee1"/>
+                <color rgb="#351484"/>
+                <color rgb="#a9c0b6"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#67654e"/>
+                <color rgb="#c043e8"/>
+                <color rgb="#435378"/>
+                <color rgb="#c42e1f"/>
+                <color rgb="#9ecc6f"/>
+                <color rgb="#315bb4"/>
+                <color rgb="#5aafbc"/>
+                <color rgb="#d866b6"/>
+                <color rgb="#d46b97"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#333f59"/>
+                <color rgb="#43c71a"/>
+                <color rgb="#c4da96"/>
+                <color rgb="#c4a9bb"/>
+                <color rgb="#5c34c3"/>
+                <color rgb="#786582"/>
+                <color rgb="#e53e68"/>
+                <color rgb="#6a9653"/>
+                <color rgb="#14bc2a"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#dd948d"/>
+                <color rgb="#9a76e7"/>
+                <color rgb="#2e1778"/>
+                <color rgb="#d7c5ea"/>
+                <color rgb="#4a23b8"/>
+                <color rgb="#c7394c"/>
+                <color rgb="#2a2990"/>
+                <color rgb="#6dc783"/>
+                <color rgb="#41b3c2"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#2894bb"/>
+                <color rgb="#5c34b2"/>
+                <color rgb="#ae9ed8"/>
+                <color rgb="#1234b2"/>
+                <color rgb="#555c3e"/>
+                <color rgb="#cfaf8e"/>
+                <color rgb="#82687f"/>
+                <color rgb="#268b5b"/>
+                <color rgb="#612c3a"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#1e9073"/>
+                <color rgb="#60aa9a"/>
+                <color rgb="#2b5cd9"/>
+                <color rgb="#e06c41"/>
+                <color rgb="#c2d096"/>
+                <color rgb="#ad3733"/>
+                <color rgb="#34adc4"/>
+                <color rgb="#8b5539"/>
+                <color rgb="#d078cd"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#34a259"/>
+                <color rgb="#363c32"/>
+                <color rgb="#85beb7"/>
+                <color rgb="#79a5bd"/>
+                <color rgb="#907039"/>
+                <color rgb="#3238d1"/>
+                <color rgb="#875db0"/>
+                <color rgb="#b66236"/>
+                <color rgb="#bab6a3"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#5a67b9"/>
+                <color rgb="#c5b4a0"/>
+                <color rgb="#485acd"/>
+                <color rgb="#613239"/>
+                <color rgb="#2e2ec0"/>
+                <color rgb="#9a3377"/>
+                <color rgb="#8cd420"/>
+                <color rgb="#7c4c7b"/>
+                <color rgb="#2cbc2d"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#5c9be0"/>
+                <color rgb="#839138"/>
+                <color rgb="#283973"/>
+                <color rgb="#9583c8"/>
+                <color rgb="#34c05e"/>
+                <color rgb="#3e2a25"/>
+                <color rgb="#7e2fdf"/>
+                <color rgb="#cb51c4"/>
+                <color rgb="#5ac257"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#885eaa"/>
+                <color rgb="#47b0a8"/>
+                <color rgb="#b03393"/>
+                <color rgb="#c4dda6"/>
+                <color rgb="#2c8936"/>
+                <color rgb="#b05d2e"/>
+                <color rgb="#49d28b"/>
+                <color rgb="#33e6da"/>
+                <color rgb="#8ba9b0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#20c88e"/>
+                <color rgb="#60315b"/>
+                <color rgb="#36ac28"/>
+                <color rgb="#7bc3ad"/>
+                <color rgb="#2d3b53"/>
+                <color rgb="#b3d56e"/>
+                <color rgb="#3b6dbe"/>
+                <color rgb="#6e281d"/>
+                <color rgb="#4b3792"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#511a57"/>
+                <color rgb="#dd6b8d"/>
+                <color rgb="#c66ab3"/>
+                <color rgb="#6a6aa3"/>
+                <color rgb="#b88a69"/>
+                <color rgb="#3a7e3b"/>
+                <color rgb="#578f52"/>
+                <color rgb="#35cb3a"/>
+                <color rgb="#6c38a0"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#9948d0"/>
+                <color rgb="#38c42c"/>
+                <color rgb="#b8b8b1"/>
+                <color rgb="#843799"/>
+                <color rgb="#17b61b"/>
+                <color rgb="#5ece32"/>
+                <color rgb="#adaf93"/>
+                <color rgb="#88d570"/>
+                <color rgb="#354340"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#483431"/>
+                <color rgb="#8d9559"/>
+                <color rgb="#6f5977"/>
+                <color rgb="#54868a"/>
+                <color rgb="#72565f"/>
+                <color rgb="#cf4ae4"/>
+                <color rgb="#c75039"/>
+                <color rgb="#40216e"/>
+                <color rgb="#c5275c"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#4d8490"/>
+                <color rgb="#b50ed3"/>
+                <color rgb="#810b76"/>
+                <color rgb="#906062"/>
+                <color rgb="#a4c146"/>
+                <color rgb="#c4bead"/>
+                <color rgb="#c32374"/>
+                <color rgb="#3c5681"/>
+                <color rgb="#9aca21"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#3cbdc2"/>
+                <color rgb="#549a92"/>
+                <color rgb="#50966e"/>
+                <color rgb="#189286"/>
+                <color rgb="#c463b2"/>
+                <color rgb="#ce4ad7"/>
+                <color rgb="#8d9ade"/>
+                <color rgb="#9b16c1"/>
+                <color rgb="#e6b940"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#597d61"/>
+                <color rgb="#5ab19c"/>
+                <color rgb="#422063"/>
+                <color rgb="#635188"/>
+                <color rgb="#d22425"/>
+                <color rgb="#6e88b9"/>
+                <color rgb="#ac67c2"/>
+                <color rgb="#644c70"/>
+                <color rgb="#362318"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#c9c696"/>
+                <color rgb="#af297e"/>
+                <color rgb="#2993df"/>
+                <color rgb="#3d716b"/>
+                <color rgb="#589195"/>
+                <color rgb="#13c24c"/>
+                <color rgb="#cb61a0"/>
+                <color rgb="#d1ccb1"/>
+                <color rgb="#806bb7"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#71930d"/>
+                <color rgb="#189890"/>
+                <color rgb="#c89076"/>
+                <color rgb="#ac9692"/>
+                <color rgb="#53b750"/>
+                <color rgb="#9c33b8"/>
+                <color rgb="#bb6515"/>
+                <color rgb="#a7ca69"/>
+                <color rgb="#136e63"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#43926b"/>
+                <color rgb="#9b3635"/>
+                <color rgb="#52b4c6"/>
+                <color rgb="#c93bc4"/>
+                <color rgb="#736acd"/>
+                <color rgb="#207e7d"/>
+                <color rgb="#bcb2b2"/>
+                <color rgb="#4e8068"/>
+                <color rgb="#a345cd"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#78c97e"/>
+                <color rgb="#9b3242"/>
+                <color rgb="#ad1551"/>
+                <color rgb="#1d8198"/>
+                <color rgb="#c72a84"/>
+                <color rgb="#3a4e53"/>
+                <color rgb="#2d9572"/>
+                <color rgb="#b488a2"/>
+                <color rgb="#e47f3d"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#d8cbbc"/>
+                <color rgb="#bc4c44"/>
+                <color rgb="#884e97"/>
+                <color rgb="#ba0a2a"/>
+                <color rgb="#ba44a0"/>
+                <color rgb="#cbc65a"/>
+                <color rgb="#36afbf"/>
+                <color rgb="#a511cb"/>
+                <color rgb="#2fbd53"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#527c3a"/>
+                <color rgb="#5c99b8"/>
+                <color rgb="#9061c6"/>
+                <color rgb="#92c792"/>
+                <color rgb="#597b74"/>
+                <color rgb="#1c92a7"/>
+                <color rgb="#532169"/>
+                <color rgb="#c2593b"/>
+                <color rgb="#b72788"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#98c10f"/>
+                <color rgb="#547745"/>
+                <color rgb="#bae230"/>
+                <color rgb="#a88229"/>
+                <color rgb="#1ece82"/>
+                <color rgb="#235b99"/>
+                <color rgb="#ad794f"/>
+                <color rgb="#4b314c"/>
+                <color rgb="#bce0d8"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a669a1"/>
+                <color rgb="#c09b94"/>
+                <color rgb="#1284b6"/>
+                <color rgb="#a7b735"/>
+                <color rgb="#1f6825"/>
+                <color rgb="#1e9db5"/>
+                <color rgb="#8fb6da"/>
+                <color rgb="#da4a4c"/>
+                <color rgb="#4dd13f"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#b594c5"/>
+                <color rgb="#4ec864"/>
+                <color rgb="#a04de2"/>
+                <color rgb="#a53013"/>
+                <color rgb="#47d279"/>
+                <color rgb="#58a22b"/>
+                <color rgb="#22177d"/>
+                <color rgb="#931991"/>
+                <color rgb="#516c91"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#78b9d3"/>
+                <color rgb="#411c4c"/>
+                <color rgb="#5290c8"/>
+                <color rgb="#be3dce"/>
+                <color rgb="#d3a7ab"/>
+                <color rgb="#633f4a"/>
+                <color rgb="#a3337a"/>
+                <color rgb="#8e1688"/>
+                <color rgb="#10d4de"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#5d6fd1"/>
+                <color rgb="#3a0e28"/>
+                <color rgb="#2ebe2c"/>
+                <color rgb="#9d9ba1"/>
+                <color rgb="#d73531"/>
+                <color rgb="#ca08b1"/>
+                <color rgb="#c34ba5"/>
+                <color rgb="#6c7b7f"/>
+                <color rgb="#4b9ed1"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#2a5b64"/>
+                <color rgb="#b07347"/>
+                <color rgb="#8d4243"/>
+                <color rgb="#d9c14f"/>
+                <color rgb="#77583a"/>
+                <color rgb="#47be77"/>
+                <color rgb="#6a8ad0"/>
+                <color rgb="#d52da6"/>
+                <color rgb="#c8d56d"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#d4a33d"/>
+                <color rgb="#235b20"/>
+                <color rgb="#1ac139"/>
+                <color rgb="#b130ef"/>
+                <color rgb="#338fd6"/>
+                <color rgb="#116983"/>
+                <color rgb="#5a657b"/>
+                <color rgb="#a5664e"/>
+                <color rgb="#bc8787"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#34a3e9"/>
+                <color rgb="#4f3fb6"/>
+                <color rgb="#454b9b"/>
+                <color rgb="#83cd9c"/>
+                <color rgb="#365f97"/>
+                <color rgb="#52de9b"/>
+                <color rgb="#7888b6"/>
+                <color rgb="#51a586"/>
+                <color rgb="#cd6e22"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#569ba4"/>
+                <color rgb="#1ead26"/>
+                <color rgb="#bd2d4c"/>
+                <color rgb="#9f9e16"/>
+                <color rgb="#b63592"/>
+                <color rgb="#d3325a"/>
+                <color rgb="#265966"/>
+                <color rgb="#a94a9e"/>
+                <color rgb="#4630bb"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#76ccc8"/>
+                <color rgb="#9d5c71"/>
+                <color rgb="#988f63"/>
+                <color rgb="#cb8753"/>
+                <color rgb="#5a4759"/>
+                <color rgb="#4c5d23"/>
+                <color rgb="#e68caf"/>
+                <color rgb="#aeb32d"/>
+                <color rgb="#a9143c"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#ccc3c8"/>
+                <color rgb="#373a5f"/>
+                <color rgb="#0dc811"/>
+                <color rgb="#b04917"/>
+                <color rgb="#6b5392"/>
+                <color rgb="#8951c6"/>
+                <color rgb="#85be8d"/>
+                <color rgb="#81dd1f"/>
+                <color rgb="#2292a6"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#1cbf2b"/>
+                <color rgb="#60ad97"/>
+                <color rgb="#6f5e26"/>
+                <color rgb="#c6cc36"/>
+                <color rgb="#e429d4"/>
+                <color rgb="#967890"/>
+                <color rgb="#3c602e"/>
+                <color rgb="#8a4aa2"/>
+                <color rgb="#e6b7ac"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#56552d"/>
+                <color rgb="#27ac4b"/>
+                <color rgb="#6b6ee6"/>
+                <color rgb="#35c3d2"/>
+                <color rgb="#3ec685"/>
+                <color rgb="#9ebbb4"/>
+                <color rgb="#7a62b4"/>
+                <color rgb="#2e8548"/>
+                <color rgb="#a34ecb"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#2c4ca4"/>
+                <color rgb="#491dc5"/>
+                <color rgb="#203e1d"/>
+                <color rgb="#da5ba3"/>
+                <color rgb="#38d07c"/>
+                <color rgb="#657e62"/>
+                <color rgb="#afa077"/>
+                <color rgb="#0cc674"/>
+                <color rgb="#730e66"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#b8d3ce"/>
+                <color rgb="#96209e"/>
+                <color rgb="#161ab7"/>
+                <color rgb="#7d9149"/>
+                <color rgb="#6932b4"/>
+                <color rgb="#a2c3c2"/>
+                <color rgb="#88e29b"/>
+                <color rgb="#6cb17b"/>
+                <color rgb="#626e60"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#1495d4"/>
+                <color rgb="#cc143f"/>
+                <color rgb="#7f5eeb"/>
+                <color rgb="#3b97ab"/>
+                <color rgb="#6f7f4f"/>
+                <color rgb="#6f3362"/>
+                <color rgb="#42e05e"/>
+                <color rgb="#717238"/>
+                <color rgb="#2bd2c3"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#b48665"/>
+                <color rgb="#4890c9"/>
+                <color rgb="#d28c77"/>
+                <color rgb="#70ca69"/>
+                <color rgb="#3e8152"/>
+                <color rgb="#c757bd"/>
+                <color rgb="#19bec7"/>
+                <color rgb="#a87fc8"/>
+                <color rgb="#adcf1d"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#d781be"/>
+                <color rgb="#a27155"/>
+                <color rgb="#228876"/>
+                <color rgb="#897a96"/>
+                <color rgb="#6920cf"/>
+                <color rgb="#815fb2"/>
+                <color rgb="#d169ae"/>
+                <color rgb="#3c4d28"/>
+                <color rgb="#3c3508"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#35b32f"/>
+                <color rgb="#334dd7"/>
+                <color rgb="#a056b9"/>
+                <color rgb="#9781e5"/>
+                <color rgb="#211f97"/>
+                <color rgb="#4fa959"/>
+                <color rgb="#7c4a7c"/>
+                <color rgb="#8db697"/>
+                <color rgb="#29844b"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#c88171"/>
+                <color rgb="#e1cd4b"/>
+                <color rgb="#c45735"/>
+                <color rgb="#415f9b"/>
+                <color rgb="#c7cfac"/>
+                <color rgb="#7a6bd0"/>
+                <color rgb="#79555e"/>
+                <color rgb="#a34653"/>
+                <color rgb="#1fae46"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#651f5e"/>
+                <color rgb="#6da3c2"/>
+                <color rgb="#35885f"/>
+                <color rgb="#487fa1"/>
+                <color rgb="#b97859"/>
+                <color rgb="#7c648d"/>
+                <color rgb="#12bc8c"/>
+                <color rgb="#cb7096"/>
+                <color rgb="#d85860"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#75992f"/>
+                <color rgb="#7b5fc3"/>
+                <color rgb="#717ca7"/>
+                <color rgb="#29967a"/>
+                <color rgb="#573548"/>
+                <color rgb="#4dcc65"/>
+                <color rgb="#d76cb7"/>
+                <color rgb="#6a5f89"/>
+                <color rgb="#beb373"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#e74d63"/>
+                <color rgb="#91608d"/>
+                <color rgb="#7d6d0e"/>
+                <color rgb="#349dce"/>
+                <color rgb="#a51fa1"/>
+                <color rgb="#41c990"/>
+                <color rgb="#4db67c"/>
+                <color rgb="#9d7140"/>
+                <color rgb="#805535"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#97c926"/>
+                <color rgb="#2e4b70"/>
+                <color rgb="#935c78"/>
+                <color rgb="#7f578f"/>
+                <color rgb="#86ad21"/>
+                <color rgb="#7d1534"/>
+                <color rgb="#956b88"/>
+                <color rgb="#d44dd5"/>
+                <color rgb="#dcafa5"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#535465"/>
+                <color rgb="#bc5132"/>
+                <color rgb="#c051b9"/>
+                <color rgb="#9b98c3"/>
+                <color rgb="#315d6c"/>
+                <color rgb="#c323e2"/>
+                <color rgb="#795e8a"/>
+                <color rgb="#cc8d83"/>
+                <color rgb="#d537d8"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#768996"/>
+                <color rgb="#406086"/>
+                <color rgb="#bd77bf"/>
+                <color rgb="#b77116"/>
+                <color rgb="#675046"/>
+                <color rgb="#bdb93a"/>
+                <color rgb="#9238c8"/>
+                <color rgb="#c37958"/>
+                <color rgb="#b89165"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#4a66e0"/>
+                <color rgb="#6e3e30"/>
+                <color rgb="#9d1d6d"/>
+                <color rgb="#99bb9c"/>
+                <color rgb="#49b389"/>
+                <color rgb="#4a2f41"/>
+                <color rgb="#63b9cb"/>
+                <color rgb="#9f8d4f"/>
+                <color rgb="#64717b"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#32dd70"/>
+                <color rgb="#2ab476"/>
+                <color rgb="#3039ad"/>
+                <color rgb="#abb036"/>
+                <color rgb="#379d7d"/>
+                <color rgb="#b041ce"/>
+                <color rgb="#43892c"/>
+                <color rgb="#a896a3"/>
+                <color rgb="#d2afad"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#7457a2"/>
+                <color rgb="#942c91"/>
+                <color rgb="#7ed1b5"/>
+                <color rgb="#e83436"/>
+                <color rgb="#4f3c46"/>
+                <color rgb="#7134c7"/>
+                <color rgb="#69c24b"/>
+                <color rgb="#8b4fb2"/>
+                <color rgb="#c5d287"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#e7975d"/>
+                <color rgb="#3631c0"/>
+                <color rgb="#396685"/>
+                <color rgb="#d96c47"/>
+                <color rgb="#43ca42"/>
+                <color rgb="#daea48"/>
+                <color rgb="#242296"/>
+                <color rgb="#b97472"/>
+                <color rgb="#392d44"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#b27d2f"/>
+                <color rgb="#6eae38"/>
+                <color rgb="#4da0e9"/>
+                <color rgb="#8a6926"/>
+                <color rgb="#e43c3e"/>
+                <color rgb="#61715e"/>
+                <color rgb="#dd9ab4"/>
+                <color rgb="#547e55"/>
+                <color rgb="#80191a"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#61b553"/>
+                <color rgb="#7d8fce"/>
+                <color rgb="#e487ec"/>
+                <color rgb="#5b3bcd"/>
+                <color rgb="#bfb0d8"/>
+                <color rgb="#6ab63e"/>
+                <color rgb="#877194"/>
+                <color rgb="#a13b95"/>
+                <color rgb="#84ee66"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#9576b3"/>
+                <color rgb="#548253"/>
+                <color rgb="#d8decb"/>
+                <color rgb="#7d4f65"/>
+                <color rgb="#c49f8a"/>
+                <color rgb="#78d839"/>
+                <color rgb="#654222"/>
+                <color rgb="#c844b7"/>
+                <color rgb="#b5b524"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#c9c08c"/>
+                <color rgb="#b19ece"/>
+                <color rgb="#36d384"/>
+                <color rgb="#77c345"/>
+                <color rgb="#e65f55"/>
+                <color rgb="#3f4633"/>
+                <color rgb="#cbd150"/>
+                <color rgb="#3cc099"/>
+                <color rgb="#2cac72"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#5c31d0"/>
+                <color rgb="#78c427"/>
+                <color rgb="#9320d9"/>
+                <color rgb="#284684"/>
+                <color rgb="#c7bebe"/>
+                <color rgb="#b84753"/>
+                <color rgb="#7d9246"/>
+                <color rgb="#35daab"/>
+                <color rgb="#4d89ac"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#858dc9"/>
+                <color rgb="#a6da21"/>
+                <color rgb="#b72397"/>
+                <color rgb="#28c592"/>
+                <color rgb="#29c7c0"/>
+                <color rgb="#96721c"/>
+                <color rgb="#794348"/>
+                <color rgb="#45eea2"/>
+                <color rgb="#833737"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a64074"/>
+                <color rgb="#2c2cd2"/>
+                <color rgb="#693192"/>
+                <color rgb="#39c97a"/>
+                <color rgb="#142a95"/>
+                <color rgb="#c57561"/>
+                <color rgb="#d1c574"/>
+                <color rgb="#938069"/>
+                <color rgb="#47307f"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#635d75"/>
+                <color rgb="#55263d"/>
+                <color rgb="#c5d2a1"/>
+                <color rgb="#4af153"/>
+                <color rgb="#36425a"/>
+                <color rgb="#6fc443"/>
+                <color rgb="#d0ea57"/>
+                <color rgb="#e0a6d8"/>
+                <color rgb="#39534e"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#2c71a7"/>
+                <color rgb="#326bbc"/>
+                <color rgb="#7e77ad"/>
+                <color rgb="#bd348f"/>
+                <color rgb="#935cd0"/>
+                <color rgb="#7e4c6d"/>
+                <color rgb="#929ebc"/>
+                <color rgb="#44a042"/>
+                <color rgb="#68c769"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#082423"/>
+                <color rgb="#c6447a"/>
+                <color rgb="#9b638c"/>
+                <color rgb="#9a605d"/>
+                <color rgb="#ada154"/>
+                <color rgb="#881b7c"/>
+                <color rgb="#7a648a"/>
+                <color rgb="#16431c"/>
+                <color rgb="#4acd36"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#411142"/>
+                <color rgb="#394f8b"/>
+                <color rgb="#2e327a"/>
+                <color rgb="#d6a7b5"/>
+                <color rgb="#435b64"/>
+                <color rgb="#54264a"/>
+                <color rgb="#3b391c"/>
+                <color rgb="#995087"/>
+                <color rgb="#8aa25c"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#72bd31"/>
+                <color rgb="#e58036"/>
+                <color rgb="#6064e2"/>
+                <color rgb="#9293b5"/>
+                <color rgb="#b4e846"/>
+                <color rgb="#a45d75"/>
+                <color rgb="#2b3330"/>
+                <color rgb="#dec635"/>
+                <color rgb="#4fa456"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#5e30e0"/>
+                <color rgb="#a5d37b"/>
+                <color rgb="#cd7bd0"/>
+                <color rgb="#74b92d"/>
+                <color rgb="#a735bf"/>
+                <color rgb="#ae89d7"/>
+                <color rgb="#bfa42c"/>
+                <color rgb="#196727"/>
+                <color rgb="#827ee7"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#bf99dc"/>
+                <color rgb="#c58459"/>
+                <color rgb="#a3929c"/>
+                <color rgb="#b3a9b1"/>
+                <color rgb="#5143b3"/>
+                <color rgb="#586a6c"/>
+                <color rgb="#b75b89"/>
+                <color rgb="#bcb865"/>
+                <color rgb="#5e6ecf"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#94509f"/>
+                <color rgb="#b96927"/>
+                <color rgb="#81db20"/>
+                <color rgb="#8a4a5a"/>
+                <color rgb="#9b4570"/>
+                <color rgb="#d24ad1"/>
+                <color rgb="#613686"/>
+                <color rgb="#589e6b"/>
+                <color rgb="#293d8f"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#8963a7"/>
+                <color rgb="#cdd52b"/>
+                <color rgb="#5636a2"/>
+                <color rgb="#a5c3c9"/>
+                <color rgb="#cd2a9a"/>
+                <color rgb="#a7c1e2"/>
+                <color rgb="#3bc958"/>
+                <color rgb="#672d7f"/>
+                <color rgb="#b6dfc4"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#dc5552"/>
+                <color rgb="#455e65"/>
+                <color rgb="#cf667c"/>
+                <color rgb="#2b6825"/>
+                <color rgb="#3dda21"/>
+                <color rgb="#8cd060"/>
+                <color rgb="#8db83f"/>
+                <color rgb="#c346c5"/>
+                <color rgb="#7f371b"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#396779"/>
+                <color rgb="#3c9cb9"/>
+                <color rgb="#6429df"/>
+                <color rgb="#d2619e"/>
+                <color rgb="#0db38d"/>
+                <color rgb="#701a98"/>
+                <color rgb="#ca935e"/>
+                <color rgb="#81bf36"/>
+                <color rgb="#37b7d7"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#b2e38b"/>
+                <color rgb="#534d9a"/>
+                <color rgb="#82aa52"/>
+                <color rgb="#6e558e"/>
+                <color rgb="#2bd44c"/>
+                <color rgb="#614c37"/>
+                <color rgb="#6f4499"/>
+                <color rgb="#87bb9b"/>
+                <color rgb="#b4cf66"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#4cc6b7"/>
+                <color rgb="#44c065"/>
+                <color rgb="#777f6c"/>
+                <color rgb="#b68522"/>
+                <color rgb="#69902d"/>
+                <color rgb="#2bdf13"/>
+                <color rgb="#c1ca90"/>
+                <color rgb="#462f7a"/>
+                <color rgb="#54bf34"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#258870"/>
+                <color rgb="#4a4bb7"/>
+                <color rgb="#606464"/>
+                <color rgb="#8ab990"/>
+                <color rgb="#bfab64"/>
+                <color rgb="#1981a7"/>
+                <color rgb="#8f3ec5"/>
+                <color rgb="#93d189"/>
+                <color rgb="#6ee84c"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#bd35ec"/>
+                <color rgb="#35b158"/>
+                <color rgb="#599eee"/>
+                <color rgb="#c69f95"/>
+                <color rgb="#88848e"/>
+                <color rgb="#95a746"/>
+                <color rgb="#36d655"/>
+                <color rgb="#57938a"/>
+                <color rgb="#a26c3f"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#36d8a7"/>
+                <color rgb="#6f5a87"/>
+                <color rgb="#777b07"/>
+                <color rgb="#ad2ae1"/>
+                <color rgb="#cc37df"/>
+                <color rgb="#96d1b5"/>
+                <color rgb="#6f4dc7"/>
+                <color rgb="#32c6bc"/>
+                <color rgb="#2c6f38"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#c58aa0"/>
+                <color rgb="#caa05d"/>
+                <color rgb="#ba3441"/>
+                <color rgb="#745a4d"/>
+                <color rgb="#79c92c"/>
+                <color rgb="#441171"/>
+                <color rgb="#ae8e95"/>
+                <color rgb="#b410aa"/>
+                <color rgb="#c7c089"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>h</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#ab5928"/>
+                <color rgb="#e63dac"/>
+                <color rgb="#b7a9b4"/>
+                <color rgb="#9b1ea3"/>
+                <color rgb="#8fd030"/>
+                <color rgb="#626fe0"/>
+                <color rgb="#64ded4"/>
+                <color rgb="#3b7f45"/>
+                <color rgb="#a0e387"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#981b30"/>
+                <color rgb="#4fa66f"/>
+                <color rgb="#8882a9"/>
+                <color rgb="#4a8b92"/>
+                <color rgb="#bf34be"/>
+                <color rgb="#817746"/>
+                <color rgb="#82565a"/>
+                <color rgb="#6c7d3d"/>
+                <color rgb="#be4e1f"/>
+            </matrix>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#cce963"/>
+                <color rgb="#9acd4d"/>
+                <color rgb="#b758cd"/>
+                <color rgb="#5d6939"/>
+                <color rgb="#33a6bc"/>
+                <color rgb="#a7ba88"/>
+                <color rgb="#77c444"/>
+                <color rgb="#93cb7f"/>
+                <color rgb="#b590c7"/>
+            </matrix>
+        </pixra>
+    </item>
+</xravlaste>
