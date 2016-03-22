@@ -18,7 +18,7 @@
     </proto>
     <item>
         <word>s</word>
-        <spec>j - joy, a - angry, f - fear, w - wonder, s - sorrow, d - disgust</spec>
+        <spec>j - joy, i - interest, t - tenderness, a - angry, f - fear, w - wonder, s - sorrow, d - disgust, g - gratefullness, u - undefined</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#a0a0a0"/>
@@ -51,7 +51,7 @@
         </pixra>
     </item>
     <item>
-        <word>a</word>
+        <word>d</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -102,7 +102,7 @@
         </pixra>
     </item>
     <item>
-        <word>a</word>
+        <word>f</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -170,7 +170,7 @@
         </pixra>
     </item>
     <item>
-        <word>d</word>
+        <word>i</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -238,7 +238,7 @@
         </pixra>
     </item>
     <item>
-        <word>s</word>
+        <word>d</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -255,7 +255,7 @@
         </pixra>
     </item>
     <item>
-        <word>f</word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -272,7 +272,7 @@
         </pixra>
     </item>
     <item>
-        <word>j</word>
+        <word>i</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -306,7 +306,7 @@
         </pixra>
     </item>
     <item>
-        <word>a</word>
+        <word>i</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -340,7 +340,7 @@
         </pixra>
     </item>
     <item>
-        <word>j</word>
+        <word>i</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -374,7 +374,7 @@
         </pixra>
     </item>
     <item>
-        <word>d</word>
+        <word>i</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -408,7 +408,7 @@
         </pixra>
     </item>
     <item>
-        <word>a</word>
+        <word>i</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -425,7 +425,7 @@
         </pixra>
     </item>
     <item>
-        <word>j</word>
+        <word>i</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -459,7 +459,7 @@
         </pixra>
     </item>
     <item>
-        <word>d</word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -510,7 +510,7 @@
         </pixra>
     </item>
     <item>
-        <word>a</word>
+        <word>d</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -697,7 +697,7 @@
         </pixra>
     </item>
     <item>
-        <word>w</word>
+        <word>t</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -765,7 +765,7 @@
         </pixra>
     </item>
     <item>
-        <word>w</word>
+        <word>i</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -782,7 +782,7 @@
         </pixra>
     </item>
     <item>
-        <word>d</word>
+        <word>w</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
