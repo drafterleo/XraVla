@@ -10,7 +10,7 @@ CFiguresPixra::CFiguresPixra(QWidget *parent) :
     m_frameColor = QColor(0x466A7E);
     m_figureColor = Qt::white;
     m_margin = 3;
-    m_figureWidth = 2;
+    m_figureWidth = 2.0;
 }
 
 CFiguresPixra::~CFiguresPixra()
@@ -52,14 +52,24 @@ void CFiguresPixra::addNormFigure(CAbstractFigure *figure)
     }
 }
 
-void CFiguresPixra::paintEvent(QPaintEvent *event)
-{
-    Q_UNUSED(event);
 
+void CFiguresPixra::resizeEvent(QResizeEvent *)
+{
+    if(this->width() < 150) {
+        m_figureWidth = 2.0;
+    } else {
+        m_figureWidth = 3.0;
+    }
+
+}
+
+
+void CFiguresPixra::paintEvent(QPaintEvent *)
+{
     QPainter painter(this);
     painter.setRenderHint(QPainter::Antialiasing);
 
-    painter.setPen(QPen(QBrush(QColor(m_frameColor)), 2, Qt::SolidLine, Qt::SquareCap, Qt::MiterJoin));
+    painter.setPen(QPen(QBrush(QColor(m_frameColor)), 2.0, Qt::SolidLine, Qt::SquareCap, Qt::MiterJoin));
     painter.setBrush(m_backColor);
     painter.drawRect(this->rect().adjusted(1, 1, -1, -1));
 

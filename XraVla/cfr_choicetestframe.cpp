@@ -77,10 +77,11 @@ void CChoiceTestFrame::updateRects()
     if (m_pixraRects.count() > 0) {
       QRect area = QRect((width() % m_pixraRects.count())/2,
                          m_descriptRect.bottom(),
-                         (width() / m_pixraRects.count()) * m_pixraRects.count(),
+                         width(),
+                         //(width() / m_pixraRects.count()) * m_pixraRects.count(),
                          height() - m_descriptRect.height());
 
-      int span = 6;
+      int span = 4;
       int itemWidth = area.width() / m_pixraRects.count();
       int itemHeight = area.height();
       int pixWidth =  itemWidth - span * 2;
@@ -90,11 +91,12 @@ void CChoiceTestFrame::updateRects()
       } else {
           pixHeight = pixWidth;
       }
+      int dx = (itemWidth - pixWidth)/2;
       int dy = (area.height() - pixHeight)/2;
       m_descriptRect.translate(0, dy);
 
       for (int i = 0; i < m_pixraRects.count(); ++i) {
-          int x = i * itemWidth + span;
+          int x = i * itemWidth + dx;
           int y = area.top() + dy;
           m_pixraRects[i] = QRect(x, y, pixWidth, pixHeight);
           if (m_items[i]->pixra){

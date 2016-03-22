@@ -24,6 +24,7 @@ CFiguresEdit::CFiguresEdit(QWidget * parent)
     setFocusPolicy(Qt::ClickFocus);
 }
 
+
 CFiguresEdit::~CFiguresEdit()
 {
     clearFigures();
@@ -31,6 +32,7 @@ CFiguresEdit::~CFiguresEdit()
     delete m_pixra;
     delete m_clipboardPixra;
 }
+
 
 void CFiguresEdit::resizeEvent(QResizeEvent *event)
 {
@@ -48,10 +50,12 @@ void CFiguresEdit::resizeEvent(QResizeEvent *event)
     }
 }
 
+
 void CFiguresEdit::contentChanged()
 {
     emit modified();
 }
+
 
 void CFiguresEdit::clearFigures()
 {
@@ -69,6 +73,7 @@ void CFiguresEdit::clearFigures()
     update();
 }
 
+
 void CFiguresEdit::clear()
 {
     clearFigures();
@@ -82,6 +87,7 @@ void CFiguresEdit::clearHIstory()
     }
 }
 
+
 void CFiguresEdit::addHistory()
 {
     if (figures.count() > 0){
@@ -90,6 +96,7 @@ void CFiguresEdit::addHistory()
         m_history.push(pixra);
     }
 }
+
 
 void CFiguresEdit::undo()
 {
@@ -101,6 +108,7 @@ void CFiguresEdit::undo()
         }
     }
 }
+
 
 bool CFiguresEdit::writeToPixra(CAbstractPixra *pixra)
 {
@@ -127,6 +135,7 @@ bool CFiguresEdit::writeToPixra(CAbstractPixra *pixra)
     return false;
 }
 
+
 bool CFiguresEdit::readFromPixra(CAbstractPixra *pixra)
 {
     CFiguresPixra *figPixra = dynamic_cast <CFiguresPixra *>(pixra);
@@ -145,17 +154,20 @@ bool CFiguresEdit::readFromPixra(CAbstractPixra *pixra)
     return false;
 }
 
+
 bool CFiguresEdit::assignPixra(CAbstractPixra *pixra)
 {
     addHistory();
     return readFromPixra(pixra);
 }
 
+
 CAbstractPixra *CFiguresEdit::pixra(void)
 {
     this->writeToPixra(m_pixra);
     return m_pixra;
 }
+
 
 void CFiguresEdit::addFigure(CAbstractFigure *figure)
 {
@@ -167,6 +179,7 @@ void CFiguresEdit::addFigure(CAbstractFigure *figure)
         this->update();
     }
 }
+
 
 void CFiguresEdit::deleteFigure(int idx)
 {
@@ -186,6 +199,7 @@ void CFiguresEdit::deleteFigure(int idx)
         this->update();
     }
 }
+
 
 void CFiguresEdit::addRandomPolygon(int n, int r)
 {
@@ -210,6 +224,7 @@ void CFiguresEdit::addRandomPolygon(int n, int r)
     }
 }
 
+
 void CFiguresEdit::addRectangle()
 {
     int w = qrand()%(width() - 20) + 10;
@@ -219,6 +234,7 @@ void CFiguresEdit::addRectangle()
     addFigure(new CRectangleFigure(QRectF(x, y, w, h)));
 }
 
+
 void CFiguresEdit::addPolygon(int anchors)
 {
     if (anchors >= 3) {
@@ -226,6 +242,7 @@ void CFiguresEdit::addPolygon(int anchors)
         addRandomPolygon(anchors, qrand()%(width()/2 - 20) + 10);
     }
 }
+
 
 void CFiguresEdit::addEllipse()
 {
@@ -236,10 +253,12 @@ void CFiguresEdit::addEllipse()
     addFigure(new CEllipseFigure(QRectF(x, y, w, h)));
 }
 
+
 bool CFiguresEdit::isFigureSelected(int idx)
 {
     return selCluster.contains(idx);
 }
+
 
 void CFiguresEdit::raiseFigure(int idx)
 {
@@ -271,6 +290,7 @@ void CFiguresEdit::raiseFigure(int idx)
 
 }
 
+
 void CFiguresEdit::addSelectCluster(int idx)
 {
     if (idx >= 0 && idx < figures.count() &&
@@ -281,6 +301,7 @@ void CFiguresEdit::addSelectCluster(int idx)
         this->update();
     }
 }
+
 
 void CFiguresEdit::paintEvent(QPaintEvent *)
 {
@@ -330,6 +351,7 @@ void CFiguresEdit::paintEvent(QPaintEvent *)
 
     painter.end();
 }
+
 
 void CFiguresEdit::mousePressEvent(QMouseEvent *event)
 {
@@ -390,6 +412,7 @@ void CFiguresEdit::mousePressEvent(QMouseEvent *event)
     this->update();
 }
 
+
 void CFiguresEdit::mouseMoveEvent(QMouseEvent *event)
 {
     int lastHotFigure = hotFigure;
@@ -439,6 +462,7 @@ void CFiguresEdit::mouseMoveEvent(QMouseEvent *event)
         this->update();
 }
 
+
 void CFiguresEdit::mouseReleaseEvent(QMouseEvent *event)
 {
     Q_UNUSED(event)
@@ -447,6 +471,7 @@ void CFiguresEdit::mouseReleaseEvent(QMouseEvent *event)
     isMousePressed = false;
     update();
 }
+
 
 bool CFiguresEdit::event(QEvent *event)
 {
@@ -471,6 +496,7 @@ bool CFiguresEdit::event(QEvent *event)
     }
     return CAbstractEdit::event(event);
 }
+
 
 void CFiguresEdit::keyPressEvent(QKeyEvent *event)
 {
@@ -534,6 +560,7 @@ void CFiguresEdit::keyPressEvent(QKeyEvent *event)
     }
 }
 
+
 void CFiguresEdit::translateFigure(int figIdx, int dx, int dy)
 {
     if (figIdx >= 0 && figIdx < figures.count()) {
@@ -545,6 +572,7 @@ void CFiguresEdit::translateFigure(int figIdx, int dx, int dy)
         }
     }
 }
+
 
 void CFiguresEdit::translateSelection(int dx, int dy, bool saveHistory)
 {
@@ -571,6 +599,7 @@ void CFiguresEdit::translateSelection(int dx, int dy, bool saveHistory)
     }
 }
 
+
 void CFiguresEdit::scaleFigure(int figIdx, qreal sx, qreal sy)
 {
     if (figIdx >= 0 && figIdx < figures.count()) {
@@ -587,11 +616,13 @@ void CFiguresEdit::scaleFigure(int figIdx, qreal sx, qreal sy)
     }
 }
 
+
 void CFiguresEdit::focusInEvent(QFocusEvent *event)
 {
     Q_UNUSED(event)
     update();
 }
+
 
 void CFiguresEdit::focusOutEvent(QFocusEvent *event)
 {
@@ -601,6 +632,7 @@ void CFiguresEdit::focusOutEvent(QFocusEvent *event)
     selectedFigure = -1;
     update();
 }
+
 
 void CFiguresEdit::randomize()
 {

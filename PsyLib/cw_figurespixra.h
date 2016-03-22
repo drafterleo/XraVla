@@ -37,7 +37,8 @@ public:
 protected:
     void clearFigures();
 
-    virtual void paintEvent(QPaintEvent *event);
+    void resizeEvent(QResizeEvent *);
+    void paintEvent(QPaintEvent *);
 
 private:
     QVector <CAbstractFigure *> m_normFigures;
@@ -47,7 +48,7 @@ private:
     QColor m_frameColor;
 
     int m_margin;
-    int m_figureWidth;
+    qreal m_figureWidth;
 };
 
 #endif // CW_FIGURESPIXRA_H
