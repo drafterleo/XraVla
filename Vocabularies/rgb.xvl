@@ -222,7 +222,7 @@
     </item>
     <item>
         <word>b</word>
-        <spec>bg</spec>
+        <spec>bgr</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#a682e8"/>
@@ -408,8 +408,8 @@
         </pixra>
     </item>
     <item>
-        <word>r</word>
-        <spec>rb</spec>
+        <word>b</word>
+        <spec>brg</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#c2c266"/>
@@ -2482,8 +2482,8 @@
         </pixra>
     </item>
     <item>
-        <word>r</word>
-        <spec>rgb</spec>
+        <word>g</word>
+        <spec>grb</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#665a9e"/>
@@ -2585,7 +2585,7 @@
     </item>
     <item>
         <word>g</word>
-        <spec>grb</spec>
+        <spec>gbr</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#d45648"/>
@@ -3401,7 +3401,7 @@
     </item>
     <item>
         <word>b</word>
-        <spec>bgr</spec>
+        <spec>bg</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#437cde"/>
@@ -3469,7 +3469,7 @@
     </item>
     <item>
         <word>b</word>
-        <spec>bg</spec>
+        <spec>bgr</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#95c39f"/>
@@ -3706,8 +3706,8 @@
         </pixra>
     </item>
     <item>
-        <word>r</word>
-        <spec>rbg</spec>
+        <word>b</word>
+        <spec>brg</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#5aa21b"/>
@@ -4217,7 +4217,7 @@
     </item>
     <item>
         <word>r</word>
-        <spec>rgb</spec>
+        <spec>rbg</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#b7c9ae"/>
@@ -4403,8 +4403,8 @@
         </pixra>
     </item>
     <item>
-        <word>g</word>
-        <spec>gb</spec>
+        <word>b</word>
+        <spec>bg</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#bac592"/>
@@ -4506,7 +4506,7 @@
     </item>
     <item>
         <word>g</word>
-        <spec>gr</spec>
+        <spec>grb</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#a6c42c"/>
@@ -4523,7 +4523,7 @@
     </item>
     <item>
         <word>r</word>
-        <spec>rbg</spec>
+        <spec>rgb</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#ab82c8"/>
@@ -4658,8 +4658,8 @@
         </pixra>
     </item>
     <item>
-        <word>b</word>
-        <spec>bgr</spec>
+        <word>g</word>
+        <spec>gbr</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#aac3be"/>
@@ -4692,8 +4692,8 @@
         </pixra>
     </item>
     <item>
-        <word>r</word>
-        <spec>rgb</spec>
+        <word>g</word>
+        <spec>grb</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#7a712a"/>
@@ -5474,8 +5474,8 @@
         </pixra>
     </item>
     <item>
-        <word>b</word>
-        <spec>brg</spec>
+        <word>r</word>
+        <spec>rbg</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#bdcc31"/>
@@ -5559,8 +5559,8 @@
         </pixra>
     </item>
     <item>
-        <word>r</word>
-        <spec>rgb</spec>
+        <word>g</word>
+        <spec>grb</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#8e5a58"/>
@@ -5712,8 +5712,8 @@
         </pixra>
     </item>
     <item>
-        <word>g</word>
-        <spec>grb</spec>
+        <word>r</word>
+        <spec>rgb</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#8cd4b3"/>
@@ -5729,8 +5729,8 @@
         </pixra>
     </item>
     <item>
-        <word>b</word>
-        <spec>bg</spec>
+        <word>g</word>
+        <spec>gb</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#957e92"/>
@@ -6239,8 +6239,8 @@
         </pixra>
     </item>
     <item>
-        <word>b</word>
-        <spec>bgr</spec>
+        <word>g</word>
+        <spec>gbr</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#95d06b"/>
@@ -6596,8 +6596,8 @@
         </pixra>
     </item>
     <item>
-        <word>b</word>
-        <spec>bgr</spec>
+        <word>r</word>
+        <spec>rbg</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#b87159"/>

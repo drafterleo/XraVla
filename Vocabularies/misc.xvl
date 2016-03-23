@@ -2,21 +2,18 @@
 <!DOCTYPE xravlaste>
 <xravlaste version="1.0">
     <proto>
-        <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
-            </figure>
-            <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
-            </figure>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+                <color rgb="#a0a0a0"/>
+            </matrix>
         </pixra>
     </proto>
     <item>
@@ -491,6 +488,43 @@
                 <anchor x="0.546569" y="0.480392"/>
                 <anchor x="0.232843" y="0.591912"/>
             </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.60049" y="0.0931373"/>
+                <anchor x="0.703431" y="0.870098"/>
+                <anchor x="0.318627" y="0.911765"/>
+                <anchor x="0.732843" y="0.441176"/>
+                <anchor x="0.252451" y="0.875"/>
+                <anchor x="0.0833333" y="0.534314"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.572304" y="0.784314"/>
+                <anchor x="0.941176" y="0.458333"/>
+                <anchor x="0.572304" y="0.132353"/>
+                <anchor x="0.203431" y="0.458333"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#5020c3"/>
+                <color rgb="#272d4d"/>
+                <color rgb="#a4e5ec"/>
+                <color rgb="#423748"/>
+                <color rgb="#dc946f"/>
+                <color rgb="#6cbfc4"/>
+                <color rgb="#b3508c"/>
+                <color rgb="#756026"/>
+                <color rgb="#36924e"/>
+            </matrix>
         </pixra>
     </item>
 </xravlaste>

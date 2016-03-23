@@ -208,19 +208,19 @@
         <spec>плохой, злой, сложный, 
 больной, вредность, ухудшить</spec>
         <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.303922" y="0.414216"/>
-                <anchor x="0.301471" y="0.0735294"/>
-                <anchor x="0.745098" y="0.977941"/>
-                <anchor x="0.791667" y="0.914216"/>
-                <anchor x="0.546569" y="0.235294"/>
-                <anchor x="0.526961" y="0.578431"/>
-            </figure>
             <figure type="CEllipseFigure">
                 <anchor x="0.531863" y="0.637255"/>
                 <anchor x="0.379902" y="0.405637"/>
                 <anchor x="0.531863" y="0.17402"/>
                 <anchor x="0.683824" y="0.405637"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.311275" y="0.355392"/>
+                <anchor x="0.301471" y="0.0735294"/>
+                <anchor x="0.745098" y="0.977941"/>
+                <anchor x="0.791667" y="0.914216"/>
+                <anchor x="0.546569" y="0.235294"/>
+                <anchor x="0.526961" y="0.578431"/>
             </figure>
         </pixra>
     </item>
@@ -271,18 +271,18 @@
         <spec>грязный, мерзкий, мусор, брань</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
+                <anchor x="0.0661765" y="0.906863"/>
+                <anchor x="0.958333" y="0.602941"/>
+                <anchor x="0.281863" y="0.566176"/>
+                <anchor x="0.281863" y="0.0661765"/>
+                <anchor x="0.151961" y="0.318627"/>
+                <anchor x="0.666667" y="0.865196"/>
             </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
+                <anchor x="0.606618" y="0.188725"/>
+                <anchor x="0.723039" y="0.572304"/>
+                <anchor x="0.606618" y="0.955882"/>
+                <anchor x="0.490196" y="0.572304"/>
             </figure>
         </pixra>
     </item>
@@ -292,18 +292,18 @@
 олицетворять</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
+                <anchor x="0.0588235" y="0.335784"/>
+                <anchor x="0.411765" y="0.419118"/>
+                <anchor x="0.965686" y="0.301471"/>
+                <anchor x="0.237745" y="0.803922"/>
+                <anchor x="0.416667" y="0.416667"/>
+                <anchor x="0.791667" y="0.926471"/>
             </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
+                <anchor x="0.417534" y="0.397071"/>
+                <anchor x="0.254951" y="0.227852"/>
+                <anchor x="0.417534" y="0.0586336"/>
+                <anchor x="0.580116" y="0.227852"/>
             </figure>
         </pixra>
     </item>
@@ -311,19 +311,19 @@
         <word>jelo</word>
         <spec>жёлтый</spec>
         <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
-            </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
+                <anchor x="0.497108" y="0.261373"/>
+                <anchor x="0.745098" y="0.524069"/>
+                <anchor x="0.497108" y="0.786765"/>
+                <anchor x="0.249118" y="0.524069"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.0563725" y="0.394608"/>
+                <anchor x="0.926471" y="0.394608"/>
+                <anchor x="0.514706" y="0.620098"/>
+                <anchor x="0.186275" y="0.835784"/>
+                <anchor x="0.487745" y="0.102941"/>
+                <anchor x="0.835784" y="0.803922"/>
             </figure>
         </pixra>
     </item>
@@ -332,19 +332,19 @@
         <spec>иметь, содержать,
 имущество, собственность</spec>
         <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.5" y="0.1"/>
-                <anchor x="0.84641" y="0.3"/>
-                <anchor x="0.84641" y="0.7"/>
-                <anchor x="0.5" y="0.9"/>
-                <anchor x="0.15359" y="0.7"/>
-                <anchor x="0.15359" y="0.3"/>
-            </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.495" y="0.33"/>
-                <anchor x="0.66" y="0.495"/>
-                <anchor x="0.495" y="0.66"/>
-                <anchor x="0.33" y="0.495"/>
+                <anchor x="0.265931" y="0.497549"/>
+                <anchor x="0.35049" y="0.640931"/>
+                <anchor x="0.265931" y="0.784314"/>
+                <anchor x="0.181373" y="0.640931"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.389706" y="0.328431"/>
+                <anchor x="0.191176" y="0.507353"/>
+                <anchor x="0.333333" y="0.252451"/>
+                <anchor x="0.92402" y="0.296569"/>
+                <anchor x="0.367647" y="0.732843"/>
+                <anchor x="0.590686" y="0.490196"/>
             </figure>
         </pixra>
     </item>
