@@ -51,7 +51,7 @@
         </pixra>
     </item>
     <item>
-        <word>u</word>
+        <word>p</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -221,7 +221,7 @@
         </pixra>
     </item>
     <item>
-        <word>p</word>
+        <word>u</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
@@ -442,7 +442,7 @@
         </pixra>
     </item>
     <item>
-        <word>p</word>
+        <word>u</word>
         <spec></spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">

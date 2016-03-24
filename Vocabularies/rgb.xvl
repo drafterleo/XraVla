@@ -86,7 +86,7 @@
     </item>
     <item>
         <word>r</word>
-        <spec>rbg</spec>
+        <spec>rb</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#856c72"/>
@@ -1292,8 +1292,8 @@
         </pixra>
     </item>
     <item>
-        <word>g</word>
-        <spec>grb</spec>
+        <word>b</word>
+        <spec>bgr</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#8eae67"/>
@@ -2210,8 +2210,8 @@
         </pixra>
     </item>
     <item>
-        <word>r</word>
-        <spec>rgb</spec>
+        <word>g</word>
+        <spec>grb</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#874420"/>
