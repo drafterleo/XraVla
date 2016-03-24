@@ -19,6 +19,7 @@
 CVocabularyPage::CVocabularyPage(QWidget *parent) :
     CPageWidget(parent)
 {
+    m_unknownFileName = QString("unknown.xvl");
     m_pixraEdit = 0;
     createPixraEdit("CFiguresEdit");
 
@@ -125,7 +126,7 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     connect(m_randomizeBtn, SIGNAL(clicked()),
             this          , SLOT(randomizePixra()));
 
-    setCurrentFileName("unknown.xvl");
+    setCurrentFileName(m_unknownFileName);
     m_modified = false;
     m_showInfo = false;
 }
@@ -265,8 +266,8 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
 
         if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
             keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
-            keyEvent->key() == Qt::Key_S){
-            // <Ctrl + Shidt + S> : set vocabulary protoPixra to current Item
+            keyEvent->key() == Qt::Key_V){
+            // <Ctrl + Shidt + V> : set vocabulary protoPixra to current Item
             CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
             createPixraEdit(model->protoPixra()->metaObject()->className());
             relocateWidgets();
@@ -593,6 +594,10 @@ void CVocabularyPage::loadVocabularyFromFile(const QString &fileName, bool clear
 
 void CVocabularyPage::loadItems(bool clearModel, int insRow)
 {
+    if (m_modified && saveRequest() == false) {
+        return;
+    }
+
     QFileInfo fileInfo(m_currentFileName);
     QString fileStr;
 
@@ -621,33 +626,40 @@ void CVocabularyPage::loadItemsIns()
     loadItems(false, m_listView->currentIndex().row() + 1);
 }
 
+bool CVocabularyPage::saveRequest()
+{
+    CStyledMessageBox msgBox(this);
+    msgBox.setText("Vocabulary has not been saved.");
+    msgBox.setInformativeText("Do you want to save your changes?");
+    msgBox.setStandardButtons(QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
+    msgBox.setDefaultButton(QMessageBox::Save);
+    msgBox.setButtonText(QMessageBox::Cancel, tr("Back"));
+    QPixmap msgIcon(":/images/iconWarning.png");
+    msgBox.setIconPixmap(msgIcon);
+
+    int reply = msgBox.exec();
+
+    if (reply == QMessageBox::Save) {
+        saveItems(false);
+        return true;
+    } else
+    if (reply == QMessageBox::Cancel) {
+        return false;
+    }
+    return true;
+}
+
 void CVocabularyPage::newVocabulary()
 {
-    if (m_modified) {
-        CStyledMessageBox msgBox(this);
-        msgBox.setText("Vocabulary has not been saved.");
-        msgBox.setInformativeText("Do you want to save your changes?");
-        msgBox.setStandardButtons(QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
-        msgBox.setDefaultButton(QMessageBox::Save);
-        msgBox.setButtonText(QMessageBox::Cancel, tr("Back"));
-        QPixmap msgIcon(":/images/iconWarning.png");
-        msgBox.setIconPixmap(msgIcon);
-
-        int reply = msgBox.exec();
-
-        if (reply == QMessageBox::Save) {
-            saveItems();
-        } else
-        if (reply == QMessageBox::Cancel) {
-            return;
-        }
+    if (m_modified && saveRequest() == false) {
+        return;
     }
 
     CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_listView->model());
     if (xmodel) {
         xmodel->removeRows(0, xmodel->rowCount());
         insertNewItem();
-        setCurrentFileName("unknown.xvl");
+        setCurrentFileName(m_unknownFileName);
         m_modified = true;
     }
 }
@@ -686,7 +698,7 @@ void CVocabularyPage::writeXML(const QString & fileName)
      }
 }
 
-void CVocabularyPage::saveItems()
+void CVocabularyPage::saveItems(bool saveAs)
 {
     QFileInfo finfo(m_currentFileName);
     QString fileStr;
@@ -694,11 +706,14 @@ void CVocabularyPage::saveItems()
     if (finfo.exists()) {
         fileStr = m_currentFileName;
     } else {
-        fileStr = "unknown.xvl";
+        fileStr = m_unknownFileName;
     }
 
-    fileStr = QFileDialog::getSaveFileName(this, tr("Save Items"), fileStr, tr("XVL (*.xvl)"));
-    if (!fileStr.isEmpty()) {
+    if (saveAs || finfo.exists() == false) {
+        fileStr = QFileDialog::getSaveFileName(this, tr("Save Items"), fileStr, tr("XVL (*.xvl)"));
+    }
+
+    if (fileStr.isEmpty() == false) {
         writeXML(fileStr);
         setCurrentFileName(fileStr);
         m_modified = false;

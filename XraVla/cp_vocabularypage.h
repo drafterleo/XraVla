@@ -50,11 +50,13 @@ protected:
 
     void updateProtoPixraBtn(CAbstractPixra *pixra);
 
+    bool saveRequest();
+
 public slots:
     void newVocabulary();
     void loadItemsClear();
     void loadItemsIns();
-    void saveItems();
+    void saveItems(bool saveAs = true);
 
     void insertNewItem();
     void copyCurrItem();
@@ -78,6 +80,7 @@ protected slots:
 
 private:
     QString m_currentFileName;
+    QString m_unknownFileName;
 
     bool m_modified;
     bool m_showInfo;
