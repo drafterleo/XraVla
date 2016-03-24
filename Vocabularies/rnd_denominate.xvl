@@ -1259,4 +1259,24 @@
             </figure>
         </pixra>
     </item>
+    <item>
+        <word>дельфин</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.22549" y="0.526961"/>
+                <anchor x="0.0441176" y="0.620098"/>
+                <anchor x="0.573529" y="0.245098"/>
+                <anchor x="0.789216" y="0.438725"/>
+                <anchor x="0.583333" y="0.678922"/>
+                <anchor x="0.161765" y="0.372549"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.689951" y="0.0857843"/>
+                <anchor x="0.723039" y="0.454657"/>
+                <anchor x="0.689951" y="0.823529"/>
+                <anchor x="0.656863" y="0.454657"/>
+            </figure>
+        </pixra>
+    </item>
 </xravlaste>
