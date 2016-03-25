@@ -527,4 +527,61 @@
             </matrix>
         </pixra>
     </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.306373" y="0.375"/>
+                <anchor x="0.730392" y="0.89951"/>
+                <anchor x="0.0514706" y="0.257353"/>
+                <anchor x="0.77451" y="0.20098"/>
+                <anchor x="0.0416667" y="0.558824"/>
+                <anchor x="0.433824" y="0.740196"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.208333" y="0.0196078"/>
+                <anchor x="0.279412" y="0.0968137"/>
+                <anchor x="0.208333" y="0.17402"/>
+                <anchor x="0.137255" y="0.0968137"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>25.03.16 [15:09]</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.796569" y="0.553922"/>
+                <anchor x="0.504902" y="0.0392157"/>
+                <anchor x="0.0318627" y="0.914216"/>
+                <anchor x="0.671569" y="0.79902"/>
+                <anchor x="0.894608" y="0.495098"/>
+                <anchor x="0.595588" y="0.448529"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.667892" y="0.428922"/>
+                <anchor x="0.968137" y="0.511029"/>
+                <anchor x="0.667892" y="0.593137"/>
+                <anchor x="0.367647" y="0.511029"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>25.03.16 [15:09]</word>
+        <spec></spec>
+        <pixra type="CColorMatrixPixra">
+            <matrix cols="3" rows="3">
+                <color rgb="#23c0ba"/>
+                <color rgb="#2ad7c6"/>
+                <color rgb="#775735"/>
+                <color rgb="#a8c056"/>
+                <color rgb="#a03e29"/>
+                <color rgb="#217aac"/>
+                <color rgb="#cf2c97"/>
+                <color rgb="#4f9ab6"/>
+                <color rgb="#5a6762"/>
+            </matrix>
+        </pixra>
+    </item>
 </xravlaste>
