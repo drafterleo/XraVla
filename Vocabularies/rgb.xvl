@@ -6596,8 +6596,8 @@
         </pixra>
     </item>
     <item>
-        <word>r</word>
-        <spec>rbg</spec>
+        <word>b</word>
+        <spec>brg</spec>
         <pixra type="CColorMatrixPixra">
             <matrix cols="3" rows="3">
                 <color rgb="#b87159"/>

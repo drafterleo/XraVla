@@ -54,7 +54,7 @@ void CMainWindow::closeEvent(QCloseEvent *event)
         int reply = msgBox.exec();
 
         if (reply == QMessageBox::Save) {
-            m_vocabularyPage->saveItems();
+            m_vocabularyPage->saveItems(false);
             event->accept();
         } else
         if (reply == QMessageBox::Cancel) {
