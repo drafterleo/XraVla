@@ -505,7 +505,9 @@ void CVocabularyPage::paintEvent(QPaintEvent *)
     //painter.drawRect(x, 1, w, height() - 2);
     painter.drawLine(x, 0, x, height());
     if (m_showInfo) {
-        QString infoStr = QString("Item Count: %1").arg(m_listView->model()->rowCount());
+        QString infoStr = QString("Item Count: %1(%2)")
+                            .arg(m_listView->model()->rowCount())
+                            .arg(m_listView->currentIndex().row() + 1);
         painter.setPen(Qt::lightGray);
         painter.drawText(5, height() - 10, infoStr);
     }
