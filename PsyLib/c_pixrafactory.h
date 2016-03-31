@@ -33,7 +33,9 @@ protected:
     void registerPixraClasses()
     {
         addPixraClass <CFiguresPixra>("CFiguresPixra");
+        addPixraClass <CFiguresPixra>("FiguresPixra");
         addPixraClass <CColorMatrixPixra>("CColorMatrixPixra");
+        addPixraClass <CColorMatrixPixra>("ColorMatrixPixra");
     }
 
 public:

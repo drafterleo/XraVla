@@ -59,11 +59,13 @@ public slots:
     void saveItems(bool saveAs = true);
 
     void insertNewItem();
-    void copyCurrItem();
+    void doubleCurrItem();
     void removeCurrItem();
     void moveCurrItemUp();
     void moveCurrItemDown();
     void setCurrItem(int idx);
+    void copyCurrItemToClipboard();
+    void pasteItemFromClipboard();
 
 protected slots:
     void listViewChanged(const QModelIndex & current, const QModelIndex & previous);

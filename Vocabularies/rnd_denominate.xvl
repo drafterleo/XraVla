@@ -1779,4 +1779,104 @@
             </figure>
         </pixra>
     </item>
+    <item>
+        <word>муха</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.590686" y="0.654412"/>
+                <anchor x="0.639706" y="0.821078"/>
+                <anchor x="0.240196" y="0.914216"/>
+                <anchor x="0.453431" y="0.683824"/>
+                <anchor x="0.727941" y="0.735294"/>
+                <anchor x="0.887255" y="0.573529"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.664216" y="0.916667"/>
+                <anchor x="0.901961" y="0.779412"/>
+                <anchor x="0.664216" y="0.642157"/>
+                <anchor x="0.426471" y="0.779412"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>кан-кан</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.490196" y="0.178922"/>
+                <anchor x="0.306373" y="0.60049"/>
+                <anchor x="0.637255" y="0.458333"/>
+                <anchor x="0.338235" y="0.801471"/>
+                <anchor x="0.497549" y="0.573529"/>
+                <anchor x="0.115196" y="0.0294118"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.285539" y="0.897059"/>
+                <anchor x="0.0931373" y="0.534314"/>
+                <anchor x="0.285539" y="0.171569"/>
+                <anchor x="0.477941" y="0.534314"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>великан</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.448529" y="0.926471"/>
+                <anchor x="0.379902" y="0.134804"/>
+                <anchor x="0.198529" y="0.252451"/>
+                <anchor x="0.242647" y="0.67402"/>
+                <anchor x="0.252451" y="0.752451"/>
+                <anchor x="0.151961" y="0.916667"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.403186" y="0.159314"/>
+                <anchor x="0.458333" y="0.107843"/>
+                <anchor x="0.403186" y="0.0563725"/>
+                <anchor x="0.348039" y="0.107843"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>спорт-площадка</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CEllipseFigure">
+                <anchor x="0.558824" y="0.433824"/>
+                <anchor x="0.745098" y="0.343137"/>
+                <anchor x="0.558824" y="0.252451"/>
+                <anchor x="0.372549" y="0.343137"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.642157" y="0.776961"/>
+                <anchor x="0.323529" y="0.67402"/>
+                <anchor x="0.384804" y="0.558824"/>
+                <anchor x="0.705882" y="0.647059"/>
+                <anchor x="0.10049" y="0.487745"/>
+                <anchor x="0.85049" y="0.247549"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>завод</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.0882353" y="0.948529"/>
+                <anchor x="0.107843" y="0.0955882"/>
+                <anchor x="0.25" y="0.0906863"/>
+                <anchor x="0.338235" y="0.75"/>
+                <anchor x="0.536765" y="0.0808824"/>
+                <anchor x="0.872549" y="0.980392"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.169118" y="0.166667"/>
+                <anchor x="0.107843" y="0.241422"/>
+                <anchor x="0.169118" y="0.316176"/>
+                <anchor x="0.230392" y="0.241422"/>
+            </figure>
+        </pixra>
+    </item>
 </xravlaste>

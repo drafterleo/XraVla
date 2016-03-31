@@ -14,6 +14,8 @@
 #include <QApplication>
 #include <QtDebug>
 #include <QDesktopWidget>
+#include <QClipboard>
+#include <QMimeData>
 #include <QResizeEvent>
 
 CVocabularyPage::CVocabularyPage(QWidget *parent) :
@@ -234,56 +236,19 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
 
         if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
             keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
-            keyEvent->key() == Qt::Key_Plus) {
-            // add new item in the xravlaste
+            (keyEvent->key() == Qt::Key_S ||
+             keyEvent->key() == Qt::Key_P ||
+             keyEvent->key() == Qt::Key_Plus ||
+             keyEvent->key() == Qt::Key_R ||
+             keyEvent->key() == Qt::Key_I ||
+             keyEvent->key() == Qt::Key_D ||
+             keyEvent->key() == Qt::Key_C ||
+             keyEvent->key() == Qt::Key_V )) {
+            // double current item in the xravlaste
             this->keyPressEvent(keyEvent);
             return true;
         }
 
-        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
-            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
-            keyEvent->key() == Qt::Key_R) {
-            // add new randomized item in the xravlaste
-            this->keyPressEvent(keyEvent);
-            return true;
-        }
-
-        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
-            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
-            keyEvent->key() == Qt::Key_C) {
-            // copy current item in the xravlaste
-            this->keyPressEvent(keyEvent);
-            return true;
-        }
-
-        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
-            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
-            keyEvent->key() == Qt::Key_I) {
-            // show info
-            this->keyPressEvent(keyEvent);
-            return true;
-        }
-
-        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
-            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
-            keyEvent->key() == Qt::Key_V){
-            // <Ctrl + Shidt + V> : set vocabulary protoPixra to current Item
-            CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
-            createPixraEdit(model->protoPixra()->metaObject()->className());
-            relocateWidgets();
-            m_pixraEdit->assignPixra(model->protoPixra());
-            return true;
-        }
-
-        if (keyEvent->modifiers().testFlag(Qt::ControlModifier) &&
-            keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
-            keyEvent->key() == Qt::Key_P) {
-            // <Ctrl + Shift + P> : set current pixra as Proto
-            CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
-            model->setProtoPixra(m_pixraEdit->pixra());
-            updateProtoPixraBtn(m_pixraEdit->pixra());
-            return true;
-        }
         if (target == m_nameEdit) {
             if (keyEvent->key() == Qt::Key_Up || keyEvent->key() == Qt::Key_Down) {
                 //qDebug() << "up or down";
@@ -292,14 +257,33 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
                 return true;
             }
         }
-
-
     }
     return CPageWidget::eventFilter(target, event);
 }
 
 void CVocabularyPage::keyPressEvent(QKeyEvent *event)
 {
+    if (event->modifiers().testFlag(Qt::ControlModifier) &&
+        event->modifiers().testFlag(Qt::ShiftModifier) &&
+        event->key() == Qt::Key_S){
+        // <Ctrl + Shidt + S> : set vocabulary protoPixra to current Item
+        CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
+        createPixraEdit(model->protoPixra()->metaObject()->className());
+        relocateWidgets();
+        m_pixraEdit->assignPixra(model->protoPixra());
+        return;
+    }
+
+    if (event->modifiers().testFlag(Qt::ControlModifier) &&
+        event->modifiers().testFlag(Qt::ShiftModifier) &&
+        event->key() == Qt::Key_P) {
+        // <Ctrl + Shift + P> : set current pixra as Proto
+        CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
+        model->setProtoPixra(m_pixraEdit->pixra());
+        updateProtoPixraBtn(m_pixraEdit->pixra());
+        return;
+    }
+
     if (event->modifiers().testFlag(Qt::ControlModifier) &&
         event->modifiers().testFlag(Qt::ShiftModifier) &&
         event->key() == Qt::Key_I) {
@@ -330,9 +314,26 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
 
     if (event->modifiers().testFlag(Qt::ControlModifier) &&
         event->modifiers().testFlag(Qt::ShiftModifier) &&
+        event->key() == Qt::Key_D) {
+        // <Ctrl + Shift + "D"> add new randomized item
+        doubleCurrItem();
+        m_nameEdit->setFocus();
+        return;
+    }
+
+    if (event->modifiers().testFlag(Qt::ControlModifier) &&
+        event->modifiers().testFlag(Qt::ShiftModifier) &&
         event->key() == Qt::Key_C) {
-        // <Ctrl + Shift + "C"> add new randomized item
-        copyCurrItem();
+        // <Ctrl + Shift + "C">
+        copyCurrItemToClipboard();
+        return;
+    }
+
+    if (event->modifiers().testFlag(Qt::ControlModifier) &&
+        event->modifiers().testFlag(Qt::ShiftModifier) &&
+        event->key() == Qt::Key_V) {
+        // <Ctrl + Shift + "V">
+        pasteItemFromClipboard();
         m_nameEdit->setFocus();
         return;
     }
@@ -445,7 +446,7 @@ void CVocabularyPage::insertNewItem()
     }
 }
 
-void CVocabularyPage::copyCurrItem()
+void CVocabularyPage::doubleCurrItem()
 {
     QModelIndex prevCurrentIndex = m_listView->currentIndex();
     if (prevCurrentIndex.isValid()) {
@@ -461,7 +462,45 @@ void CVocabularyPage::copyCurrItem()
                     m_modified = true;
                 }
             }
+        }
+    }
+}
 
+void CVocabularyPage::copyCurrItemToClipboard()
+{
+    QModelIndex currentIndex = m_listView->currentIndex();
+    if (currentIndex.isValid()) {
+        QString xmlStr;
+        QXmlStreamWriter xml(&xmlStr);
+        xml.writeStartDocument();
+        xml.writeDTD("<!DOCTYPE xravlaste>");
+        xml.writeStartElement("xravlaste");
+        CXravlasteItem *currItem = m_listView->model()->data(currentIndex).value<CXravlasteItem *>();
+        currItem->writeXML(xml);
+        xml.writeEndDocument();
+        QClipboard *clipboard = QApplication::clipboard();
+        clipboard->setText(xmlStr);
+    }
+}
+
+void CVocabularyPage::pasteItemFromClipboard()
+{
+    const QClipboard *clipboard = QApplication::clipboard();
+    const QMimeData *mimeData = clipboard->mimeData();
+
+    if (mimeData->hasText()) {
+        QString xmlStr = mimeData->text();
+        QDomDocument doc("xravlaste");
+        if(doc.setContent(xmlStr, false)) {
+            QDomElement root = doc.documentElement();
+            if (root.tagName() == "xravlaste") {
+                QModelIndex currentIndex = m_listView->currentIndex();
+                int insRow = 0;
+                if (currentIndex.isValid()) {
+                    insRow = m_listView->currentIndex().row() + 1;
+                }
+                readXML(root, false, insRow);
+            }
         }
     }
 }
