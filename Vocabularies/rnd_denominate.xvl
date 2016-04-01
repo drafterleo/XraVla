@@ -1960,26 +1960,6 @@
         </pixra>
     </item>
     <item>
-        <word>ракета</word>
-        <spec></spec>
-        <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.916667" y="0.465686"/>
-                <anchor x="0.580882" y="0.134804"/>
-                <anchor x="0.215686" y="0.397059"/>
-                <anchor x="0.546569" y="0.818627"/>
-                <anchor x="0.495098" y="0.879902"/>
-                <anchor x="0.193627" y="0.806373"/>
-            </figure>
-            <figure type="CEllipseFigure">
-                <anchor x="0.553922" y="0.0735294"/>
-                <anchor x="0.421569" y="0.285539"/>
-                <anchor x="0.553922" y="0.497549"/>
-                <anchor x="0.686275" y="0.285539"/>
-            </figure>
-        </pixra>
-    </item>
-    <item>
         <word>скамейка</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
@@ -2016,6 +1996,46 @@
                 <anchor x="0.161765" y="0.435049"/>
                 <anchor x="0.301471" y="0.372549"/>
                 <anchor x="0.441176" y="0.435049"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>гитара</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.137255" y="0.102941"/>
+                <anchor x="0.556373" y="0.806373"/>
+                <anchor x="0.117647" y="0.926471"/>
+                <anchor x="0.129902" y="0.720588"/>
+                <anchor x="0.637255" y="0.453431"/>
+                <anchor x="0.651961" y="0.855392"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.512255" y="0.605392"/>
+                <anchor x="0.585784" y="0.660539"/>
+                <anchor x="0.512255" y="0.715686"/>
+                <anchor x="0.438725" y="0.660539"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>оптика</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.651961" y="0.671569"/>
+                <anchor x="0.230392" y="0.0147059"/>
+                <anchor x="0.647059" y="0.281863"/>
+                <anchor x="0.960784" y="0.72549"/>
+                <anchor x="0.480392" y="0.715686"/>
+                <anchor x="0.963235" y="0.107843"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.401961" y="0.681373"/>
+                <anchor x="0.72549" y="0.645833"/>
+                <anchor x="0.401961" y="0.610294"/>
+                <anchor x="0.0784314" y="0.645833"/>
             </figure>
         </pixra>
     </item>
