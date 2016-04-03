@@ -2039,4 +2039,64 @@
             </figure>
         </pixra>
     </item>
+    <item>
+        <word>червяк</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.583333" y="0.806373"/>
+                <anchor x="0.0980392" y="0.830882"/>
+                <anchor x="0.678922" y="0.705882"/>
+                <anchor x="0.772059" y="0.519608"/>
+                <anchor x="0.906863" y="0.745098"/>
+                <anchor x="0.806373" y="0.686275"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.335784" y="0.215686"/>
+                <anchor x="0.384804" y="0.176471"/>
+                <anchor x="0.335784" y="0.137255"/>
+                <anchor x="0.286765" y="0.176471"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>пассажир</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.884804" y="0.468137"/>
+                <anchor x="0.759804" y="0.970588"/>
+                <anchor x="0.772059" y="0.389706"/>
+                <anchor x="0.39951" y="0.470588"/>
+                <anchor x="0.213235" y="0.276961"/>
+                <anchor x="0.406863" y="0.676471"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.349265" y="0.0416667"/>
+                <anchor x="0.460784" y="0.165441"/>
+                <anchor x="0.349265" y="0.289216"/>
+                <anchor x="0.237745" y="0.165441"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>джигит</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.914216" y="0.522059"/>
+                <anchor x="0.404412" y="0.906863"/>
+                <anchor x="0.448529" y="0.232843"/>
+                <anchor x="0.612745" y="0.252451"/>
+                <anchor x="0.338235" y="0.92402"/>
+                <anchor x="0.242647" y="0.330882"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.539216" y="0.144608"/>
+                <anchor x="0.651961" y="0.235294"/>
+                <anchor x="0.539216" y="0.32598"/>
+                <anchor x="0.426471" y="0.235294"/>
+            </figure>
+        </pixra>
+    </item>
 </xravlaste>
