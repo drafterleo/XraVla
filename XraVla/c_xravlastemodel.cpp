@@ -248,3 +248,16 @@ void CXravlasteModel::setProtoPixra(CAbstractPixra *pixra)
     } else
         m_protoPixra = 0;
 }
+
+// Compare two variants.
+bool xravlasteItemLessThan(CXravlasteItem *it1, CXravlasteItem *it2)
+{
+    return it1->name < it2->name;
+}
+
+void CXravlasteModel::sortItemsByName()
+{
+    beginResetModel();
+    qSort(m_items.begin(), m_items.end(), xravlasteItemLessThan);
+    endResetModel();
+}

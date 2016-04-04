@@ -92,12 +92,12 @@ CVocabularyPage::CVocabularyPage(QWidget *parent) :
     m_randomizeBtn->setToolTip("Randomizer");
     m_protoPixraBtn->setToolTip("Prototype");
 
-    m_listView = new CXravlasteView(this);
-    m_listView->setVerticalScrollBar(new CStyledScrollBar());
-    m_listView->installEventFilter(this);
+    m_xravlasteView = new CXravlasteView(this);
+    m_xravlasteView->setVerticalScrollBar(new CStyledScrollBar());
+    m_xravlasteView->installEventFilter(this);
     initListView();
 
-    connect(m_listView,  SIGNAL(changed(QModelIndex, QModelIndex)),
+    connect(m_xravlasteView,  SIGNAL(changed(QModelIndex, QModelIndex)),
             this,        SLOT(listViewChanged(QModelIndex, QModelIndex)));
     connect(m_nameEdit,  SIGNAL(textChanged(QString)),
             this,        SLOT(wordChanged(QString)));
@@ -149,12 +149,12 @@ void CVocabularyPage::createPixraEdit(const QString &classNameStr)
 
 void CVocabularyPage::initListView(void)
 {
-    CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *>(m_listView->model());
+    CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *>(m_xravlasteView->model());
     if (xmodel) {
         xmodel->insertRow(0);
-        m_listView->setCurrentIndex(xmodel->index(0, 0));
+        m_xravlasteView->setCurrentIndex(xmodel->index(0, 0));
         updateProtoPixraBtn(xmodel->protoPixra());
-        listViewChanged(m_listView->currentIndex(), QModelIndex());
+        listViewChanged(m_xravlasteView->currentIndex(), QModelIndex());
 
 //        CAbstractPixra *pixra = xmodel->protoPixra();
 //        pixra->resize(50, 50);
@@ -211,7 +211,7 @@ void CVocabularyPage::relocateWidgets()
     int layoutY = xwlY - 35;
     int layoutX = xwlX + 1;
 
-    m_listView->setGeometry(xwlX, xwlY, xwlWidth, xwlHeight);
+    m_xravlasteView->setGeometry(xwlX, xwlY, xwlWidth, xwlHeight);
     m_pixraEdit->setGeometry(feX, feY, feWidth, feHeight);
     m_nameEdit->setGeometry(weX, weY, weWidth, weHeight);
     m_specEdit->setGeometry(seX, seY, seWidth, seHeight);
@@ -226,7 +226,7 @@ void CVocabularyPage::resizeEvent(QResizeEvent *event)
 {
     relocateWidgets();
     if (!event->oldSize().isValid())
-        listViewChanged(m_listView->currentIndex(), QModelIndex());
+        listViewChanged(m_xravlasteView->currentIndex(), QModelIndex());
 }
 
 bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
@@ -238,6 +238,7 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
             keyEvent->modifiers().testFlag(Qt::ShiftModifier) &&
             (keyEvent->key() == Qt::Key_S ||
              keyEvent->key() == Qt::Key_P ||
+             keyEvent->key() == Qt::Key_O ||
              keyEvent->key() == Qt::Key_Plus ||
              keyEvent->key() == Qt::Key_R ||
              keyEvent->key() == Qt::Key_I ||
@@ -252,7 +253,7 @@ bool CVocabularyPage::eventFilter(QObject *target, QEvent *event)
         if (target == m_nameEdit) {
             if (keyEvent->key() == Qt::Key_Up || keyEvent->key() == Qt::Key_Down) {
                 //qDebug() << "up or down";
-                QApplication::postEvent(m_listView, keyEvent);
+                QApplication::postEvent(m_xravlasteView, keyEvent);
                 QApplication::processEvents();
                 return true;
             }
@@ -267,7 +268,7 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
         event->modifiers().testFlag(Qt::ShiftModifier) &&
         event->key() == Qt::Key_S){
         // <Ctrl + Shidt + S> : set vocabulary protoPixra to current Item
-        CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
+        CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
         createPixraEdit(model->protoPixra()->metaObject()->className());
         relocateWidgets();
         m_pixraEdit->assignPixra(model->protoPixra());
@@ -278,9 +279,18 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
         event->modifiers().testFlag(Qt::ShiftModifier) &&
         event->key() == Qt::Key_P) {
         // <Ctrl + Shift + P> : set current pixra as Proto
-        CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
-        model->setProtoPixra(m_pixraEdit->pixra());
+        CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
+        xmodel->setProtoPixra(m_pixraEdit->pixra());
         updateProtoPixraBtn(m_pixraEdit->pixra());
+        return;
+    }
+
+    if (event->modifiers().testFlag(Qt::ControlModifier) &&
+        event->modifiers().testFlag(Qt::ShiftModifier) &&
+        event->key() == Qt::Key_O) {
+        // <Ctrl + Shift + O> : sort xravlaste items
+        CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
+        xmodel->sortItemsByName();
         return;
     }
 
@@ -343,7 +353,7 @@ void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelI
 {
     bool modifiedTmp = m_modified;
 
-    QAbstractItemModel *model = m_listView->model();
+    QAbstractItemModel *model = m_xravlasteView->model();
 
     if (previous.isValid()) {
         CXravlasteItem *prevItem = model->data(previous).value<CXravlasteItem *>();
@@ -381,13 +391,13 @@ void CVocabularyPage::listViewChanged(const QModelIndex & current, const QModelI
 
 void CVocabularyPage::wordChanged(const QString & str)
 {
-    QModelIndex current = m_listView->currentIndex();
+    QModelIndex current = m_xravlasteView->currentIndex();
     if (current.isValid()) {
-        CXravlasteItem *currItem = m_listView->model()->data(current).value<CXravlasteItem *>();
+        CXravlasteItem *currItem = m_xravlasteView->model()->data(current).value<CXravlasteItem *>();
         if (currItem) {
             currItem->name = str;
-            m_listView->update(current);
-            m_listView->scrollTo(current);
+            m_xravlasteView->update(current);
+            m_xravlasteView->scrollTo(current);
             m_modified = true;
         }
     }
@@ -395,13 +405,13 @@ void CVocabularyPage::wordChanged(const QString & str)
 
 void CVocabularyPage::specChanged()
 {
-    QModelIndex current = m_listView->currentIndex();
+    QModelIndex current = m_xravlasteView->currentIndex();
     if (current.isValid()) {
-        CXravlasteItem *currItem = m_listView->model()->data(current).value<CXravlasteItem *>();
+        CXravlasteItem *currItem = m_xravlasteView->model()->data(current).value<CXravlasteItem *>();
         if (currItem) {
             currItem->spec = m_specEdit->toPlainText();
-            m_listView->update(current);
-            m_listView->scrollTo(current);
+            m_xravlasteView->update(current);
+            m_xravlasteView->scrollTo(current);
             m_modified = true;
         }
     }
@@ -409,13 +419,13 @@ void CVocabularyPage::specChanged()
 
 void CVocabularyPage::pixraChanged()
 {
-    QModelIndex current = m_listView->currentIndex();
+    QModelIndex current = m_xravlasteView->currentIndex();
     if (current.isValid()) {
-        CXravlasteItem *currItem = m_listView->model()->data(current).value<CXravlasteItem *>();
+        CXravlasteItem *currItem = m_xravlasteView->model()->data(current).value<CXravlasteItem *>();
         if (currItem && currItem->pixra) {
             currItem->setPixra(m_pixraEdit->pixra());
-            m_listView->update(current);
-            m_listView->scrollTo(current);
+            m_xravlasteView->update(current);
+            m_xravlasteView->scrollTo(current);
             m_modified = true;
         }
     }
@@ -424,23 +434,23 @@ void CVocabularyPage::pixraChanged()
 
 void CVocabularyPage::setCurrItem(int idx)
 {
-    QAbstractItemModel *model = m_listView->model();
+    QAbstractItemModel *model = m_xravlasteView->model();
     if (model) {
         QModelIndex modelIndex = model->index(idx, 0);
-        m_listView->setCurrentIndex(modelIndex);
+        m_xravlasteView->setCurrentIndex(modelIndex);
     }
 }
 
 
 void CVocabularyPage::insertNewItem()
 {
-    QAbstractItemModel *model = m_listView->model();
-    int row = m_listView->currentIndex().row();
+    QAbstractItemModel *model = m_xravlasteView->model();
+    int row = m_xravlasteView->currentIndex().row();
     if (model && model->insertRow(row + 1)) {
         if (row >= 0)
-            m_listView->setCurrentIndex(model->index(row + 1, 0));
+            m_xravlasteView->setCurrentIndex(model->index(row + 1, 0));
         else
-            m_listView->setCurrentIndex(model->index(0, 0));
+            m_xravlasteView->setCurrentIndex(model->index(0, 0));
 
         m_modified = true;
     }
@@ -448,14 +458,14 @@ void CVocabularyPage::insertNewItem()
 
 void CVocabularyPage::doubleCurrItem()
 {
-    QModelIndex prevCurrentIndex = m_listView->currentIndex();
+    QModelIndex prevCurrentIndex = m_xravlasteView->currentIndex();
     if (prevCurrentIndex.isValid()) {
-        CXravlasteItem *prevCurrItem = m_listView->model()->data(prevCurrentIndex).value<CXravlasteItem *>();
+        CXravlasteItem *prevCurrItem = m_xravlasteView->model()->data(prevCurrentIndex).value<CXravlasteItem *>();
         if (prevCurrItem && prevCurrItem->pixra) {
             insertNewItem();
-            QModelIndex currentIndex = m_listView->currentIndex();
+            QModelIndex currentIndex = m_xravlasteView->currentIndex();
             if (prevCurrentIndex.isValid()) {
-                CXravlasteItem *currItem = m_listView->model()->data(currentIndex).value<CXravlasteItem *>();
+                CXravlasteItem *currItem = m_xravlasteView->model()->data(currentIndex).value<CXravlasteItem *>();
                 if (currItem) {
                     currItem->setPixra(prevCurrItem->pixra);
                     listViewChanged(currentIndex, prevCurrentIndex);
@@ -468,14 +478,14 @@ void CVocabularyPage::doubleCurrItem()
 
 void CVocabularyPage::copyCurrItemToClipboard()
 {
-    QModelIndex currentIndex = m_listView->currentIndex();
+    QModelIndex currentIndex = m_xravlasteView->currentIndex();
     if (currentIndex.isValid()) {
         QString xmlStr;
         QXmlStreamWriter xml(&xmlStr);
         xml.writeStartDocument();
         xml.writeDTD("<!DOCTYPE xravlaste>");
         xml.writeStartElement("xravlaste");
-        CXravlasteItem *currItem = m_listView->model()->data(currentIndex).value<CXravlasteItem *>();
+        CXravlasteItem *currItem = m_xravlasteView->model()->data(currentIndex).value<CXravlasteItem *>();
         currItem->writeXML(xml);
         xml.writeEndDocument();
         QClipboard *clipboard = QApplication::clipboard();
@@ -494,10 +504,10 @@ void CVocabularyPage::pasteItemFromClipboard()
         if(doc.setContent(xmlStr, false)) {
             QDomElement root = doc.documentElement();
             if (root.tagName() == "xravlaste") {
-                QModelIndex currentIndex = m_listView->currentIndex();
+                QModelIndex currentIndex = m_xravlasteView->currentIndex();
                 int insRow = 0;
                 if (currentIndex.isValid()) {
-                    insRow = m_listView->currentIndex().row() + 1;
+                    insRow = m_xravlasteView->currentIndex().row() + 1;
                 }
                 readXML(root, false, insRow);
             }
@@ -507,29 +517,29 @@ void CVocabularyPage::pasteItemFromClipboard()
 
 void CVocabularyPage::removeCurrItem()
 {
-    QAbstractItemModel *model = m_listView->model();
-    if (model &&  m_listView->currentIndex().isValid()) {
-        model->removeRow(m_listView->currentIndex().row());
+    QAbstractItemModel *model = m_xravlasteView->model();
+    if (model &&  m_xravlasteView->currentIndex().isValid()) {
+        model->removeRow(m_xravlasteView->currentIndex().row());
         m_modified = true;
     }
 }
 
 void CVocabularyPage::moveCurrItemUp()
 {
-    CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
-    if (model && m_listView->currentIndex().isValid()) {
-        model->moveRowToUp(m_listView->currentIndex().row());
-        m_listView->scrollTo(m_listView->currentIndex());
+    CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
+    if (model && m_xravlasteView->currentIndex().isValid()) {
+        model->moveRowToUp(m_xravlasteView->currentIndex().row());
+        m_xravlasteView->scrollTo(m_xravlasteView->currentIndex());
         m_modified = true;
     }
 }
 
 void CVocabularyPage::moveCurrItemDown()
 {
-    CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
-    if (model && m_listView->currentIndex().isValid()) {
-        model->moveRowToDown(m_listView->currentIndex().row());
-        m_listView->scrollTo(m_listView->currentIndex());
+    CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
+    if (model && m_xravlasteView->currentIndex().isValid()) {
+        model->moveRowToDown(m_xravlasteView->currentIndex().row());
+        m_xravlasteView->scrollTo(m_xravlasteView->currentIndex());
         m_modified = true;
     }
 }
@@ -538,15 +548,15 @@ void CVocabularyPage::moveCurrItemDown()
 void CVocabularyPage::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
-    int x = m_listView->pos().x() - 2;
+    int x = m_xravlasteView->pos().x() - 2;
     //int w = m_ListView->width() + 2;
     painter.setPen(QPen(QColor(0x4E4E4E), 2));
     //painter.drawRect(x, 1, w, height() - 2);
     painter.drawLine(x, 0, x, height());
     if (m_showInfo) {
         QString infoStr = QString("Item Count: %1(%2)")
-                            .arg(m_listView->model()->rowCount())
-                            .arg(m_listView->currentIndex().row() + 1);
+                            .arg(m_xravlasteView->model()->rowCount())
+                            .arg(m_xravlasteView->currentIndex().row() + 1);
         painter.setPen(Qt::lightGray);
         painter.drawText(5, height() - 10, infoStr);
     }
@@ -557,7 +567,7 @@ void CVocabularyPage::paintEvent(QPaintEvent *)
 bool CVocabularyPage::readXML(const QDomElement & root, bool clearModel, int insRow)
 {
     //QAbstractItemModel *xmodel = m_listView->model();
-    CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_listView->model());
+    CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
 
     if (!xmodel)
         return false;
@@ -598,7 +608,7 @@ bool CVocabularyPage::readXML(const QDomElement & root, bool clearModel, int ins
         node = node.nextSibling();
     }
 
-    m_listView->setCurrentIndex(xmodel->index(insRow, 0));
+    m_xravlasteView->setCurrentIndex(xmodel->index(insRow, 0));
 
     return true;
 }
@@ -664,7 +674,7 @@ void CVocabularyPage::loadItemsClear()
 
 void CVocabularyPage::loadItemsIns()
 {
-    loadItems(false, m_listView->currentIndex().row() + 1);
+    loadItems(false, m_xravlasteView->currentIndex().row() + 1);
 }
 
 bool CVocabularyPage::saveRequest()
@@ -696,7 +706,7 @@ void CVocabularyPage::newVocabulary()
         return;
     }
 
-    CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_listView->model());
+    CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
     if (xmodel) {
         xmodel->removeRows(0, xmodel->rowCount());
         insertNewItem();
@@ -707,7 +717,7 @@ void CVocabularyPage::newVocabulary()
 
 void CVocabularyPage::writeXML(const QString & fileName)
 {
-    CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
+    CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
     if (!model)
         return;
 
@@ -820,7 +830,7 @@ void CVocabularyPage::updateProtoPixraBtn(CAbstractPixra *pixra)
 
 void CVocabularyPage::protoPixraChanged(CAbstractPixra *pixra)
 {
-    CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_listView->model());
+    CXravlasteModel *model = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
 
     if (pixra && model && m_pixraEdit) {
         model->setProtoPixra(pixra);

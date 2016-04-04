@@ -30,6 +30,8 @@ public:
     inline CAbstractPixra *protoPixra(void) {return m_protoPixra;}
     void setProtoPixra(CAbstractPixra *pixra);
 
+    void sortItemsByName();
+
 signals:
     void dataDropped(const QModelIndex &index);
 

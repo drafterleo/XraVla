@@ -20,7 +20,7 @@ public:
     explicit CVocabularyPage(QWidget *parent = 0);
     ~CVocabularyPage();
 
-    inline CXravlasteModel *model() {return dynamic_cast<CXravlasteModel *>(m_listView->model());}
+    inline CXravlasteModel *model() {return dynamic_cast<CXravlasteModel *>(m_xravlasteView->model());}
     inline bool isModified() {return m_modified;}
     inline QString currentFileName() {return m_currentFileName;}
     void loadVocabularyFromFile(const QString &fileName, bool clearModel, int insRow);
@@ -89,7 +89,7 @@ private:
 
 
     CAbstractEdit  *m_pixraEdit;
-    CXravlasteView *m_listView;
+    CXravlasteView *m_xravlasteView;
 
     QLineEdit *m_nameEdit;
     QTextEdit *m_specEdit;
