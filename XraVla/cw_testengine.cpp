@@ -10,7 +10,7 @@ CTestEngine::CTestEngine(QWidget *parent) :
 {
     m_choiceFrame = 0;
     m_usedMax = 10;
-    m_testItemCount = 4;
+    m_testItemCount = 3;
     m_checkItemNames = false;
 
     m_infoLabel = new QLabel(this);
@@ -123,10 +123,10 @@ void CTestEngine::calculateTestItemCount()
         m_checkItemNames = false;
     }
 
-    if (names.size() < 4) {
+    if (names.size() < 3) {
         m_testItemCount = names.size();
     } else {
-        m_testItemCount = 4;
+        m_testItemCount = 3;
     }
 }
 
@@ -152,7 +152,7 @@ void CTestEngine::startTest()
             showTestButtons();
         } else {
             hideTestButtons();
-            errorFrame("too few names");
+            errorFrame("need more named items");
         }
     } else {
         hideTestButtons();

@@ -4219,4 +4219,604 @@
             </figure>
         </pixra>
     </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.644608" y="0.92402"/>
+                <anchor x="0.615196" y="0.205882"/>
+                <anchor x="0.387255" y="0.879902"/>
+                <anchor x="0.10049" y="0.0759804"/>
+                <anchor x="0.0441176" y="0.566176"/>
+                <anchor x="0.776961" y="0.490196"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.421569" y="0.723039"/>
+                <anchor x="0.0661765" y="0.846814"/>
+                <anchor x="0.421569" y="0.970588"/>
+                <anchor x="0.776961" y="0.846814"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.414216" y="0.343137"/>
+                <anchor x="0.747549" y="0.70098"/>
+                <anchor x="0.928922" y="0.593137"/>
+                <anchor x="0.509804" y="0.355392"/>
+                <anchor x="0.279412" y="0.139706"/>
+                <anchor x="0.132353" y="0.164216"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.345588" y="0.235294"/>
+                <anchor x="0.507353" y="0.377451"/>
+                <anchor x="0.345588" y="0.519608"/>
+                <anchor x="0.183824" y="0.377451"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.70098" y="0.384804"/>
+                <anchor x="0.556373" y="0.242647"/>
+                <anchor x="0.411765" y="0.433824"/>
+                <anchor x="0.821078" y="0.830882"/>
+                <anchor x="0.705882" y="0.127451"/>
+                <anchor x="0.166667" y="0.97549"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.265931" y="0.948529"/>
+                <anchor x="0.32598" y="0.634804"/>
+                <anchor x="0.265931" y="0.321078"/>
+                <anchor x="0.205882" y="0.634804"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.303922" y="0.394608"/>
+                <anchor x="0.911765" y="0.357843"/>
+                <anchor x="0.32598" y="0.296569"/>
+                <anchor x="0.522059" y="0.916667"/>
+                <anchor x="0.0735294" y="0.144608"/>
+                <anchor x="0.198529" y="0.617647"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.41299" y="0.443627"/>
+                <anchor x="0.453431" y="0.518382"/>
+                <anchor x="0.41299" y="0.593137"/>
+                <anchor x="0.372549" y="0.518382"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.801471" y="0.495098"/>
+                <anchor x="0.208333" y="0.301471"/>
+                <anchor x="0.546569" y="0.892157"/>
+                <anchor x="0.465686" y="0.852941"/>
+                <anchor x="0.426471" y="0.968137"/>
+                <anchor x="0.198529" y="0.367647"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.710784" y="0.223039"/>
+                <anchor x="0.629902" y="0.321078"/>
+                <anchor x="0.710784" y="0.419118"/>
+                <anchor x="0.791667" y="0.321078"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.404412" y="0.578431"/>
+                <anchor x="0.240196" y="0.914216"/>
+                <anchor x="0.264706" y="0.328431"/>
+                <anchor x="0.615196" y="0.563725"/>
+                <anchor x="0.708333" y="0.453431"/>
+                <anchor x="0.593137" y="0.919118"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.834559" y="0.25"/>
+                <anchor x="0.887255" y="0.401961"/>
+                <anchor x="0.834559" y="0.553922"/>
+                <anchor x="0.781863" y="0.401961"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.453431" y="0.933824"/>
+                <anchor x="0.0686275" y="0.232843"/>
+                <anchor x="0.801471" y="0.438725"/>
+                <anchor x="0.605392" y="0.573529"/>
+                <anchor x="0.60049" y="0.411765"/>
+                <anchor x="0.313725" y="0.421569"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.280637" y="0.875"/>
+                <anchor x="0.0931373" y="0.686275"/>
+                <anchor x="0.280637" y="0.497549"/>
+                <anchor x="0.468137" y="0.686275"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.914216" y="0.75"/>
+                <anchor x="0.0857843" y="0.664216"/>
+                <anchor x="0.664216" y="0.551471"/>
+                <anchor x="0.125" y="0.632353"/>
+                <anchor x="0.0196078" y="0.0612745"/>
+                <anchor x="0.573529" y="0.980392"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.310049" y="0.933824"/>
+                <anchor x="0.416667" y="0.844363"/>
+                <anchor x="0.310049" y="0.754902"/>
+                <anchor x="0.203431" y="0.844363"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.933824" y="0.205882"/>
+                <anchor x="0.377451" y="0.933824"/>
+                <anchor x="0.764706" y="0.522059"/>
+                <anchor x="0.0661765" y="0.0955882"/>
+                <anchor x="0.60049" y="0.948529"/>
+                <anchor x="0.267157" y="0.0416667"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.457108" y="0.166667"/>
+                <anchor x="0.411765" y="0.295343"/>
+                <anchor x="0.457108" y="0.42402"/>
+                <anchor x="0.502451" y="0.295343"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.0833333" y="0.0171569"/>
+                <anchor x="0.566176" y="0.919118"/>
+                <anchor x="0.656863" y="0.70098"/>
+                <anchor x="0.752451" y="0.919118"/>
+                <anchor x="0.0686275" y="0.740196"/>
+                <anchor x="0.789216" y="0.0735294"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.384804" y="0.544118"/>
+                <anchor x="0.0514706" y="0.41299"/>
+                <anchor x="0.384804" y="0.281863"/>
+                <anchor x="0.718137" y="0.41299"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.958333" y="0.833333"/>
+                <anchor x="0.328431" y="0.431373"/>
+                <anchor x="0.0833333" y="0.593137"/>
+                <anchor x="0.57598" y="0.132353"/>
+                <anchor x="0.502451" y="0.693627"/>
+                <anchor x="0.460784" y="0.571078"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.724265" y="0.77451"/>
+                <anchor x="0.803922" y="0.709559"/>
+                <anchor x="0.724265" y="0.644608"/>
+                <anchor x="0.644608" y="0.709559"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.446078" y="0.306373"/>
+                <anchor x="0.433824" y="0.936275"/>
+                <anchor x="0.544118" y="0.767157"/>
+                <anchor x="0.254902" y="0.754902"/>
+                <anchor x="0.654412" y="0.0612745"/>
+                <anchor x="0.764706" y="0.89951"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.640931" y="0.25"/>
+                <anchor x="0.995098" y="0.203431"/>
+                <anchor x="0.640931" y="0.156863"/>
+                <anchor x="0.286765" y="0.203431"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.289216" y="0.558824"/>
+                <anchor x="0.330882" y="0.159314"/>
+                <anchor x="0.676471" y="0.938725"/>
+                <anchor x="0.77451" y="0.365196"/>
+                <anchor x="0.465686" y="0.703431"/>
+                <anchor x="0.428922" y="0.47549"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.669118" y="0.0171569"/>
+                <anchor x="0.928922" y="0.170343"/>
+                <anchor x="0.669118" y="0.323529"/>
+                <anchor x="0.409314" y="0.170343"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.784314" y="0.968137"/>
+                <anchor x="0.980392" y="0.32598"/>
+                <anchor x="0.218137" y="0.232843"/>
+                <anchor x="0.784314" y="0.75"/>
+                <anchor x="0.835784" y="0.0196078"/>
+                <anchor x="0.676471" y="0.379902"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.61152" y="0.115196"/>
+                <anchor x="0.382353" y="0.240196"/>
+                <anchor x="0.61152" y="0.365196"/>
+                <anchor x="0.840686" y="0.240196"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.0245098" y="0.340686"/>
+                <anchor x="0.338235" y="0.0833333"/>
+                <anchor x="0.779412" y="0.583333"/>
+                <anchor x="0.598039" y="0.960784"/>
+                <anchor x="0.713235" y="0.0392157"/>
+                <anchor x="0.948529" y="0.477941"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.372549" y="0.634804"/>
+                <anchor x="0.52451" y="0.753676"/>
+                <anchor x="0.372549" y="0.872549"/>
+                <anchor x="0.220588" y="0.753676"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CEllipseFigure">
+                <anchor x="0.5" y="0"/>
+                <anchor x="0" y="0.416667"/>
+                <anchor x="0.5" y="0.833333"/>
+                <anchor x="1" y="0.416667"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.192465" y="0.176296"/>
+                <anchor x="0.675579" y="0.683366"/>
+                <anchor x="0.815322" y="0.206241"/>
+                <anchor x="0.382117" y="0.371937"/>
+                <anchor x="0.839279" y="0.475747"/>
+                <anchor x="0.426036" y="0.739263"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.865196" y="0.938725"/>
+                <anchor x="0.125" y="0.519608"/>
+                <anchor x="0.504902" y="0.563725"/>
+                <anchor x="0.0686275" y="0.0294118"/>
+                <anchor x="0.0612745" y="0.585784"/>
+                <anchor x="0.654412" y="0.0318627"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.447304" y="0.122549"/>
+                <anchor x="0.384804" y="0.191176"/>
+                <anchor x="0.447304" y="0.259804"/>
+                <anchor x="0.509804" y="0.191176"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.264706" y="0.286765"/>
+                <anchor x="0.72549" y="0.129902"/>
+                <anchor x="0.365196" y="0.419118"/>
+                <anchor x="0.593137" y="0.394608"/>
+                <anchor x="0.54902" y="0.904412"/>
+                <anchor x="0.490196" y="0.240196"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.539216" y="0.703431"/>
+                <anchor x="0.879902" y="0.623775"/>
+                <anchor x="0.539216" y="0.544118"/>
+                <anchor x="0.198529" y="0.623775"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.303922" y="0.20098"/>
+                <anchor x="0.223039" y="0.89951"/>
+                <anchor x="1" y="0.691176"/>
+                <anchor x="0.607843" y="0.147059"/>
+                <anchor x="0.27451" y="0.678922"/>
+                <anchor x="0.558824" y="0.769608"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.648284" y="0.389706"/>
+                <anchor x="0.767157" y="0.523284"/>
+                <anchor x="0.648284" y="0.656863"/>
+                <anchor x="0.529412" y="0.523284"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.884804" y="0.561275"/>
+                <anchor x="0.357843" y="0.453431"/>
+                <anchor x="0.786765" y="0.107843"/>
+                <anchor x="0.529412" y="0.42402"/>
+                <anchor x="0.191176" y="0.110294"/>
+                <anchor x="0.421569" y="0.632353"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.319853" y="0.708333"/>
+                <anchor x="0.17402" y="0.564951"/>
+                <anchor x="0.319853" y="0.421569"/>
+                <anchor x="0.465686" y="0.564951"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CEllipseFigure">
+                <anchor x="0.67402" y="0.0294118"/>
+                <anchor x="0.580882" y="0.180147"/>
+                <anchor x="0.67402" y="0.330882"/>
+                <anchor x="0.767157" y="0.180147"/>
+            </figure>
+            <figure type="CPolygonFigure">
+                <anchor x="0.14951" y="0.553922"/>
+                <anchor x="0.789216" y="0.901961"/>
+                <anchor x="0.406863" y="0.529412"/>
+                <anchor x="0.411765" y="0.843137"/>
+                <anchor x="0.877451" y="0.754902"/>
+                <anchor x="0.67402" y="0.227941"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.914687" y="0.104784"/>
+                <anchor x="0.566525" y="0.807677"/>
+                <anchor x="0.556671" y="0.278865"/>
+                <anchor x="0.119826" y="0.531775"/>
+                <anchor x="0.826004" y="0.475938"/>
+                <anchor x="0.615793" y="0.00296277"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.216912" y="0.0661765"/>
+                <anchor x="0.267157" y="0.216912"/>
+                <anchor x="0.216912" y="0.367647"/>
+                <anchor x="0.166667" y="0.216912"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.42402" y="0.183824"/>
+                <anchor x="0.558824" y="0.502451"/>
+                <anchor x="0.884804" y="0.77451"/>
+                <anchor x="0.306373" y="0.159314"/>
+                <anchor x="0.154412" y="0.147059"/>
+                <anchor x="0.166667" y="0.602941"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.230392" y="0.365196"/>
+                <anchor x="0.129902" y="0.216912"/>
+                <anchor x="0.230392" y="0.0686275"/>
+                <anchor x="0.330882" y="0.216912"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.259804" y="0.683824"/>
+                <anchor x="0.392157" y="0.919118"/>
+                <anchor x="0.0612745" y="0.252451"/>
+                <anchor x="0.931373" y="0.112745"/>
+                <anchor x="0.154412" y="0.720588"/>
+                <anchor x="0.247549" y="0.75"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.563725" y="0.57598"/>
+                <anchor x="0.421569" y="0.70098"/>
+                <anchor x="0.563725" y="0.82598"/>
+                <anchor x="0.705882" y="0.70098"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.696078" y="0.0882353"/>
+                <anchor x="0.296569" y="0.294118"/>
+                <anchor x="0.421569" y="0.107843"/>
+                <anchor x="0.10049" y="0.137255"/>
+                <anchor x="0.828431" y="0.789216"/>
+                <anchor x="0.127451" y="0.595588"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.764706" y="0.29902"/>
+                <anchor x="0.92402" y="0.38848"/>
+                <anchor x="0.764706" y="0.477941"/>
+                <anchor x="0.605392" y="0.38848"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.227941" y="0.821078"/>
+                <anchor x="0.835784" y="0.705882"/>
+                <anchor x="0.789216" y="0.968137"/>
+                <anchor x="0.544118" y="0.0637255"/>
+                <anchor x="0.526961" y="0.661765"/>
+                <anchor x="0.72549" y="0.0465686"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.594363" y="0.943627"/>
+                <anchor x="0.566176" y="0.786765"/>
+                <anchor x="0.594363" y="0.629902"/>
+                <anchor x="0.622549" y="0.786765"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.232843" y="0.703431"/>
+                <anchor x="0.933824" y="0.960784"/>
+                <anchor x="0.438725" y="0.20098"/>
+                <anchor x="0.311275" y="0.191176"/>
+                <anchor x="0.348039" y="0.590686"/>
+                <anchor x="0.433824" y="0.0245098"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.338235" y="0.301471"/>
+                <anchor x="0.546569" y="0.547794"/>
+                <anchor x="0.338235" y="0.794118"/>
+                <anchor x="0.129902" y="0.547794"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.973039" y="0.284314"/>
+                <anchor x="0.585784" y="0.904412"/>
+                <anchor x="0.89951" y="0.892157"/>
+                <anchor x="0.835784" y="0.321078"/>
+                <anchor x="0.522059" y="0.781863"/>
+                <anchor x="0.335784" y="0.276961"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.405637" y="0.92402"/>
+                <anchor x="0.60049" y="0.681373"/>
+                <anchor x="0.405637" y="0.438725"/>
+                <anchor x="0.210784" y="0.681373"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.0686275" y="0.17402"/>
+                <anchor x="0.953431" y="0.0735294"/>
+                <anchor x="0.404412" y="0.455882"/>
+                <anchor x="0.328431" y="0.134804"/>
+                <anchor x="0.678922" y="0.926471"/>
+                <anchor x="0.210784" y="0.867647"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.557598" y="0.42402"/>
+                <anchor x="0.816176" y="0.655637"/>
+                <anchor x="0.557598" y="0.887255"/>
+                <anchor x="0.29902" y="0.655637"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word></word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.730392" y="0.0563725"/>
+                <anchor x="0.20098" y="0.151961"/>
+                <anchor x="0.85049" y="0.588235"/>
+                <anchor x="0.0465686" y="0.848039"/>
+                <anchor x="0.0686275" y="0.10049"/>
+                <anchor x="0.813725" y="0.529412"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.377451" y="0.502451"/>
+                <anchor x="0.213235" y="0.464461"/>
+                <anchor x="0.377451" y="0.426471"/>
+                <anchor x="0.541667" y="0.464461"/>
+            </figure>
+        </pixra>
+    </item>
 </xravlaste>

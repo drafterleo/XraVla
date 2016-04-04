@@ -291,6 +291,7 @@ void CVocabularyPage::keyPressEvent(QKeyEvent *event)
         // <Ctrl + Shift + O> : sort xravlaste items
         CXravlasteModel *xmodel = dynamic_cast<CXravlasteModel *> (m_xravlasteView->model());
         xmodel->sortItemsByName();
+        m_modified = true;
         return;
     }
 
