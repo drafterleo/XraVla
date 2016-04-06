@@ -38,7 +38,6 @@ protected:
 
     void keyPressEvent(QKeyEvent *event);
 
-
     void focusInEvent(QFocusEvent *event);
     void focusOutEvent(QFocusEvent *event);
 
@@ -46,6 +45,7 @@ protected:
     void translateFigure(int figIdx, int dx, int dy);
     void translateSelection(int dx, int dy, bool saveHistory = true);
     void scaleFigure(int figIdx, qreal sx, qreal sy);
+    void rotateFigure(int figIdx, qreal angle);
 
     void addSelectCluster(int idx);
     void deleteFigure(int idx);
