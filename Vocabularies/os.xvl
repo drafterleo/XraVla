@@ -20,8 +20,9 @@
         </pixra>
     </proto>
     <item>
-        <word></word>
-        <spec></spec>
+        <word>o</word>
+        <spec>o - object (thig, being)
+s - symbol (sign, scheme)</spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
                 <anchor x="0.598039" y="0.409314"/>
@@ -40,27 +41,27 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
-                <anchor x="0.269608" y="0.651961"/>
-                <anchor x="0.67402" y="0.455882"/>
-                <anchor x="0.397059" y="0.294118"/>
-                <anchor x="0.477941" y="0.732843"/>
-                <anchor x="0.808824" y="0.835784"/>
-                <anchor x="0.220588" y="0.0759804"/>
+                <anchor x="0.583333" y="0.764706"/>
+                <anchor x="0.904412" y="0.382353"/>
+                <anchor x="0.183824" y="0.166667"/>
+                <anchor x="0.89951" y="0.154412"/>
+                <anchor x="0.681373" y="0.519608"/>
+                <anchor x="0.752451" y="0.615196"/>
             </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.824755" y="0.340686"/>
-                <anchor x="0.713235" y="0.203431"/>
-                <anchor x="0.824755" y="0.0661765"/>
-                <anchor x="0.936275" y="0.203431"/>
+                <anchor x="0.492647" y="0.428922"/>
+                <anchor x="0.446078" y="0.229167"/>
+                <anchor x="0.492647" y="0.0294118"/>
+                <anchor x="0.539216" y="0.229167"/>
             </figure>
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -80,67 +81,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
-        <spec></spec>
-        <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.977941" y="0.416667"/>
-                <anchor x="0.313725" y="0.627451"/>
-                <anchor x="0.147059" y="0.566176"/>
-                <anchor x="0.272059" y="0.183824"/>
-                <anchor x="0.0122549" y="0.512255"/>
-                <anchor x="0.622549" y="0.384804"/>
-            </figure>
-            <figure type="CEllipseFigure">
-                <anchor x="0.497549" y="0.485294"/>
-                <anchor x="0.593137" y="0.415441"/>
-                <anchor x="0.497549" y="0.345588"/>
-                <anchor x="0.401961" y="0.415441"/>
-            </figure>
-        </pixra>
-    </item>
-    <item>
-        <word></word>
-        <spec></spec>
-        <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.720588" y="0.470588"/>
-                <anchor x="0.720588" y="0.862745"/>
-                <anchor x="0.762255" y="0.330882"/>
-                <anchor x="0.818627" y="0.0294118"/>
-                <anchor x="0.208333" y="0.764706"/>
-                <anchor x="0.0465686" y="0.762255"/>
-            </figure>
-            <figure type="CEllipseFigure">
-                <anchor x="0.834559" y="0.889706"/>
-                <anchor x="0.92402" y="0.816176"/>
-                <anchor x="0.834559" y="0.742647"/>
-                <anchor x="0.745098" y="0.816176"/>
-            </figure>
-        </pixra>
-    </item>
-    <item>
-        <word></word>
-        <spec></spec>
-        <pixra type="CFiguresPixra">
-            <figure type="CPolygonFigure">
-                <anchor x="0.960784" y="0.867647"/>
-                <anchor x="0.522059" y="0.573529"/>
-                <anchor x="0.678922" y="0.622549"/>
-                <anchor x="0.632353" y="0.943627"/>
-                <anchor x="0.931373" y="0.485294"/>
-                <anchor x="0.254902" y="0.311275"/>
-            </figure>
-            <figure type="CEllipseFigure">
-                <anchor x="0.730392" y="0.0784314"/>
-                <anchor x="0.568627" y="0.214461"/>
-                <anchor x="0.730392" y="0.35049"/>
-                <anchor x="0.892157" y="0.214461"/>
-            </figure>
-        </pixra>
-    </item>
-    <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -160,7 +101,67 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.977941" y="0.416667"/>
+                <anchor x="0.313725" y="0.627451"/>
+                <anchor x="0.147059" y="0.566176"/>
+                <anchor x="0.272059" y="0.183824"/>
+                <anchor x="0.0122549" y="0.512255"/>
+                <anchor x="0.622549" y="0.384804"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.497549" y="0.485294"/>
+                <anchor x="0.593137" y="0.415441"/>
+                <anchor x="0.497549" y="0.345588"/>
+                <anchor x="0.401961" y="0.415441"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>o</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.720588" y="0.470588"/>
+                <anchor x="0.720588" y="0.862745"/>
+                <anchor x="0.762255" y="0.330882"/>
+                <anchor x="0.818627" y="0.0294118"/>
+                <anchor x="0.208333" y="0.764706"/>
+                <anchor x="0.0465686" y="0.762255"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.834559" y="0.889706"/>
+                <anchor x="0.92402" y="0.816176"/>
+                <anchor x="0.834559" y="0.742647"/>
+                <anchor x="0.745098" y="0.816176"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>o</word>
+        <spec></spec>
+        <pixra type="CFiguresPixra">
+            <figure type="CPolygonFigure">
+                <anchor x="0.960784" y="0.867647"/>
+                <anchor x="0.522059" y="0.573529"/>
+                <anchor x="0.678922" y="0.622549"/>
+                <anchor x="0.632353" y="0.943627"/>
+                <anchor x="0.931373" y="0.485294"/>
+                <anchor x="0.254902" y="0.311275"/>
+            </figure>
+            <figure type="CEllipseFigure">
+                <anchor x="0.730392" y="0.0784314"/>
+                <anchor x="0.568627" y="0.214461"/>
+                <anchor x="0.730392" y="0.35049"/>
+                <anchor x="0.892157" y="0.214461"/>
+            </figure>
+        </pixra>
+    </item>
+    <item>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -180,7 +181,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -200,7 +201,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -220,7 +221,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -240,7 +241,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -260,7 +261,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -280,7 +281,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -300,7 +301,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -320,7 +321,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -340,7 +341,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -360,7 +361,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -380,7 +381,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -400,7 +401,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -420,7 +421,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -440,7 +441,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -460,7 +461,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -480,7 +481,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -500,7 +501,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -520,7 +521,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -540,7 +541,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -560,7 +561,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -580,7 +581,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -600,7 +601,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -620,7 +621,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -640,7 +641,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -660,7 +661,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -680,7 +681,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -700,7 +701,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -720,7 +721,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -740,7 +741,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -760,7 +761,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -780,7 +781,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -800,7 +801,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -820,7 +821,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -840,7 +841,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -860,7 +861,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -880,7 +881,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -900,7 +901,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -920,7 +921,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -940,7 +941,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -960,7 +961,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -980,7 +981,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1000,7 +1001,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1020,7 +1021,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1040,7 +1041,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1060,7 +1061,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1080,7 +1081,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1100,7 +1101,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1120,7 +1121,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1140,7 +1141,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1160,7 +1161,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1180,7 +1181,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1200,7 +1201,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1220,7 +1221,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1240,7 +1241,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1260,7 +1261,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1280,7 +1281,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1300,7 +1301,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1320,7 +1321,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1340,7 +1341,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1360,7 +1361,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1380,7 +1381,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1400,7 +1401,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1420,7 +1421,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1440,7 +1441,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1460,7 +1461,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1480,7 +1481,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1500,7 +1501,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1520,7 +1521,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -1540,7 +1541,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1560,7 +1561,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -1580,7 +1581,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1600,7 +1601,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1620,7 +1621,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1640,7 +1641,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1660,7 +1661,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1680,7 +1681,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1700,7 +1701,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1720,7 +1721,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -1740,7 +1741,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1760,7 +1761,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1780,7 +1781,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1800,7 +1801,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1820,7 +1821,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1840,7 +1841,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1860,7 +1861,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1880,7 +1881,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1900,7 +1901,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1920,7 +1921,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1940,7 +1941,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1952,15 +1953,15 @@
                 <anchor x="0.946078" y="0.77451"/>
             </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.273284" y="0.70098"/>
-                <anchor x="0.117647" y="0.754902"/>
-                <anchor x="0.273284" y="0.808824"/>
-                <anchor x="0.428922" y="0.754902"/>
+                <anchor x="0.346813" y="0.65196"/>
+                <anchor x="0.191176" y="0.705882"/>
+                <anchor x="0.346813" y="0.759804"/>
+                <anchor x="0.502451" y="0.705882"/>
             </figure>
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -1980,7 +1981,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2000,7 +2001,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2020,7 +2021,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2040,7 +2041,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2060,7 +2061,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2080,7 +2081,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2100,7 +2101,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2120,7 +2121,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2140,7 +2141,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2160,7 +2161,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2180,7 +2181,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2200,7 +2201,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2220,7 +2221,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2240,7 +2241,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2260,7 +2261,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2280,7 +2281,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2300,7 +2301,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2320,7 +2321,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2340,7 +2341,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2360,7 +2361,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2380,7 +2381,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2400,7 +2401,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2420,7 +2421,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -2440,7 +2441,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2460,7 +2461,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2480,7 +2481,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2500,7 +2501,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2520,7 +2521,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -2540,7 +2541,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2560,7 +2561,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2580,7 +2581,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2600,7 +2601,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2620,7 +2621,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2640,7 +2641,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2660,7 +2661,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2680,7 +2681,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2700,7 +2701,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2720,7 +2721,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2740,7 +2741,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2760,7 +2761,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2780,7 +2781,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2800,7 +2801,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2820,7 +2821,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2840,7 +2841,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2860,7 +2861,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2880,7 +2881,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2900,7 +2901,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2920,7 +2921,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2940,7 +2941,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2960,7 +2961,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -2980,7 +2981,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3000,7 +3001,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3020,7 +3021,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3040,7 +3041,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3060,7 +3061,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3080,7 +3081,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3100,7 +3101,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3120,7 +3121,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3140,7 +3141,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3160,7 +3161,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3180,7 +3181,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3200,7 +3201,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3220,7 +3221,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3240,7 +3241,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3260,7 +3261,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3280,7 +3281,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3300,7 +3301,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3320,7 +3321,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3340,7 +3341,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3360,7 +3361,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3380,7 +3381,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3400,7 +3401,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3420,7 +3421,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -3440,7 +3441,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3460,7 +3461,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3480,7 +3481,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -3500,7 +3501,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3520,7 +3521,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3540,7 +3541,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3560,7 +3561,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3580,7 +3581,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3600,7 +3601,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3620,7 +3621,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3640,7 +3641,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3660,7 +3661,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3680,7 +3681,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -3700,7 +3701,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3720,7 +3721,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3740,7 +3741,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3760,7 +3761,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3780,7 +3781,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3800,7 +3801,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3820,7 +3821,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3840,7 +3841,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3860,7 +3861,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3880,7 +3881,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3900,7 +3901,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3920,7 +3921,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3940,7 +3941,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3960,7 +3961,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -3980,7 +3981,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4000,7 +4001,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4020,7 +4021,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4040,7 +4041,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4060,7 +4061,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4080,7 +4081,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4100,7 +4101,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4120,7 +4121,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4140,7 +4141,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4160,7 +4161,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -4180,7 +4181,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4200,7 +4201,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4220,7 +4221,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4240,7 +4241,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4260,7 +4261,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4280,7 +4281,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4300,7 +4301,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4320,7 +4321,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4340,7 +4341,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4360,7 +4361,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4380,7 +4381,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4400,7 +4401,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4420,7 +4421,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4440,7 +4441,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4460,7 +4461,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4480,7 +4481,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4500,7 +4501,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4520,7 +4521,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -4540,7 +4541,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4560,7 +4561,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4580,7 +4581,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4600,7 +4601,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4620,7 +4621,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -4640,7 +4641,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4660,7 +4661,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4680,7 +4681,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4700,7 +4701,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4720,7 +4721,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4740,7 +4741,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4760,7 +4761,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4780,7 +4781,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4800,7 +4801,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4820,7 +4821,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4840,7 +4841,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4860,7 +4861,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4880,7 +4881,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4900,7 +4901,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4920,7 +4921,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4940,7 +4941,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4960,7 +4961,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -4980,7 +4981,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5000,7 +5001,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5020,7 +5021,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5040,7 +5041,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5060,7 +5061,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5080,7 +5081,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5100,7 +5101,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -5120,7 +5121,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5140,7 +5141,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -5160,7 +5161,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5180,7 +5181,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -5200,7 +5201,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5220,27 +5221,27 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
-                <anchor x="0.943627" y="0.705882"/>
-                <anchor x="0.830882" y="0.602941"/>
-                <anchor x="0.661765" y="0.723039"/>
-                <anchor x="0.89951" y="0.769608"/>
-                <anchor x="0.502451" y="0.941176"/>
-                <anchor x="0.227941" y="0.598039"/>
+                <anchor x="0.803921" y="0.544117"/>
+                <anchor x="0.691176" y="0.441176"/>
+                <anchor x="0.522059" y="0.561274"/>
+                <anchor x="0.759804" y="0.607843"/>
+                <anchor x="0.362745" y="0.779411"/>
+                <anchor x="0.0882351" y="0.436274"/>
             </figure>
             <figure type="CEllipseFigure">
-                <anchor x="0.214461" y="0.355392"/>
-                <anchor x="0.0906863" y="0.223039"/>
-                <anchor x="0.214461" y="0.0906863"/>
-                <anchor x="0.338235" y="0.223039"/>
+                <anchor x="0.666667" y="0.759804"/>
+                <anchor x="0.443627" y="0.571078"/>
+                <anchor x="0.666667" y="0.382353"/>
+                <anchor x="0.889706" y="0.571078"/>
             </figure>
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5260,7 +5261,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5280,7 +5281,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5300,7 +5301,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5320,7 +5321,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5340,7 +5341,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5360,7 +5361,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5380,7 +5381,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5400,7 +5401,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5420,7 +5421,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5440,7 +5441,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5460,7 +5461,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5480,7 +5481,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5500,7 +5501,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5520,7 +5521,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5540,7 +5541,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5560,7 +5561,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5580,7 +5581,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5600,7 +5601,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5620,7 +5621,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5640,7 +5641,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5660,7 +5661,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5680,7 +5681,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5700,7 +5701,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5720,7 +5721,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5740,7 +5741,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5760,7 +5761,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5780,7 +5781,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5800,7 +5801,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5820,7 +5821,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CEllipseFigure">
@@ -5840,7 +5841,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5860,7 +5861,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5880,7 +5881,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5900,7 +5901,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5920,7 +5921,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5940,7 +5941,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5960,7 +5961,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>s</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -5980,7 +5981,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
@@ -6000,7 +6001,7 @@
         </pixra>
     </item>
     <item>
-        <word></word>
+        <word>o</word>
         <spec></spec>
         <pixra type="CFiguresPixra">
             <figure type="CPolygonFigure">
