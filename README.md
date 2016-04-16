@@ -4,3 +4,4 @@ The program allows the user to create lists of named semantic pictograms (by  pr
 
 ![vocabulary page](https://github.com/drafterleo/XraVla/blob/master/Pictures/xvl_randomAssociatiions2.png)
 ![vocabulary page](https://github.com/drafterleo/XraVla/blob/master/Pictures/xvl_vocabularyFrame.png)
+![vocabulary page](https://github.com/drafterleo/XraVla/blob/master/Pictures/xvl_testFrame.png)
