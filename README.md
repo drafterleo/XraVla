@@ -1,4 +1,6 @@
-XraVla (Qt 5.5.1)
+XraVla (Qt 5.5.1) 
+
+XraVla is compound of two Lojban words - pixra (picture) and vlaste (word)
 
 The program allows the user to create lists of named semantic pictograms (by  prototype)
 
