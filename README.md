@@ -2,6 +2,7 @@ XraVla (Qt 5.5.1)
 
 The program allows the user to create lists of named semantic pictograms (by  prototype)
 
-![vocabulary page](https://github.com/drafterleo/XraVla/blob/master/Pictures/xvl_randomAssociatiions2.png)
+![vocabulary page](https://github.com/drafterleo/XraVla/blob/master/Pictures/xvl_os_voc.png)
+![vocabulary page](https://github.com/drafterleo/XraVla/blob/master/Pictures/xvl_os_test.png)
 ![vocabulary page](https://github.com/drafterleo/XraVla/blob/master/Pictures/xvl_vocabularyFrame.png)
 ![vocabulary page](https://github.com/drafterleo/XraVla/blob/master/Pictures/xvl_testFrame.png)
