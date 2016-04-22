@@ -8,7 +8,7 @@ CColorFormsPicture::CColorFormsPicture(QWidget *parent) : QWidget(parent)
 
 CColorFormsPicture::~CColorFormsPicture()
 {
-    clearColorForms();
+     clearColorForms();
 }
 
 void CColorFormsPicture::clearColorForms()
@@ -19,7 +19,16 @@ void CColorFormsPicture::clearColorForms()
     update();
 }
 
-void CColorFormsPicture::addForm(CAbstractColorForm * form)
+CColorFormsPicture& CColorFormsPicture::operator=(const CColorFormsPicture &other)
+{
+    clearColorForms();
+    for (int i = 0; i < other.m_colorForms.count(); ++ i) {
+        m_colorForms.append(other.m_colorForms.at(i)->clone());
+    }
+    update();
+}
+
+void CColorFormsPicture::addForm(CAbstractColorForm *form)
 {
     m_colorForms.append(form);
     update();
@@ -35,12 +44,15 @@ void CColorFormsPicture::paintEvent(QPaintEvent *)
     painter.end();
 }
 
-QColor rndColor()
+QColor rndColor(bool useAlpha = false)
 {
     int r = qrand() % 255;
     int g = qrand() % 255;
     int b = qrand() % 255;
-    int alpha = qrand() % 100 + 155;
+    int alpha = 255;
+    if (useAlpha) {
+        alpha = qrand() % 100 + 155;
+    }
     return QColor(r, g, b, alpha);
 }
 
@@ -64,13 +76,23 @@ void CColorFormsPicture::genRandom(int layers)
     for(int i = 0; i < layers; i++) {
         int min = scalar/(i + 2);
         int max = scalar/(i + 1);
-        int formCount = qrand() % 10 + 5;
+        int formCount = qrand() % 15 + 5;
         for(int f = 0; f < formCount; ++f) {
             QRectF formRect = rndRect(min, min, max, max, scalar);
             qreal angle = qrand() % 360;
-            m_colorForms.append(new CRectColorForm(formRect, rndColor(), angle));
+            bool useAlpha = (qrand() % 2) > 1;
+            int formType = qrand() % 2;
+            if (formType == 0) {
+                m_colorForms.append(new CEllipseColorForm(formRect, rndColor(useAlpha), angle));
+            } else {
+                m_colorForms.append(new CRectColorForm(formRect, rndColor(useAlpha), angle));
+            }
         }
     }
     update();
 }
 
+void CColorFormsPicture::shiftColors(int dR, int dG, int dB)
+{
+
+}

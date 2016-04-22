@@ -13,6 +13,9 @@ public:
     ~CColorFormsPicture();
     void addForm(CAbstractColorForm *form);
     void genRandom(int layers = 5);
+    void shiftColors(int dR, int dG, int dB);
+
+    CColorFormsPicture& operator=(const CColorFormsPicture &other);
 
 signals:
 

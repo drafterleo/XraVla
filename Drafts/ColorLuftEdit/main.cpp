@@ -52,8 +52,11 @@ public:
             rpEdit->setPattern(CRunePattern(3, 3));
             rpEdit->genSolidLink(5, 1);
 
-        cfrmPicture = new CColorFormsPicture(this);
-        cfrmPicture->setGeometry(150, 150, 450, 450);
+        protoColorPicture = new CColorFormsPicture(this);
+        protoColorPicture->setGeometry(150, 150, 200, 200);
+
+        cloneColorPicture = new CColorFormsPicture(this);
+        cloneColorPicture->setGeometry(350, 350, 200, 200);
 
         QPushButton *genBtn = new QPushButton("Gen", this);
             genBtn->move(10, 310);
@@ -80,7 +83,8 @@ private slots:
         rpEdit->genSolidLink(5, 1);
 //        cmxEdit->fillRandom();
 //        cmxPixra->assign(cmxEdit->pixra());
-        cfrmPicture->genRandom(5);
+        protoColorPicture->genRandom(5);
+        *cloneColorPicture = *protoColorPicture;
     }
 
 private:
@@ -88,7 +92,8 @@ private:
     CColorMatrixEdit   *cmxEdit;
     CColorMatrixPixra  *cmxPixra;
     CRunePatternEdit   *rpEdit;
-    CColorFormsPicture *cfrmPicture;
+    CColorFormsPicture *protoColorPicture;
+    CColorFormsPicture *cloneColorPicture;
 
 };
 
