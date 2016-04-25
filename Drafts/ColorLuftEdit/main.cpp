@@ -5,6 +5,8 @@
 #include <QVector>
 #include <QMouseEvent>
 #include <QPushButton>
+#include <QSlider>
+#include <QLabel>
 
 #include "cw_figuresedit.h"
 #include "cw_colormatrixedit.h"
@@ -58,9 +60,26 @@ public:
         cloneColorPicture = new CColorFormsPicture(this);
         cloneColorPicture->setGeometry(350, 350, 200, 200);
 
+        int slX = 5;
+        int slY = 350;
+        int slW = 20;
+        int slH = 200;
+        redSlider = new QSlider(Qt::Vertical, this);
+        redSlider->setGeometry(slX, slY, slW, slH);
+        connect(redSlider, SIGNAL(valueChanged(int)), SLOT(sliderValueChanged(int)));
+        greenSlider = new QSlider(Qt::Vertical, this);
+        greenSlider->setGeometry(slX + slW + 10, slY, slW, slH);
+        connect(greenSlider, SIGNAL(valueChanged(int)), SLOT(sliderValueChanged(int)));
+        blueSlider = new QSlider(Qt::Vertical, this);
+        blueSlider->setGeometry(slX + (slW + 10) * 2, slY, slW, slH);
+        connect(blueSlider, SIGNAL(valueChanged(int)), SLOT(sliderValueChanged(int)));
+
         QPushButton *genBtn = new QPushButton("Gen", this);
             genBtn->move(10, 310);
         connect(genBtn, SIGNAL(clicked()), SLOT(genRandom()));
+
+        infoLabel = new QLabel("info", this);
+        infoLabel->setGeometry(10, 580, 200, 20);
     }
 
 protected:
@@ -85,6 +104,42 @@ private slots:
 //        cmxPixra->assign(cmxEdit->pixra());
         protoColorPicture->genRandom(5);
         *cloneColorPicture = *protoColorPicture;
+
+
+        cloneColorPicture->distortColors(distR, distG, distB);
+        cloneColorPicture->lockColorBase();
+
+        int minR, minG, minB;
+        int maxR, maxG, maxB;
+        protoColorPicture->rgbMin(minR, minG, minB);
+        protoColorPicture->rgbMax(maxR, maxG, maxB);
+        redSlider->setMinimum((minR - maxR)/2);
+        redSlider->setMaximum((maxR - minR)/2);
+        redSlider->setValue(0);
+        greenSlider->setMinimum((minG - maxG)/2);
+        greenSlider->setMaximum((maxG - minG)/2);
+        greenSlider->setValue(0);
+        blueSlider->setMinimum((minB - maxB)/2);
+        blueSlider->setMaximum((maxB - minB)/2);
+        blueSlider->setValue(0);
+    }
+
+    void sliderValueChanged(int)
+    {
+        cloneColorPicture->shiftColors(redSlider->value(), greenSlider->value(), blueSlider->value());
+        updateInfo();
+    }
+
+    void updateInfo()
+    {
+        int rShift = redSlider->value();
+        int gShift = greenSlider->value();
+        int bShift = blueSlider->value();
+        QString infoStr = QString("R: %1, G: %2, B: %3").arg(rShift)
+                                                        .arg(gShift)
+                                                        .arg(bShift);
+
+        infoLabel->setText(infoStr);
     }
 
 private:
@@ -94,6 +149,15 @@ private:
     CRunePatternEdit   *rpEdit;
     CColorFormsPicture *protoColorPicture;
     CColorFormsPicture *cloneColorPicture;
+
+    QSlider *redSlider;
+    QSlider *greenSlider;
+    QSlider *blueSlider;
+    int distR;
+    int distG;
+    int distB;
+
+    QLabel *infoLabel;
 
 };
 

@@ -1,5 +1,6 @@
 #include "cw_formspicture.h"
 #include <QPainter>
+#include <QtDebug>
 
 CColorFormsPicture::CColorFormsPicture(QWidget *parent) : QWidget(parent)
 {
@@ -25,12 +26,14 @@ CColorFormsPicture& CColorFormsPicture::operator=(const CColorFormsPicture &othe
     for (int i = 0; i < other.m_colorForms.count(); ++ i) {
         m_colorForms.append(other.m_colorForms.at(i)->clone());
     }
+    lockColorBase();
     update();
 }
 
 void CColorFormsPicture::addForm(CAbstractColorForm *form)
 {
     m_colorForms.append(form);
+    lockColorBase();
     update();
 }
 
@@ -46,9 +49,9 @@ void CColorFormsPicture::paintEvent(QPaintEvent *)
 
 QColor rndColor(bool useAlpha = false)
 {
-    int r = qrand() % 255;
-    int g = qrand() % 255;
-    int b = qrand() % 255;
+    int r = qrand() % 155 + 50;
+    int g = qrand() % 155 + 50;
+    int b = qrand() % 155 + 50;
     int alpha = 255;
     if (useAlpha) {
         alpha = qrand() % 100 + 155;
@@ -89,10 +92,77 @@ void CColorFormsPicture::genRandom(int layers)
             }
         }
     }
+    lockColorBase();
     update();
+}
+
+void CColorFormsPicture::rgbMax(int &r, int &g, int &b)
+{
+    r = g = b = 0;
+    for (int i = 0; i < m_colorForms.count(); ++i) {
+        QColor color = m_colorForms.at(i)->color;
+        if (color.red() > r)   r = color.red();
+        if (color.green() > g) g = color.green();
+        if (color.blue() > b)  b = color.blue();
+    }
+}
+
+void CColorFormsPicture::rgbMin(int &r, int &g, int &b)
+{
+    r = g = b = 255;
+    for (int i = 0; i < m_colorForms.count(); ++i) {
+        QColor color = m_colorForms.at(i)->color;
+        if (color.red() < r)   r = color.red();
+        if (color.green() < g) g = color.green();
+        if (color.blue() < b)  b = color.blue();
+    }
 }
 
 void CColorFormsPicture::shiftColors(int dR, int dG, int dB)
 {
+    for (int i = 0; i < m_colorForms.count(); ++i) {
+        int r, g, b, a;
+        QColor formColor = m_colorBase[i];
+        formColor.getRgb(&r, &g, &b, &a);
+        r = qBound(0, r + dR, 255);
+        g = qBound(0, g + dG, 255);
+        b = qBound(0, b + dB, 255);
+        m_colorForms[i]->color = QColor(r, g, b, a);
+    }
+    update();
+}
 
+void CColorFormsPicture::distortColors(int &distR, int &distG, int &distB)
+{
+    int minR, minG, minB;
+    int maxR, maxG, maxB;
+    rgbMin(minR, minG, minB);
+    rgbMax(maxR, maxG, maxB);
+    distR = qrand() % 50 - 25;
+    distG = qrand() % 50 - 25;
+    distB = qrand() % 50 - 25;
+    qDebug() << minR << maxR;
+    qDebug() << minG << maxG;
+    qDebug() << minB << maxB;
+    qDebug() << distR << distG << distB;
+    for (int i = 0; i < m_colorForms.count(); ++i) {
+        int r, g, b, a;
+        QColor formColor = m_colorForms.at(i)->color;
+        formColor.getRgb(&r, &g, &b, &a);
+        r = qBound(0, r + distR, 255);
+        g = qBound(0, g + distG, 255);
+        b = qBound(0, b + distB, 255);
+        m_colorForms[i]->color = QColor(r, g, b, a);
+    }
+    lockColorBase();
+    update();
+}
+
+
+void CColorFormsPicture::lockColorBase()
+{
+    m_colorBase.clear();
+    for (int i = 0; i < m_colorForms.count(); ++i) {
+       m_colorBase.append(m_colorForms.at(i)->color);
+    }
 }
