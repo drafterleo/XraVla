@@ -54,7 +54,7 @@ QColor rndColor(bool useAlpha = false)
     int b = qrand() % 155 + 50;
     int alpha = 255;
     if (useAlpha) {
-        alpha = qrand() % 100 + 155;
+        alpha = qrand() % 250 + 5;
     }
     return QColor(r, g, b, alpha);
 }

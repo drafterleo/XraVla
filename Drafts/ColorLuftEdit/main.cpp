@@ -7,6 +7,7 @@
 #include <QPushButton>
 #include <QSlider>
 #include <QLabel>
+#include <QtDebug>
 
 #include "cw_figuresedit.h"
 #include "cw_colormatrixedit.h"
@@ -106,27 +107,36 @@ private slots:
         *cloneColorPicture = *protoColorPicture;
 
 
-        cloneColorPicture->distortColors(distR, distG, distB);
-        cloneColorPicture->lockColorBase();
+        //cloneColorPicture->distortColors(distR, distG, distB);
+        //cloneColorPicture->lockColorBase();
 
-        int minR, minG, minB;
-        int maxR, maxG, maxB;
-        protoColorPicture->rgbMin(minR, minG, minB);
-        protoColorPicture->rgbMax(maxR, maxG, maxB);
-        redSlider->setMinimum((minR - maxR)/2);
-        redSlider->setMaximum((maxR - minR)/2);
+//        int minR, minG, minB;
+//        int maxR, maxG, maxB;
+//        protoColorPicture->rgbMin(minR, minG, minB);
+//        protoColorPicture->rgbMax(maxR, maxG, maxB);
+
+        distR = qrand() % 200 - 100;
+        distG = qrand() % 200 - 100;
+        distB = qrand() % 200 - 100;
+        cloneColorPicture->shiftColors(distR, distG, distB);
+        //qDebug() << distR << distG << distB;
+
+        redSlider->setMinimum(-127);
+        redSlider->setMaximum(+127);
         redSlider->setValue(0);
-        greenSlider->setMinimum((minG - maxG)/2);
-        greenSlider->setMaximum((maxG - minG)/2);
+        greenSlider->setMinimum(-127);
+        greenSlider->setMaximum(+127);
         greenSlider->setValue(0);
-        blueSlider->setMinimum((minB - maxB)/2);
-        blueSlider->setMaximum((maxB - minB)/2);
+        blueSlider->setMinimum(-127);
+        blueSlider->setMaximum(+127);
         blueSlider->setValue(0);
     }
 
     void sliderValueChanged(int)
     {
-        cloneColorPicture->shiftColors(redSlider->value(), greenSlider->value(), blueSlider->value());
+        cloneColorPicture->shiftColors(redSlider->value() + distR,
+                                       greenSlider->value() + distG,
+                                       blueSlider->value() + distB);
         updateInfo();
     }
 
