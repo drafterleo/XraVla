@@ -9,14 +9,7 @@
 #include <QLabel>
 #include <QtDebug>
 
-#include "cw_figuresedit.h"
-#include "cw_colormatrixedit.h"
-#include "cw_colormatrixpixra.h"
-#include "cw_runepatternedit.h"
-#include "color_wheel.hpp"
 #include "cw_formspicture.h"
-
-using namespace color_widgets;
 
 class CWorkArea: public QWidget
 {
@@ -27,39 +20,13 @@ public:
     {
         this->resize(610, 610);
 
-        figEdit = new CFiguresEdit(this);
-            figEdit->setGeometry(0, 0, 150, 150);
-            CPolygonFigure *pfig = new CPolygonFigure();
-                pfig->addPoint(QPointF(10, 10));
-                pfig->addPoint(QPointF(60, 15));
-                pfig->addPoint(QPointF(55, 70));
-                pfig->addPoint(QPointF(15, 60));
-            figEdit->addFigure(pfig);
-            //figEdit->addRandomPolygon(3, 100);
-            //figEdit->addRandomPolygon(5, 120);
-            CRectangleFigure *rfig = new CRectangleFigure(QRectF(10, 10, 80, 80));
-            figEdit->addFigure(rfig);
-
-//        cmxEdit = new CColorMatrixEdit(this);
-//            cmxEdit->setGeometry(150, 150, 450, 450);
-//            cmxEdit->setColorMatrix(CColorMatrix(3, 3));
-//            //cmxEdit->fillRandom();
-//            //cmxEdit->setColor(1, 1, Qt::blue);
-
-//        cmxPixra = new CColorMatrixPixra(this);
-//        cmxPixra->setGeometry(10, 350, 60, 60);
-//        cmxPixra->assign(cmxEdit->pixra());
-
-        rpEdit = new CRunePatternEdit(this);
-            rpEdit->setGeometry(310, 0, 100, 100);
-            rpEdit->setPattern(CRunePattern(3, 3));
-            rpEdit->genSolidLink(5, 1);
-
         protoColorPicture = new CColorFormsPicture(this);
         protoColorPicture->setGeometry(150, 150, 200, 200);
+        protoColorPicture->show();
 
         cloneColorPicture = new CColorFormsPicture(this);
         cloneColorPicture->setGeometry(350, 350, 200, 200);
+        cloneColorPicture->show();
 
         int slX = 5;
         int slY = 350;
@@ -100,20 +67,8 @@ protected:
 private slots:
     void genRandom()
     {
-        rpEdit->genSolidLink(5, 1);
-//        cmxEdit->fillRandom();
-//        cmxPixra->assign(cmxEdit->pixra());
-        protoColorPicture->genRandom(5);
+        protoColorPicture->genRandom();
         *cloneColorPicture = *protoColorPicture;
-
-
-        //cloneColorPicture->distortColors(distR, distG, distB);
-        //cloneColorPicture->lockColorBase();
-
-//        int minR, minG, minB;
-//        int maxR, maxG, maxB;
-//        protoColorPicture->rgbMin(minR, minG, minB);
-//        protoColorPicture->rgbMax(maxR, maxG, maxB);
 
         distR = qrand() % 200 - 100;
         distG = qrand() % 200 - 100;
@@ -153,10 +108,6 @@ private slots:
     }
 
 private:
-    CFiguresEdit       *figEdit;
-    CColorMatrixEdit   *cmxEdit;
-    CColorMatrixPixra  *cmxPixra;
-    CRunePatternEdit   *rpEdit;
     CColorFormsPicture *protoColorPicture;
     CColorFormsPicture *cloneColorPicture;
 
